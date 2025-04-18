@@ -1,0 +1,366 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="Curci-Fiction: A Story That Never Happened">
+<meta name="keywords" content="Crucifixion debate, historical Jesus, Islamic perspective, religious polemic, biblical analysis, Quranic interpretation">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Curci-Fiction: A Story That Never Happened">
+<meta property="og:description" content="This is a polemic against the so-called crucifixion, which never happened.">
+<meta property="og:image" content="https://i.postimg.cc/mrdj4bkN/make-an-image-of-a-book-on-wooden-table-with-title-Ccurci-Fiction-1.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/are-u-addicted-to-others.html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Curci-Fiction: A Story That Never Happened - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">
+            <h1>Curci-Fiction: A Story That Never Happened </h1>
+            <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+  <p>Assalmu Alykum! I'm Zayn and this is a polemic against the so-called Crucifixion of Jesus. This is a gift for you on Good-Friday.</p>
+  <p>Unfortunately, Christians believe that salvation is to accept that Jesus took our sins and died—but Jesus says, <strong>"Way is narrow only few will find it"</strong> - Matthew 7:14. </p>
+  <p>(If you can't read, you can skip to the last section where 12 proofs are there on why crucifixion never happened.)</p>
+  <p>Good Friday is a part of Holy Week, which is the most sacred time of the year for Christians.</p>
+  <p>It begins with Jesus entering Jerusalem with sort of victory, and on Holy Thursday, Jesus celebrated the Last Supper. [Some of it is mentioned in the Quran—remember Surah Ma'idah verse 114: <em>"Jesus, son of Mary, prayed, 'O Allah, our Lord! Send us from heaven a table spread with food as a feast for us—the first and last of us—and as a sign from You. Provide for us! You are indeed the Best Provider.'</em>] </p>
+  <p>Then he prayed in the Garden of Gethsemane, and was arrested. On <strong>"Good Friday"</strong>, Jesus was sentenced to <strong>"death,"</strong> crucified, and died on the cross. On Holy Saturday, Jesus was buried in the tomb and descended into hell. On Easter Sunday, Jesus rose from the dead. </p>
+  <p>As Muslims, our belief is based on:</p>
+  <ul>
+    <li>Quran 4:156-157:</li>
+    <ul>
+      <li>156: <em>"And [We cursed them] for their disbelief and their saying against Mary a great slander."</em>
+      </li>
+      <li>157: <em>"And [for] their saying, 'Indeed, we have killed the Messiah, Jesus, the son of Mary, the messenger of Allah.' And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them. And indeed, those who differ over it are in doubt about it. They have no knowledge of it except the following of assumption. And they did not kill him, for certain."</em>
+      </li>
+    </ul>
+  </ul>
+  <p>Back to Christianity: In this <strong>3 days of Easter</strong>—Friday, Saturday, Sunday— <strong>300 Prophecies of the Old Testament were fulfilled!!!!</strong> - According to them. For example: Sign of Jonah. </p>
+  <p>Matthew 12:38-42 (KJV):</p>
+  <ul>
+    <li>38: <em>Then certain of the scribes and of the Pharisees answered, saying, Master, we would see a sign from thee (Jews asked Jesus to show a Sign).</em>
+    </li>
+    <li>39: <em>But he answered and said unto them, An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas:</em>
+    </li>
+    <li>40: <em>For as Jonas was three days and three nights in the whale's belly; so shall the Son of man be three days and three nights in the heart of the earth.</em>
+    </li>
+  </ul>
+  <p>(But you'll see that Jonah was not dead in the whale.)</p>
+  <p>Jesus Comes to Jerusalem - Matthew 21:7-9:</p>
+  <p>Jesus' disciples prepared a donkey and a colt (male horse), laying cloth on them before He sat. A massive crowd gathered, spreading garments and branches along the road to honor Him. They praised Him, calling Him the Son of David, blessing His arrival.</p>
+  <p>According to my interpretation:</p>
+  <ul>
+    <li>Donkey—Jesus—Colt (here underline represents cloth. This is how he might have sat according to what the Bible wants to say.)</li>
+  </ul>
+  <p>[I'm sorry for my distraction issue, but it's important. Son of Man is Jesus in the Bible, which is repeated sixty-nine times in the Synoptic Gospels (Synoptic are Mark, Matthew, and Luke—poor John's book, they also know is most corrupt, hence not synoptic)—still Christians don't accept this truth!!]</p>
+  <p>Jews Plan to Kill Jesus: See John 11:50</p>
+  <p>Jewish Priest says, it's better to kill Jesus [as he has rebelled against Romans—who were polytheist and his enemy] than Romans killing the whole Jewish community due to him.</p>
+  <p>Judas Betrays Jesus: You know he betrayed Jesus for just 30 silver pieces.</p>
+  <h2>Jesus Knowing the Traitor:</h2>
+  <p>It's in John 13:27: <em>"As soon as Judas took the bread, Satan entered into him. Then Jesus said to him, 'What you are about to do, do quickly.'</em>" This verse is part of the Last Supper narrative. <strong>"Quickly"</strong> here suggests that Judas had already planned something fishy. </p>
+  <h2>Jesus Had Never Done Any Holy-War—But It's Time Now:</h2>
+  <p>In Luke 22:36, Jesus instructs His disciples: <em>"Whatever you have, sell it and bring me swords!"</em>
+  </p>
+  <h2>How Many Swords Did They Get?</h2>
+  <p>In Luke 22:38, the disciples replied: <em>"Here are two swords."</em> Jesus said, <strong>"They are enough!"</strong> (Against so many enemies). </p>
+  <p>Missionaries claim these were spiritual swords, portraying Jesus as merciful and ready to die. But how can someone buy <strong>"spiritual swords"</strong> with physical money from selling cloths? </p>
+  <p>Also, these <strong>"spiritual"</strong> swords weren’t non-lethal. In Matthew 26:51, one of Jesus' companions, likely Peter, drew his sword and struck the servant of the high priest, cutting off his ear. </p>
+  <h2>Why Were Two Swords Enough?</h2>
+  <p>Because Jesus might have thought that if He were about to die, one of His disciples would sacrifice himself for Him, ensuring He wouldn’t die. In Matthew 26:35, Peter says: <em>"Even if I have to die with you, I will never disown you."</em> All the other disciples said the same. </p>
+  <h2>Jesus Went to a Garden—Miles from His Upper Chamber in Jerusalem:</h2>
+  <p>He anticipated that people would come there—a nice idea, by the way. This is the only believable part of this fiction.</p>
+  <p>He then placed 8 of 11 disciples at the entrance of the garden (Matthew 26:36—nice strategic security circle, part 1).</p>
+  <p>Then, He put Peter, John, and James further near Him as the second security circle (Matthew 26:37-38).</p>
+  <p>And Then He Alone Prayed Inside!</p>
+  <h3>What Did Jesus Pray to His Lord?</h3>
+  <p>In Matthew 26:39, Jesus fell with His face to the ground (i.e., He did Sajdah) and prayed: <em>"My Father, if it is possible, may this cup be taken from me. Yet not as I will, but as you will."</em>
+  </p>
+  <p>Jesus Himself didn’t want to die for the upcoming nation that would get salvation for free through His blood!</p>
+  <h4>Luke (A Physician) Dramatized This Further:</h4>
+  <p>Luke describes this in Luke 22:44: <em>"He was in agony, and His sweat fell like drops of blood."</em> Luke uses his medical knowledge here. </p>
+  <h2>Why Didn’t Jesus Want Martyrdom?</h2>
+  <p>Because He was more knowledgeable than the upcoming wine-drinking nation.</p>
+  <p>In Deuteronomy 18:20, it is written that a prophet who falsely claims to speak in God's name or speaks in the name of other gods must die. Jesus was true, and if He died, the Jews would believe He was a false Messiah.</p>
+  <h1>Christian God’s Unawareness:</h1>
+  <p>It’s surprising that the Christian God wasn’t aware of His sacrifice being essential for the upcoming nation’s salvation!</p>
+  <p>He prayed to Himself for Himself through Himself (The word <strong>"Trinity"</strong> appears nowhere in the Bible, by the way)—yet He was unaware of His own Cruci-FICTION (our term for crucifixion). </p>
+  <p>Also, He didn’t even know when the Hour would be established:</p>
+  <p>In Matthew 24:36, Jesus states: <em>"No one knows the day or hour of His return, including the angels and the Son (Jesus Himself), but only the Father (True God)."</em>
+  </p>
+  <h3>What Were the Disciples Doing at That Time?</h3>
+  <p>
+    <strong>Sleeping!</strong>
+  </p>
+  <p>In Matthew 26:40, Jesus found His disciples asleep after praying in Gethsemane and asked Peter: <em>"Could you not watch with me one hour?"</em>
+  </p>
+  <p>I still remember when I sent this verse to a friend, he said: <em>"I'm now convinced that we are better Christians than these disciples."</em>
+  </p>
+  <p>The same is written in Mark 14:39-40, which adds that the disciples couldn’t even answer Him (useless disciples).</p>
+  <h4>Luke—As a Physician—Explains Why They Slept:</h4>
+  <p>In Luke 22:45, Luke says they were sleeping in sorrow.</p>
+  <p>Basically, Luke implies that Jesus’ cries were like lullabies for the disciples, who forgot their sorrow and slept—Mr. Luke, we are not fools!</p>
+  <h4>On Stress and Sleep:</h4>
+  <p>In stress, adrenaline releases the <strong>"3F hormones,"</strong> which should take away all your sleep! (I’m going through this myself—results for my 2nd year are coming soon, InshaAllah!) </p>
+  <p>Back to the topic—this shows the disciples lacked both courage and hormones!</p>
+  <p>[NOTE: All my friends, do duas for me! And to everyone who reads this message, remember us in your duas.]</p>
+  <h2>Jesus is Caught—or He Surrendered?</h2>
+  <p>JOHN SAYS IN 18:3: <em>Judas brought a band of men (the original word was speira, which in Roman terms means "a Roman military cohort") with chief priests.</em>
+  </p>
+  <p>Basically, as Romans became Christians in the future, they would feel guilty for killing Him. Roman kings may have ordered: <strong>"No one will make us guilty—change the meaning only!"</strong> Hence, it was altered to <strong>"band of men"</strong> (not Roman soldiers—watch Ertugrul if you've forgotten how Roman soldiers look—just a joke). </p>
+  <p>Somehow, this <strong>"band of men"</strong> entered inside, and then Peter struck one man's ear. </p>
+  <h3>BUT WHAT?</h3>
+  <p>Jesus changed the strategy, saying, <em>"Now we won’t kill them"</em>—see Matthew 26:52. </p>
+  <p>(BTW, you can’t kill 800 men with just 2 <strong>SPIRITUAL SWORDS.</strong>) </p>
+  <p>Don’t forget, this is the same Jesus from the Gospels who:</p>
+  <ul>
+    <li>Instructed to slay those who don't want His rule—Luke 19:27.</li>
+    <li>Said, <em>"I came not to send peace, but a sword"</em>—Matthew 10:24. </li>
+  </ul>
+  <h3>THEN WHAT?</h3>
+  <p>ALL THE DISCIPLES LEFT HIM AND FLED!</p>
+  <p>"And they all forsook him and fled"—Mark 14:50.</p>
+  <h2>THE TRIALS:</h2>
+  <p>We know the high priest had already decided to kill Him, so keeping silent wouldn’t save His life. Jesus finally said:</p>
+  <p>In John 18:20, Jesus tells the high priest, Annas, that He has always taught openly to the world and said nothing in secret. (Basically, He was trapped because the Jews told the Romans He claimed to be God.)</p>
+  <p>Mark says in 14:59 that no one came forward to bear witness against Jesus.</p>
+  <p>The issue escalated, so the high priest asked:</p>
+  <p>In Mark 14:61, Jesus remains silent and does not answer the high priest’s repeated question, <em>"Are you the Messiah, the Son of the Blessed One?"</em>
+  </p>
+  <p>Mark 14:62: Jesus said, <em>"I am, and you will see the Son of Man seated at the right hand of Power, and coming with the clouds of heaven."</em>
+  </p>
+  <p>NOTE: He said He is the Son of Man and a Messiah—but according to the Gospel writers, this was enough for His death sentence.</p>
+  <p>The senseless writers didn’t realize that if I put oil on my body, I also get anointed! Churches do the same thing.</p>
+  <p>In John 12:3, Mary of Bethany took a pound of expensive perfume (made from pure nard), anointed Jesus' feet with it, and wiped them with her hair.</p>
+  <p>The Hebrew word <strong>mashiach</strong> (מָשִׁיחַ), from which "Messiah" is derived, literally means "anointed" and refers to consecrating someone or something with holy oil. </p>
+  <h3>JESUS WAS TRIED AT TWO COURTS—PILATE’S AND HEROD’S:</h3>
+  <p>Pilate sent Him to Herod, who sent Him back to Pilate—Luke 23:7.</p>
+  <p>Pilate already had many man-gods (Jupiter, Vulcan, Pluto, Eros, etc.), so adding a new MAN-GOD wasn’t a problem for him. However, the Jews changed the charge:</p>
+  <p>They claimed Jesus was plotting against the Roman Empire (which was still polytheistic)—see Luke 23:2. They said Jesus didn’t want people to pay tribute (taxes) to Caesar.</p>
+  <p>This charge was also false because Jesus said, <em>"Render to Caesar the things that are Caesar’s"</em> (i.e., money)—Matthew 22:21. </p>
+  <p>When Pilate asked, <em>"Are you the king of the Jews?"</em> In John 18:35-36, Jesus stated He indeed had a kingdom, but it was unlike the kingdoms of the world—it was heavenly. </p>
+  <p>Pilate found no fault in Jesus—John 18:38.</p>
+  <h4>It Is Astonishing:</h4>
+  <p>Only the non-synoptic Gospel of John uses the phrase, <em>"My kingdom is not of this world."</em> The other three writers (Matthew, Mark, and Luke) completely forgot—or perhaps John went back in a time machine and heard it in court better than the three synoptic witnesses combined. </p>
+  <p>Isaiah 53:7 states that the upcoming Messiah wouldn’t open His mouth at trial. Gospel writers claim Jesus didn’t open His mouth. If so, He must have had telepathic powers to communicate what we’ve already read.</p>
+  <h3>JEWS BLACKMAILED PILATE:</h3>
+  <p>In John 19:12, the Jewish leaders pressured Pilate, warning that releasing Jesus would mean betraying Caesar. Fearing political consequences, Pilate brought Jesus out and sentenced Him.</p>
+  <h2>THE CRUCI-FICTION HAPPENS:</h2>
+  <p>Here is your text with spelling and grammatical errors corrected:</p>
+  <p>Recall Quran say 4:157, <em>"...And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them."</em>
+  </p>
+  <p>The Quran says that someone replaced him on the cross (who used to look like him). See I've gone through Ibn Baz Fatwah Islamiyaah and Ibn Kathir Tafsir on this Ayat - both state that the majority of Muslims believe that nothing happened to his <strong>"BODY AND SOUL."</strong>
+  </p>
+  <p>But since we are doing Dawah, I give two options to choose for Christians: either believe like us or believe that whoever was on the cross (for us it's not Jesus) - he didn't die but survived.</p>
+  <h3>Back to refuting the claims:</h3>
+  <ol>
+    <li>According to Matthew 27:45 - He was on the cross for 3 hours, from the sixth hour to the ninth hour. But the 3 hours werent enough, like me - the Jews were also suspecting that he didn't DIED.</li>
+    <li>Jews hurried to remove him from the cross, as it is written in Deuteronomy 21:23 that the body of someone executed on a tree (a public form of punishment) should not remain hanging overnight, but must be buried that same day - and it was already night when this was happening.</li>
+    <li>According to John 19:33, the soldiers, who had been tasked with breaking the legs of the crucified (who is resembling Jesus), found Jesus already dead when they arrived. Instead of this, they pierced his side with a spear, and blood and water flowed out.</li>
+    <p>[Distraction Ahead: I've seen so many people who were pierced on the side and survived, e.g., Sukumar Mondol survived a 3-foot rod.]</p>
+    <li>Encyclopedia Biblica has an article on the cross; in its column 960, it states that he was alive when lanced by the spear.</li>
+  </ol>
+  <h4>THEN HE WAS TAKEN TO THE GRAVE:</h4>
+  <ol>
+    <li>Jim Bishop writes in his book, <em>"The Christ Died,"</em> that his tomb was an airy chamber. He simply survived in the grave. </li>
+    <li>Jews suspected that Jesus had survived - and the chamber was airy; they said to Pilate, <em>"Seal the chamber,"</em> to which he replied, <em>"Do it yourselves."</em>
+    </li>
+  </ol>
+  <h2>HIS RESURRECTION:</h2>
+  <ol>
+    <li>After burial, Mary Magdalene went to the grave (John 20:1).</li>
+    <p>FOR WHAT?</p>
+    <li>To anoint him with oil (Messiah meaning anointed one) - see Mark 16:1.</li>
+    <p>Logically, we anoint only living bodies; i.e., he is still alive.</p>
+    <li>See JOHN PASSAGE FROM 20:15 ONWARDS:</li>
+    <p>When she visited the grave, she found a gardener (the grave was in the garden of Joseph). Here:</p>
+    <ul>
+      <li>She asked him, <em>"Where had you laid him?"</em> - she wanted his body as she knew he was alive (and laid means to put on bed or safely when one is sleeping). </li>
+      <li>When Jesus explained to her that the gardener is him only, she thought to touch him - He said, <em>"Touch me not; I've not ascended yet."</em> (Injured persons feel pain on touch - if you have sense). </li>
+    </ul>
+    <li>Jesus goes with two disciples to Emmaus (still looking like a gardener), and when they sit to eat, he says Bismillah - they find that it is Jesus, so he runs away (Luke 24:30) - this means that Jesus was hiding from people so they wouldn't catch him and kill him; this proves that he didn't die.</li>
+    <li>Jesus appeared to disciples - they were terrified and supposed him to be a spirit: Luke 24:37.</li>
+    <li>So Jesus convinced them that he is no spirit, <em>"I'm myself; handle me and see; for a spirit has no flesh and bone, but I have"</em>: Luke 24:39. </li>
+  </ol>
+  <p>OUR PROOF is thus established. It is LUKE himself who wrote that resurrected people are like angels (who have no flesh and bone): see Luke 20:27-36. Hence, as Jesus was having flesh and bone, he is not a resurrected person.</p>
+  <h4>SO ALL THE WAY TO CRUCIFIXION HE HAS SURVIVED!!! - i.e., not died.</h4>
+  <ol>
+    <li>Then Jesus asked for food, and Albert Schweitzer writes that he asked for food because he was hungry (like a living being) and needed nourishment (due to so much blood loss).</li>
+    <li>Finally, I've quoted the sign of Jonah, which Jesus said will happen with him. As Christians say that this happened - they must also accept that Jonah (Yunus) was alive in the belly of the whale as is written in Jonah 1:12.</li>
+    <li>Was Jesus nailed? It is only John who wrote that he was nailed; see John 20:25 - and John is not reliable and hence not considered in synoptic gospels.</li>
+    <li>But if we see earliest crucifixion images of Costanza gemstones, it is shown he was not nailed.</li>
+    <li>And how can we rely on John whose chapter 8 begins with the 12th verse, as all the 11 previous verses were found to be fabricated?</li>
+  </ol>
+</div>
+ <div class="navigation">
+            <a href="human-angels-and-jinn-in-islam.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <i style="font-size:24px" class="fa"></i> zayn123@duck.com | <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+
+</html>
