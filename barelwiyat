@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="A Reading to text of Indain Subcontinent Sect called Barelwiyat.">
+<meta name="keywords" content="Sunni, Barelwiyat, Ahmed Raza, Sect, Sufi, Reading">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Barelwiyat : Reading the Subcontinent Sect from its Root Sources">
+<meta property="og:description" content="A reading to sect of Indian Subcontinent and it's founder Ahmed Raza.">
+<meta property="og:image" content="https://iili.io/FkQsDT7.md.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/barelwiyat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Barelwiyat : Reading the Subcontinent Sect from its Root Sources - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">
+
+<h2>Barelwiyat : Reading the Subcontinent Sect from its Root Sources</h2>
+
+<p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content"><h2>
+    
+    <h3>Introduction:</h3>
+    <p>Barelwiyat is a perpetual running sore of the Muslim society as it came to surface in the last decades.</p>
+    <p>It is not a religion within religion, but beyond religion. Like other heretical sects, Barelwiyat deviates also from the right path, enunciated explicitly in the Quran and elucidated by the Holy Prophet (peace be upon him).</p>
+    <p>The followers of this sect use the name of "Ahl al-Sunna" which is misleading for a common man.</p>
+    <p>The Bareilwis have entrusted the whole universe to Allah's creatures instead of Allah; the prophets, saints, spiritual guides, their novices, the righteous men and their tombs.</p>
+    <p>Grave-worship has become rampant among the ignorant Muslims, owing to the efforts of the Bareilwis.</p>
+    
+    <h3>A) The LIFE OF FOUNDER:</h3>
+    <h4>Birth of Founder:</h4>
+    <p>First, the period relating to the life-history of the founder of this sect, the detailed events of his life, and his appearance on the scene between 1272 A.H./1855 A.D. and 1340 A.H./1921 A.D. was not one of academic, intellectual and literary movement in India, for the country during this period succumbed under the iron-hand of the British colonialists to crush all the movements which seek life or any movement towards life.</p>
+    <p>Secondly, the school of thought of the Bareilawis. They have combined the two extremes.</p>
+    <p>They have exaggerated in their beliefs about their deities, except Allah, whether they are alive or dead, so much so that they have given them the attributes of omnipotence.</p>
+    <p>They have exercised negligence by supposing that ransoms are sufficient for a person who abandoned prayer during his whole life;</p>
+    <p>Thirdly, they have excommunicated all Muslims except themselves, even the Deobandis and the Hanafis.</p>
+    <p>By performing offerings and sacrifices to the ignorant saints and Sufi divines, they take it as performing painstaking worship and discharging the obligatory duties of religion. Among these rituals, some of them are as follows:</p>
+    <ul>
+        <li>To pay visits every Thursday and on some particular days during the year to the tombs of those whom they consider their saints and divines;</li>
+        <li>To hold death anniversaries at the tombs, birthday celebrations, and similar other evil practices which permeated the Muslim society from non-Muslim neighboring countries, like Hindus, Magians, and idolators.</li>
+    </ul>
+    <p>For this reason, people hated him and separated from him, so much so that his most sincere friends despised him and abandoned him in the long run. One of them was Muhammad Yasin, founder and manager of a religious madrasa (seminary) called Isha'atal-Ulum - a pious and learned person who considered the Bareilwi his teacher. He abandoned Bareilwi and separated himself,</p>
+    <p>Moreover, the madrasa (seminary) which his father had established in Bareilly and found it under the name; Misbahal-Tahdhib severed itself from Bareilwis on account of his severity, callousness, and insolence to the people, and declaring the Muslims as Kafir (unbeliever). This madrasa (seminary) severed itself from him and it joined the Wahhabis. Consequently, there remained no madrasa (seminary) of the Bareilwi in their own city despite the presence of A'la Hadrat (His Highness) in it.</p>
+    <p>The Bareilwis narrate anecdotes and fabricated stories about their Imam as:</p>
+    <ul>
+        <li>He finished the recitation of the Quran when he was four years old, rather far before this age (i.e., when he was three or even before that).</li>
+        <li>Besides, he used to say: "The date of my birth can be derived from the word of Allah and which applies to the following verse: "For such He has written Faith in their hearts and strengthened them with a spirit from Himself" (Qu'ran 58:22)".</li>
+    </ul>
+    <p>Writing about his childhood, Zafar al-Din says that while reciting the Quran (when he was less than four years old), his teacher instructed him in a Quranic verse. But the Bareilawi could not recite it despite his repeated efforts to do so. So, his grandfather noticed it and was amazed. After looking in the copy of the Quran, he saw that there were some grammatical mistakes in the teacher's recitation. The Bareilawi's tongue declined to recite the verse ungrammatically. (See Hayat Ala Hadrat pg 22)</p>
+    <p>The Bareilawi himself has said about him: "Allah's pleasure lies with the Prophet's pleasure and the prophet's pleasure lies with the pleasure of the Bareilawi" (See Ayyub Ridwi Bagh-i Firdaus, pg 7)</p>
+    
+    <h4>Blamed To Be Shia:</h4>
+    <p>He was blamed to be from Shia as the Bareilawi has uttered such ignoble words about 'A'ishah (R.A) as cannot be conceived of uttering them by a Sunni.</p>
+    <p>He furthered the doubt by saying: "Ali removes calamity and obliterates misery from him who recites the well-known Saifi supplication, seven or three times, or only once. The supplication is as follows:</p>
+    <blockquote>
+        "Call 'Ali for help who is the manifestation of wonders; you will find him a helper to you at the calamities. Every calamity and misery will be gone by your protection, O 'Ali, O 'Ali".
+    </blockquote>
+    <p>(Al-Amn Wal-Ala pg 58)</p>
+    <p>He then talks of divination (Jafar), a Shi'i doctrine, and admits himself: "Jafar (divination) is a book written by Ja'far al-Sadik." (Khalis al-I'Atiqad pg 48)</p>
+    <p>He wrote in one of his epistles: "There is no harm in keeping the statue of the tomb of al-Husain in the house for the sake of blessing." (al-Fatawa al-Ridwiyya Vol. IV pg 299)</p>
+    
+    <h4>His Expenditures and Livelihood:</h4>
+    <p>We are not interested in writing about his earnings as after his spiritual teachings his followers had pulled a huge sum of money from illiterate Muslims through grave-worship etc.</p>
+    <p>But he (Ala Hadrat) is said to have a "Doremon Pocket". Al-Bihari al-Ridwi says: "The Bareilawi had a locked hand-bag and opened it at the time of need. Whenever he opened it, he did not open completely, except to the extent to which he entered his hand. He would bring out wealth, jewelry, and clothes, as he liked." (See Al-Bastawi: al-Bareilawi, p.75)</p>
+    
+    <h4>His Habits:</h4>
+    <p>Reports tell us that the Bareilawi was addicted to eating the Indian betel-leaf. (Anwar Rida pg 256)</p>
+    <p>He was also a hookah-addict. (See Hayat Ala Hadrat, pg. 67)</p>
+    <p>His other habits include:</p>
+    <ul>
+        <li>Kissing of feet of those who visited Prophet's (S.A.W) Grave - (Anwar Rida, pg 306.)</li>
+        <li>He did not make any speech on Friday or at the 'Id prayers, except on the occasions of the third 'Id which he and his followers celebrate. That is the birthday of the Prophet (peace be upon him), 'Id Milad al-Nabi' as they call it. (See Hayat Ala Hadrat)</li>
+    </ul>
+    
+    <h4>His Works:</h4>
+    <p>Ala Hadrat didn't write any work; he used to reply to queries presented to him as Fatawa with help from assistants who searched the texts and presented them to him, then he would compile and interpret them for his readers.</p>
+    <p>His works usually discuss ambiguous or hidden knowledge, such as the knowledge of the unseen possessed by prophets and saints, whether they belong to mankind or light.</p>
+    <p>Maximum works attributed to him are around six hundred to one thousand. (See Man huwa Ahmad Rida, pg 25)</p>
+    <ol>
+        <li>
+            <strong>His work against Jihad and support of the British Empire:</strong>
+            <p>During his age, the British Empire was fighting against Muslim rulers in the subcontinent. The British Army wanted to divert Muslims from Jihad, so they used Ala Hadrat who declared Jihad unlawful in all parts of this country. He argued that India was not Dar al-Harb (enemy territory), and Jihad could only be permitted in Dar al-Harb.</p>
+            <p>He produced a monograph titled: "I'lam al-A'lam bi anna Hindustan Dar al-Islam."</p>
+        </li>
+        <li>
+            <strong>His support for the Turkish Khilafat:</strong>
+            <p>He wrote "Dawam 'Aish" in which he refuted the claim of the advocates of the Turkish Khilafat. He contended that only a person from Quraish can be caliph. The Uthmani Turks do not belong to Quraish, so their Khilafat is invalid. Therefore, Muslims of India are not bound to help them fight the British. See Dawam 'Aish, pg 46.</p>
+            <p>English writer Francis Robinson mentioned that the Bareilawi supported the British government. See "Separatism among Indian Muslims," Cambridge, 1974, pg 443.</p>
+        </li>
+    </ol>
+    
+    <h4>His Death:</h4>
+    <p>The Bareilawi died of pleurisy. He wrote "Wasaya Sharif," advising followers to hold fast to his faith.</p>
+    <p>He also said: "After my death, if possible, present Fatiha (offering) to me twice or thrice a week and offer dishes like iced rice pudding, biryani, kebabs, kofta, tawaq, cream, beans, samosa, apple juice, pomegranate juice, a bottle of water, and iced milk. If possible, do this daily or as you like." (See Al-Bastawi: al-Bareilawi, pp. 9-10)</p>
+    
+    <h4>Overstatements About Him and by Him:</h4>
+    <p>After his death, followers wrote exaggerated stories, such as:</p>
+    <ol>
+        <li>Some claimed his death: "The Messenger of Allah (S.A.W) was sitting with companions waiting for the coming of the Bareilawi." (See Introduction to al-Fatawa al-Ridwiyya, pg 13)</li>
+        <li>And that the Messenger of Allah (S.A.W) sent perfume for washing the Bareilawi. (Wasaya al-Bareilawi, pg 19)</li>
+    </ol>
+    <p>He himself said, addressing Shaikh 'Abd al-Qadir Gilani (R.): "O Helper, all saints of the world go around the noble House of Allah (the Ka'ba), but the Ka'ba itself goes around your exalted gate." Then he said to himself: "No one asks about you, and no one cares for you, because dogs like you are numerous." (See Hada'iqi Bakhshish, pg 11)</p>
+    <h3>Barelwiyat Doctrines</h3>
+    
+    <p><strong>Barelwiyat has its own unique doctrines which are Bid'ah and go against Islam. The beliefs and doctrines which distinguish Barelwiyat are the absurd and nonsensical rites, ceremonies, and superstitions which had spread in various countries among the Sufi circles. Before this sect, such practices were performed by illiterate Muslims and unmindful peoples.</strong></p>
+    
+    <h4>1) Seeking help from other than Allah:</h4>
+    <p>The Bareilawi said: "Seeking help and aid from anyone besides Allah is lawful and desired. No one denies it except an arrogant and obstinate." (Hayat al-Mawat included in al-Fatawa al-Ridwiyya, Vol. IV, pg 300)</p>
+    <p>We have already shown his dua to Ali for asking help, which he wrote in Al-Amnwa'l-'ula, pg 13.</p>
+    <p>He attributed a saying to Sheikh Abd al-Qadir Gilani: "If anyone seeks my help in a calamity, I shall remove it from him; if anyone calls me in a suffering, I shall relieve him of it; if anyone supplicates Allah through me in respect of need, I shall fulfill his need." (See Barakat al-lstimdad)</p>
+    <p>Ali (Allah be pleased with him) holds the position as the Bareilawi has said:</p>
+    <blockquote>
+        "Call 'Ali, the manifestation of wonders. You will find him an aid to you in calamities. All calamities and sorrows will be removed by virtue of your guardianship. O 'Ali, O 'Ali." (See Al-Amn wa'l-'ula, pg. 13)
+    </blockquote>
+    <p>Shaikh 'Abdal-Qadir Jilani (may Allah have mercy upon him) said, as they have attributed this lie to him: "If anyone seeks my help in a calamity, I shall remove it from him; if anyone calls me in a suffering, I shall relieve him of it; if anyone supplicates Allah through me in respect of need, I shall fulfill his need." (Fatawa Ifriqiyya, pg. 62)</p>
+    <p>He also says: "During my life I did not seek help from anyone, and I do not ask anyone for aid except Shaikh 'Abdal-Qadir. Whenever I seek help, I seek it only from him; Whenever I ask for aid, I ask him alone. Once I tried to ask for aid and seek help from another saint, (Hadrat Mahbubllahi). When I intended to utter his name for seeking help, I did not utter the words but 'Ya Ghauthan' (O one whose help is sought). My tongue refused to utter the words for seeking help from anyone except him." (Malfuzat, pg. 307)</p>
+    
+    <h4>Salat Ghawthiyya:</h4>
+    <p>Even after all this, they have a type of prayer, known as "Salat Ghawthiyya." It is observed as follows: One performs the first two Rak'ahs. Then he steps forward towards the direction of Baghdad, numbering eleven steps. When he keeps a pace, he seeks help from Gauth (i.e., Shaikh Jilani), calling him by his name, and then presents his need to him and recites his name as one who protects from any calamity and oppression. (Ja'al-Haqq, pg. 200)</p>
+    
+    <p>But what Allah S.W.T commands is:</p>
+    <blockquote>
+        "Say: Call upon others whom ye fancy, besides Allah. They have no power, not the weight of an atom — in the heavens or on earth. No share have they therein, nor is any of them a Helper to Allah." (Qur'an 35:22)
+    </blockquote>
+    <p>And He says:</p>
+    <blockquote>
+        "Say: Do ye then take (for worship) protectors other than Him, such as have no power either for good or for harm to themselves." (Qur'an 13:16)
+    </blockquote>
+    <p>The Prophet (may peace be upon him) said to his cousin Abdallah b. Abbas (Allah be pleased with him): "If you ask for anything, ask Allah, for it; if you seek help, seek it from Allah; whatever you will meet in your future life, that has been decreed for you; if all the creatures strive to benefit you, they cannot benefit you but to the extent Allah has decreed for you; if they strive to harm you, they cannot harm you but to the extent Allah has decreed against you." (At-Tirmidhi)</p>
+    
+    <h4>2) The Power of Prophets and Saints:</h4>
+    <p>They (People of Barelwiyat) allege that the power of Allah, His sovereignty, and His authority have shifted to the prophets and saints.</p>
+    <p>But Allah (S.W.T) says:</p>
+    <blockquote>
+        "The blind and the seeing are not alike; nor are the depths of darkness and the light, nor are the (chilly) shade and the (genial) heat of the sun: nor are alike those that are living and those that are dead. Allah can make any that He wills to hear; but thou cannot make those to hear who are (buried) in graves." (Qur'an 35:19-22)
+    </blockquote>
+    
+    <p>Still Bareilawi says: The keys of the universe are in the hands of the Messenger of Allah; he is the master of all; he is the eldest vicegerent to the One who is All-Powerful. It is he who is possessed of the word "Be (Kun)." (See al-Istimdad 'ala ajyal al-Irtidad, pg. 32-33)</p>
+    <p>As for Sheikh Abd al-Qadir Jilani, we have already quoted how powerful he was for Bareilawi and his sect. Still, he has also said about Sheikh that: "Shaikh Jilani is the helper who has the power of the word 'Be and it is' (Kunfayakun)." (See Hada'iq Bakhshish, p. 122)</p>
+    <p>So long as the Prophets of Allah, His Messenger, the saints (i.e., His friends), and possess this power, the founder of this sect would necessarily have a share in it. And actually, his helpers and assistants ascribed to Ahmad Rida, the Bareilawi, more than what he and they had ascribed to the divines, pious people, and saints.</p>
+    
+    <h4>3) The Powers of Ahmad Rida, the Bareilawi:</h4>
+    <p>One of his followers calls upon him and invokes him, saying: "O my chief, O sustainer, give me from your bestowal, for this dog of yours has been looking forward for some time. Look at this humble servant of yours with an eye of generosity, for whatsoever errors and sins he has committed, he is your dog." (Mada'ih, A'la Hadrat, pp. 4-5)</p>
+    <p>It has been said about his grave that it is a house of healing for the sick; he resolves difficulties, makes matters easy, and fulfills needs. (Mada'ih, A'la Hadrat, pg. 9f.)</p>
+    <p>"The sick used to seek healing from Jesus, but Ahmad Rida gives life to the dead." (Mada'ih, A'la Hadrat, pg. 25)</p>
+    
+    <h4>4) The Dead Listen in the Graves:</h4>
+    <p>We have already quoted Ayat from the Qur'an which contradicts this perception that the dead can listen in the graves (see Qur'an 35:19-22).</p>
+    <p>But Barelwi was so confident that the dead do listen that he produced a monograph on this subject titled "Al-Wifaq al-Mubin Baina Sama' al-Dafin wa Jawab al-Yamin." The Bareilawi also said: "The saints have eternal life in their graves, and their knowledge, perception, hearing, and seeing are stronger than before." (Al-Hikayat al-Ridwiyya, pg. 44)</p>
+    
+    <h4>5) Problem of Possessing Knowledge of the Unknown:</h4>
+    <p>Allah S.W.T says:</p>
+    <blockquote>
+        "Say: None in the heavens or on earth, except Allah, knows what is hidden." (Qur'an 27:65)
+    </blockquote>
+    <p>He further says:</p>
+    <blockquote>
+        "Say (O Prophet): The unseen is only for Allah (to know). Then wait ye: I too will wait with you." (Qur'an 10:20)
+    </blockquote>
+    <p>But the Bareilawis hold views contrary to these verses of Qur'an. For them, "The prophets (peace be upon them) know, rather see and watch over all that which happened and all that which will happen from the first day to the last." (al-Dawlatal-Makkiya Lahore Ed, pg. 58)</p>
+    <p>The Bareilawi said: "The companions of the Prophet (peace be upon him) knew with certainty that the Prophet (peace be upon him) had possessed the knowledge of the unseen." (Khalis al-I'tiqad, pg. 28)</p>
+    <p>Addressing Himself to His Prophet Allah, the Exalted, said:</p>
+    <blockquote>
+        "They ask thee about the (final) Hour: when will be its appointed time? Say: The knowledge thereof is with my Lord (alone): None but He can reveal when it will occur. Heavy is its burden through the heavens and the earth. Only, all of a sudden will it come to you. They ask thee as if thou wert eager in search thereof. Say: The knowledge thereof is with Allah (alone), but most men know not." (Qur'an 7:187)
+    </blockquote>
+    <p>The Prophet (peace be upon him) said: "The keys of the unseen are five, and Allah alone knows them. Allah alone knows what the wombs contain; no one knows what will be on the morrow but Allah; and you do not know in what land you will die but Allah; and no one knows when the last Hour will come but Allah." (Bukhari & Muslim)</p>
+    <p>But these people hold views entirely contrary to Qur'an and Hadith teachings. The Bareilawi says: "The Messenger of Allah (may peace be upon him) did not come out but after Allah had taught him these five hidden things." (Khalis al-I'tiqad, pg. 53)</p>
+	
+    <p>Bareilawi has explicitly said, quoting persons like him: "Nothing from the five unseen things mentioned in the verse quoted earlier is hidden from the Prophet (peace be upon him). How can that be hidden from him, while the seven poles (aqtab) know them, although they are lower than Ghawth (saint) in rank?" (Khalis al-I'tiqad, pp. 53-54)</p>
+    <p>Bareilwi had forged stories to prove that the Saints of Islam had this knowledge. He said the following story to prove his point: Abu'l Majd says: I was with Shaikh Makarim (Allah be pleased with him) in his house at a pure reverence. It occurred to my mind that I saw something from his miracles. He turned to me smiling and said: Five persons will come to us very soon. One of them is non-Arab and has a white and red color. We find him on the right or the left. Nine months remain from his age. A lion will attack him in the open country, and for this purpose, Allah will send it. Abu'-Majd (Allah have mercy on him) said: By Allah, after a short while, five persons came to us, as stated by the Shaikh (Allah be pleased with him), lacking no quality from his description. Then a man brought all kinds of dishes they desired. He placed them before the Shaikh (Allah be pleased with him). He commanded him, and he placed before each his favorite dish, and said to them: Eat what you desired. Afterwards, they became unconscious. When they came to themselves, the Yamani said to the Shaikh: "O my Chief, what is the quality of a person who is informed of the secrets of creation?" He said: "The quality is that he knows that you are a Christian and you have a cross stripe under your clothes." The man cried, stood before the Shaikh, and embraced Islam. (al-Dawlat al-Makkiya, pg. 162)</p>
+    <p>In addition, they have lied against Sheikh Jilani, claiming he used to say: "The sun does not rise until it greets me. The 'Year' comes to me, greets me, and informs me of what will happen in it." (al-Aman wa'l-'Ula, pg. 109)</p>
+    
+    <p>But Allah says that He commanded Prophet (S.A.W) to say: "I have no power over any good or harm to myself except as Allah wills. If I had knowledge of the unseen, I should have multiplied all good, and no evil should have touched me: I am but a warner and a bringer of glad tidings to those who have faith." (Qur'an 7:188)</p>
+    <p>Allah (S.W.T) negated the knowledge of the unseen from the Prophet (S.A.W) when he said to him:</p>
+    <blockquote>
+        "As well as (desert Arabs) among the Medina folk: they are obstinate in hypocrisy: Thou knowest them not: We know them." (Qur'an 9:101)
+    </blockquote>
+    <p>A girl said while singing: "Among us, there is a Prophet who knows what will happen tomorrow." The Prophet (peace be upon him) objected to her and said: "Leave this and say what you were saying previously: No one knows what will happen tomorrow except Allah." (Narrated in Ibn Majah)</p>
+    
+    <h4>6) The Problem of the Humanity of the Messenger of Allah (peace be upon him):</h4>
+    <p>The Bareilwis believe that Prophet (S.A.W) is a light from the light of Allah, despite the fact that Qur'an testifies to his humanness more than once, e.g.: "What kept man back from belief when guidance came to them was nothing but this: they said: Has Allah sent a man (like us) to be (His) Apostle." (Qur'an 17:94)</p>
+    <p>The prophets rejected their contention, admitting that they were human beings:</p>
+    <blockquote>
+        "Their apostles said to them: True, we are human like yourselves, but Allah doth grant His grace to such of His servants as He pleases." (Qur'an 21)
+    </blockquote>
+    <p>Know that Thamud, the people of Salih (peace be upon him), uttered the same words against Salih (A.S): "He is no more than a man like yourselves. He eats of that which ye eat, and drinks of what you drink. If ye obey a man like yourselves, behold, it is certain you will be lost." (Qur'an 23:33-34)</p>
+    <p>Prophet (S.A.W) said, "I am but a man like you: I am caused to forget, as you forget. So, when I forget, remind me." (Narrated by Al-Bukhari)</p>
+    <p>But Bareilwis have a belief similar to Ismailies and attribute that: "The Messenger of Allah (peace be upon him) is a light from the divine light, and all creatures are from his light." (Mawa'iz Na'imiya, pg 14)</p>
+    
+    <p>Bareilawi composed numerous works on this topic to prove his point. One of them is his treatise named 'Salat al—Safa fi Nur al—Mustafa'. He included a fabricated and false tradition and attributed it to 'Abd al-Razzaq, claiming that he transmitted it in his 'musannaf', despite it not existing. In this narration, Prophet said that Allah made Prophet's light from His own light. Bareilawi commented: "The whole Muslim community has accepted this tradition. If the community at large accepts anything, it implies that it is a great thing which does not need any chain of narrators for support." (See Salat al-Safa)</p>
+    <p>Again, they exaggerated their statements based on ignorance. They said: "Muhammad (peace be upon him) is neither Allah nor other than Allah. He is the manifestation of Allah's attributes. He gives life to the souls. From him, the Jinn and mankind were created. From him came the Throne (Arsh) and the Seat (Kursi). From him, Eve was created, and from him, Adam (A.S)." (Diwan Didar 'Ali, pg 41)</p>
+    <p>Bareilawi has quoted his masters saying: "His shade did not fall (i.e., was not seen) on earth, as he was light. When he walked in sunlight or moonlight, his shadow was not seen." (Nafy al-fai' 'amman anarabi Nurihi Kulla Shai', included in Majmu'ahal-Rasa'il, pg 202)</p>
+    <p>They say: "It was the habit of the unbelievers to say that prophets were human beings." (Mawa'iz, Na'imiya, pg 115)</p>
+    <p>The Bareilawis say: "There is no place and no time in which the Messenger of Allah (peace be upon him) is not present." (Taskin al-Khawatir fi Mas'alat al-Hadir wa'l-Nazir, pg 85)</p>
+    <p>The Bareilawi himself says: "The saints are able to visit ten thousand cities in a single moment if they please and intend." (Malfuzat, pg 113)</p>
+    <p>The Bareilawi again says: "Krishna, the unbeliever, used to visit hundreds of thousands of places in a single moment. Despite his unbelief, he did this. Why cannot the saints visit numerous places in a single moment?" (Malfuzat, pg 114)</p>
+    <p>This is how they have derived these teachings from the works of Hindus.</p>
+    
+    <p>Allah S.W.T addressed His beloved Prophet (S.A.W): "Thou wast not on the western side when we decreed the commission to Moses, nor wast thou a witness of these events." (Qur'an 28:44)</p>
+    <p>Allah SWT again mentions: "Such are some of the stories of the unseen, which we have revealed unto thee: before this, neither thou nor the people knew them. So persevere patiently, for the end is for those who are righteous." (Qur'an 11:49)</p>
+    <p>Similarly, Allah has mentioned many times the stories of Prophets and events, and then indeed mentioned the absence of its knowledge to Prophet (S.A.W) in the following verses of Qur'an: 28:45-46; 3:44; 12:102</p>
+    <p>But Barelwis live in another dimension. Bareilawis say: "The Messenger of Allah is omnipresent and omniscient." (Taskin al-Khawatir, pg 5)</p>
+    
+    <h4>c) Barelwiyat TEACHINGS:</h4>
+    <p>The Bareilawis have their own teachings that are peculiar to them, as they have their own doctrines. The leaders of the Bareilawis have made religion a trade and a commercial business in which they need not invest any capital. They commanded their followers to construct buildings over graves and tombs and made themselves their custodians. Then they made it obligatory for their adherents to present oblations and offerings to them. Neither the Qur'an supports them, nor the Sunna reinforces them, nor the Hanafi Fiqh, as they have no evidence.</p>
+    <p>One of the Bareilawis says: "The construction of domes over the graves of the scholars, saints, and pious people is lawful; rather, it is a Sunna of the Companions of the Prophet (peace be upon him), for it shows the greatness and respect of the saints." (Ja'al-Haqq, pg 282)</p>
+    <p>But plastering the graves and building erections over the tombs have been forbidden by the Prophet (peace be upon him): "The Messenger of Allah (may peace be upon him) forbade the plastering of the grave with gypsum, sitting on it, and building erections over it." (transmitted by Muslim, al-Tirmidhi)</p>
+
+<p> As for previously built structures, it has been narrated from Abu'l-Hayyaj al-Asadi (Allah be pleased with him) that he said: "'Ali (Allah be pleased with him) said to me: Should I not send you on the same mission as Allah's Messenger had sent me? Do not leave an image but obliterate it; and a high grave but level it." (Narrated by Muslim) </p>
+    <p> Muhammad b. al-Hasan al-Shaibani has reported his teacher Abu Hanifa (Allah have mercy on them) as saying: "My teacher has narrated to me, attributing it to the Prophet (peace be upon him), that he forbade constructing graves, quadrangular, and plastering them with gypsum." (See Kitabal-Athar) </p>
+    <p> Abu Hanifa is reported to have said: "The grave should not be plastered with gypsum or earth, and no erection be constructed over it." (Fatawa Qadi Khan, Vol I, pg 194) </p>
+    <p> Bareilawi himself explains why domes should be built, as if Prophet (S.A.W) was unaware of it when he prohibited it. He says: "These domes are built (over the tombs) so that the tombs and graves of the saints and pious men become distinguished from the graves of the common men, and so that the people may exalt and fear them, and may not put themselves into perdition for want of good manners and for carelessness." (Ahkam Shariat, Vol I, pg 71) </p>
+    <p> He also writes: "It is lawful to light candles if it is the tomb of a saint or a learned scholar to exalt his spirit, which illuminates the dust of the earth by the sun, to inform the people that he is a saint, so that they may get blessings from him." (Ibid) </p>
+    <p> The Bareilawi himself quotes the following passage from "al-Fatawa al-Hindiyya": "To bring candles to the graves is an innovation in religion; it is unfounded." A similar statement is found in "al-Fatawa al-Bazzaziya" of the Hanafi school. (See Ja'al-Haqq, pg 302) </p>
+    <p> They have stated: "There is no harm if a person circumambulates the grave to attain blessings." (Bahari Shariat, Vol IV, pg 133) </p>
+    <p> They further say: "To celebrate a festival, hold assemblies, make rejoicing, and distribute sweets on the anniversary of the Prophet's birthday are commendable and the cause of Allah's blessings and mercy. Christians celebrate festivals on Sunday, the day when a table of food came down from heaven. Why should we not celebrate on the day which is more excellent than it?" (Ja'al-Haqq, Vol I, pg 231) </p>
+    <p> Contrary to all this, the Prophet (S.A.W) is reported to have prohibited it saying: "Do not make my grave a place of festival." (Narrated in Al-Nasa'i) </p>
+    <p> Anas b. Malik narrated from the companions of the Messenger of Allah (peace be upon him): "No one was dearer to them than the Messenger of Allah. When they saw him, they did not stand up, for they knew that he had disapproved of it." (Narrated by al-Tirmidhi) </p>
+    <p> Curiously enough, the Bareilawis celebrate the birthday of the Prophet (peace be upon him) on the 12th of Rabi' al-Awwal, despite that being the day of his death. The correct date of his birth is either the 7th or 9th of Rabi' al-Awwal, with the latter being the most established. This indicates they celebrate his death anniversary rather than his birth. </p>
+    <p> Interestingly, these same people celebrate this date as Bara Wafat (Day of Death of Prophet - S.A.W), but for some reason, have abandoned it. </p>
+    <p> Describing the Hanafi law about these ceremonies, Mulla 'Ali al-Qari, a Hanafi jurist, says: "The jurists of our school have decisively settled that it is disapproved (makruh) to hold a feast on the first and third day after the death of a person, and also after a week." (Mirqat Sharh al-Mishkat, Vol V, pg 482) </p>
+    
+    <p> They hold this view despite scholars' criticisms of such traditions. Imam Suyuti says: "The traditions narrated about the kissing of fingers and placing them on the eyes after hearing his (the Prophet's) name from the mu'adhdhin, contained in the words, 'I bear witness that Muhammad is Allah's Messenger,' are all spurious." (Tafsir al-Maqal) </p>
+    <p> Another innovation they have introduced is pronouncing the adhan (call to prayer) at the grave, which was not known to the companions of Muhammad (peace be upon him). The Bareilawi states:  "The Muslims pronounce adhan at the grave to repel evil, to remove bewilderment, to attain satisfaction, and for the descending of blessings." (Al-Fatawa al-Ridwiyya, Vol IV, pg 54)  </p>
+    
+    <h4>D) Excommunication of Other Muslims and Calling Them Kafirs:</h4>
+    <p> Although no sect of Islam is left which has not done this to another, our reader must know that no one has reached the level of the Barelwis in this regard. They have called Wahhabis, Deobandis, etc., and even described some books as urine (See DamanBagh, pg 134). We only quote one here: </p>
+    <p> The leader of the Barelwis states: "The Ahl al-Hadith are unbelievers and apostates." (Daman Bagh Subhaa Subbuh, pp 125-126) </p>
+    
+    <h3>Conclusion</h3>
+    <p> Finally, I would like to thank the readers for considering this humble work, which was derived from Ustadh Ehsan Elahi Zaheer. If you are a follower of this sect, then please open your eyes, as it is you who will be accountable for your blindness, not the leaders of these sects. We have tried to present this work in the most positive manner possible. May Allah forgive us all and guide us on the right path. <strong>Ameen!!</strong> </p>
+    <p><strong>Allah-Hafiz.</strong></p>
+
+ <div class="navigation">
+            <a href="nafs.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="nafs.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <i style="font-size:24px" class="fa"></i> zayn123@duck.com | <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+</html>
