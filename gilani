@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="Insights from Al-Gilani’s Futuh al-Ghaib on faith, worship, and spiritual surrender.">
+<meta name="keywords" content="Al-Gilani, Futuh al-Ghaib, Islam, Tawhid, Fana, Worship">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Al-Gilani: Insights from Futuh al-Ghaib">
+<meta property="og:description" content="Lessons for a believer from Al-Gilani’s teachings.">
+
+
+<meta property="og:image" content="https://iili.io/Kd4UQz7.md.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/al-gilani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Islam, Nihilism and Moral Guidance - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">
+
+<h2>Al-Gilani: Insights from Futuh al-Ghaib</h2>
+
+<p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content"><p>Assalamu Alykum, I have recently read the Work of Sheikh Abd al-Qadir Gilani, Futuh al-Ghaib, so I am sharing my insights with you about his teachings in it.</p><p>According to <em>Abd al-Qadir al-Gilani</em>, a believer's path involves obedience to God's commandments, avoidance of prohibited actions, and contentment with divine providence.</p> <p>He should <em>Uphold the unity of God</em>, don't hesitate to ask Him, and don't be afraid to petition his Creator.</p> <p><em>Al-Gilani</em> says, when faced with trials, a believer initially tries to resolve them through personal effort, then may seek help from others, but ultimately turns to their Creator. Through devoted worship, they attain a state of spiritual absorption, where their focus is solely on God. At this stage, they realize the true reality of their Lord, free from associating others as partners or seeking help from anyone else.</p> <p>He advises to not look at those in control of the world who love it, as <em>Allah</em> says in Qur'an:</p> <ul> <li>"When his Lord ordered him, “Submit ˹to My Will˺,” he responded, “I submit to the Lord of all worlds.” (Q 2:131)</li> </ul> <p><em>Al-Gilani</em> then explains the concept of <em>Fana</em> (self-annihilation) by <em>Hadith of Abu Hurayrah</em> (may Allah be pleased with him), who said that the Messenger of Allah (ﷺ) said:</p> <blockquote> <p>Allah (mighty and sublime be He) said: <br> Whosoever shows enmity to someone devoted to Me, I shall be at war with him. My servant draws not near to Me with anything more loved by Me than the religious duties I have enjoined upon him, and My servant continues to draw near to Me with supererogatory works so that I shall love him. When I love him I am his hearing with which he hears, his seeing with which he sees, his hand with which he strikes and his foot with which he walks. Were he to ask [something] of Me, I would surely give it to him, and were he to ask Me for refuge, I would surely grant him it. I do not hesitate about anything as much as I hesitate about [seizing] the soul of My faithful servant: he hates death and I hate hurting him." (Hadith Qudsi 40:20)</p> </blockquote> <p><em>Al-Gilani</em> says, the sign of vanishing desire is that you have no other object believed other than <em>Allah and His Messenger</em>.</p> <p>According to him, the stage described in this Hadith Qudsi is the actual <em>Fana</em>, where the individual's identity and will become completely aligned with revelation and its laws.</p> <p>He advises, <em>"Do not do anything which will make God angry because in this sense you will become a polytheist."</em></p> <p><em>Abd al-Qadir al-Gilani</em> states that polytheism isn't just about worshipping other deities, but also includes prioritizing one's own desires and fleshly wants over Allah's commandments.</p> <p>He uses the example of <em>abrogated verses</em> (verses which were replaced by other better verses during revelation) in the Qur'an to explain the temporary nature of worldly life.</p>
+
+<p>He draws a parallel between the replacement of abrogated verses with better ones and the idea that the <em>hereafter</em> is a better substitute for the temporary world.</p> <p>He then explains the importance of frequent remembrance of <em>Allah</em>, noting that a true believer follows our Prophet who remembered <em>Allah S.W.T</em> numerous times a day.</p> <p>He again draws a parallel between <em>Prophet Adam's</em> seeking of forgiveness and the believer's practice of repentance. Just as Adam (peace be upon him) sought forgiveness for his mistake, a believer should also turn to <em>Allah</em> in repentance when they commit sins.</p> <p>He quotes the Qur'an to explain the same point:</p> <ul> <li>"Do not let your eyes crave what We have allowed some of the disbelievers to enjoy; the ˹fleeting˺ splendour of this worldly life, which We test them with. But your Lord’s provision ˹in the Hereafter˺ is far better and more lasting." (Q 20:131)</li> </ul> <p>He states that one should accept and be content with one's circumstances. If something is not meant for you, striving for it can be futile, and may lead to:</p> <ul> <li>Loss of spiritual value</li> <li>Worldly failure</li> <li>Failure in the hereafter</li> </ul> <p>He says that those who follow not their desires, become friends of <em>Allah (Auliya')</em>, and Allah manifests on them His:</p> <ul> <li><em>Jalal</em> (Majesty): Inner fear or disquiet when they think of disobedience</li> <li><em>Jamal</em> (Beauty): Soft elegance, beauty experienced during worship and devotion</li> </ul> <p>He refers to the Qur'anic concept of the universe's creation, where <em>Allah</em> commands the world to come into existence, and it obeys willingly. Similarly, in the believer's journey, they surrender to <em>Allah's</em> will and obey commands willingly.</p> <p>Abd al-Qadir al-Gilani advises against following extremist views, such as:</p> <ul> <li><em>Jabri</em> (Determinism): Believing everything is predestined without human effort</li> <li><em>Qadriya</em> (Free Will): Believing humans have complete control without God's decree</li> </ul> <p>Instead, he recommends a balanced approach:</p> <ul> <li><em>Allah</em> is the creator of actions</li> <li>Humans make effort and are responsible for their actions</li> </ul>
+
+<p>He further suggests:</p> <ul> <li>Avoiding actions without clear divine guidance (<em>Qur'an</em> & <em>Sunnah</em>)</li> <li>Refraining from things not explicitly declared <em>halal</em> (permissible) or <em>haram</em> (forbidden)</li> <li>Accepting circumstances beyond one's control as part of <em>Allah's</em> plan</li> </ul> <p>He advises on managing desires, suggesting that when faced with unfulfilled desires, e.g., for marriage but lacking resources, time, or circumstances, one should:</p> <ol> <li>Remember <em>Allah</em>, acknowledging Him as the creator of these desires</li> <li>Trust that <em>Allah</em> can either: <ul> <li>Facilitate the means for it (e.g., marriage)</li> <li>Remove the desire if it's not in one's best interest</li> </ul> </li> </ol> <p>And <em>Allah</em> says:</p> <blockquote> <p>"And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.'" (Q 14:7)</p> </blockquote> <p>So, a believer should uphold gratitude and seek the favor of their Lord.</p> <p>He further advises based on the Qur'an to Messenger (S.A.W):</p> <blockquote> <p>"Say ˹O Prophet, that Allah says˺, “O My servants who believe! Be mindful of your Lord. Those who do good in this world will have a good reward. And Allah’s earth is spacious. Only those who endure patiently will be given their reward without limit.”"</p> </blockquote> <p>Abd al-Qadir al-Gilani explains how <em>Allah</em> tests believers through wealth, which He grants as a reward, to see if they will prioritize their spiritual connection. If they become distracted, <em>Allah</em> may withdraw wealth or health, causing discomfort, until they return to their Lord.</p> <p>The evidence is what <em>Allah</em> states in the Qur'an:</p> <blockquote> <p>"We will certainly test you ˹believers˺ until We prove those of you who ˹truly˺ struggle ˹in Allah’s cause˺ and remain steadfast, and reveal how you conduct yourselves." (Q 47:31)</p> </blockquote> <p>Al-Gilani suggests that trials and calamities serve as tests to:</p> <ul> <li>Reveal one's true character and faith</li> <li>Purify the individual</li> <li>Help them discover their genuine priorities</li> </ul> <p>Then he advises believers that when facing challenges in following <em>Allah's commands</em>, one should:</p> <ol> <li>Turn to <em>Allah</em> in repentance</li> <li>Seek forgiveness for shortcomings</li> <li>Ask for guidance to navigate difficulties</li> </ol> <p>Abd al-Qadir al-Gilani also emphasizes:</p> <ul> <li><strong>Promptness in obedience</strong>: Quickly following <em>Allah's</em> commandments</li> <li><strong>Caution in temptation</strong>: Hesitating or being lazy when faced with trials or Satan's whispers, to avoid sinful actions</li> </ul> <p>He shares a dream where he advised people to:</p> <ul> <li><strong>Stand firm in truth</strong>: Without seeking validation or praise from others</li> <li><strong>Avoid seeking from others</strong>: Not even thinking about asking, to prevent dependence</li> <li><strong>Maintain independence</strong>: Keeping oneself aloof from people's desires and expectations</li> <li><strong>Worship Allah alone</strong>: Recognizing His eternal and unchanging nature, unlike humans who can rise or fall</li> <li><strong>Self-sufficiency</strong>: Relying on oneself and <em>Allah</em></li> <li><strong>Contentment</strong>: Being satisfied with what <em>Allah</em> has provided</li> <li><strong>Avoiding expectations</strong>: Not seeking gifts, praise, or recognition from others</li> </ul>
+
+<p>He says that Allah purifies the heart by removing worldly attachments, only Allah remains in the heart and deeds are done sincerely for him alone and the person reaches the state which Qur'an explains as, "And those who strive for Us – We will surely guide them to Our ways. And indeed, Allah is with the doers of good." (Q 29:69)</p> <p>He gives an analogy of the relationship between a Sheikh (spiritual guide) and a Murid (spiritual pupil) which is crucial for spiritual growth. The Sheikh provides guidance, wisdom, and support, helping the Murid: As the Murid grows spiritually, they become more self-sufficient and guided, eventually becoming a Sheikh themselves. Hence however hard one feel to avoid sins, eventually with pure intention and proper help from guiders, Allah removes away the sinful desires from us and thus make us controller of our Nafs.</p> <p>He then gives an example of a crucified man (someone in trouble) and God himself seeing that crucified man. This curcified man represents your worldly desire. You ask the people who are themselves crucified and you do not ask the king who has crucified them. If you would ask the crucified, you would win nothing, but if you ask the king, you wouldn't get crucified like that."</p> <p>He advises then,</p> <ul> <li>Gratitude over complaint: Focus on the blessings Allah has provided, which are countless.</li> <li>Humility: Avoid publicly sharing of your hardships.</li> <li>Patience: Endure trials with faith and know that it has a wisdom in it.</li> </ul> <p>And when you have been tried so much, do not get exhausted because know that the Lord who feeds is watching you and He is more nearer to you than them. So if He has not left them, how can He leave you?</p> <p>Al-Gilani says, that the more devoted a servant is, the more intense their tests and trials may be. As the matter of fact Allah tested his beloved Prophet at every stage of his life.</p> <p>He explains that the reason one should endure such test and trials is that Allah says that no heart has felt, no eyes have seen, and no ears have heard such as His heaven, and we should aspire to get that.</p> <p>He then says that no one should call someone a poor or penniless-man and that God has made him powerless. Instead, it can be that he has been removed from his worldly desires and Allah has manifested His blessings on him such that he is no longer a slave of desire.</p> <p>He advises desire not a beautiful wife but someone who would remain a frame to his Lord, would not turn away from Him and would not cause a calamity on you and would not move you away from Allah. Such is the beautiful wife. The actual beauty lies in her following of Islam and she would not be a trial for you.</p>
+
+<p>Again he gives an example of a tree, which he says, the good and evil arise from the same tree. So when you are near this tree, understand the difference between good and evil, understand the branches, so you do not eat from the evil tree, evil fruit of the same tree, and you are always eating the goodness. And when you are offered something which is mixed, that is the fruits of evil and good are mixed, do not eat it.</p> <p>And it is not good to be ignorant of the tree and move away from the tree which is guidance, so that you do not eat up the bitter fruits with the sweet fruits when you are away from it. And when you are offered anything as a blessing or a trial, and you are not able to differentiate.</p> <p>Al-Gilani explains the merciful nature of Allah in His statement 'And enter the heaven for which you did (good deeds).' (Q 16:32)</p> <p>While we have a clear statement from the Prophet (S.A.W) that when a Hadith A'isha R.A asked him, 'Even you won't be able to enter heaven without Allah's permission.' And he said, 'Yes, I would also not be able to enter.' So how merciful is your Lord that when you would enter His heaven, He would ascribe it to your deeds, which He Himself created.</p> <p>And his mercifulness when He revealed, "Why should Allah punish you if you are grateful and faithful? Allah is ever Appreciative, All-Knowing." (Q 4:147)</p> <p>Al-Gilani then reminds us to know that as you move towards your King, who is your Lord, be more cautious of Him looking at you, because He is now more interested in you. He will put more trials in your path to make you pure, as gold is purified in heat, similarly. So do not fall for any trap of Shaitan, as you become spiritual.</p> <p>He then tells about poverty leads only those to unbelief who lacks belief and true Iman as Qur'an says, "he who keeps his duty, He (Allah S.W.T) ordains a way out for him." (Q 65:2)</p> <p>And he advises to remember what Allah says to his Prophet (S.A.W), "Say ˹O Prophet, that Allah says˺, “O My servants who believe! Be mindful of your Lord. Those who do good in this world will have a good reward. And Allah’s earth is spacious. Only those who endure patiently will be given their reward without limit.”" (Q 39:10)</p>
+
+<p>Abd Al-Qadir then says that if you hate a person, find out about his actions through Quran and Sunnah. And if Allah and the Prophet hate that person, then be happy that you hate him. And if they don't hate him, then know that your hate is against him, and he is the creation of Allah, and you hate the creation of Allah, which is a form of hating the Creator.</p> <p>And when you complain that someone whom you love has departed away from you, either through separation or ultimate death, then know that Allah has created men and jinn for His own worship. And even if everything is away from you, He who is your Creator, who has created you, and to Him is your return, and it is Him for whom you are living in this world.</p> <p>And give guidance to others, because it is better for you than the sun rising if you give guidance to someone towards your Lord.</p> <p>Then he describes the a category of believer, the one who is silent, and Allah makes this for his salvation. He keeps silent and follows the saying of the Prophet, in which he said, 'Silence is salvation.' And thus, he does not take part in anything, but is himself guided or is distant from fitnah because of his silence.</p> <p>Then he describes another category of believer who is invited by Allah towards the knowledge of understanding of things, which He bestows upon him, through which he does not fall for any sort of trials in his future life and becomes an aspiration for others.</p>
+
+<p>Allah describes these believers as,</p> <ul> <li>For the first kind of believer: as Allah says in Quran 14:7, 'If ye are grateful, I will add more (favours) unto you...'</li> <li>For the next type of believer: as Allah says in Quran 47:7, 'O ye who believe! If ye will aid (the cause of) Allah, He will aid you...'</li> </ul> <p>Al-Gilani advises the path seeker that you should not complain about your Lord, because everything He does holds a meaning. And you should not complain about trials which are a part of Iman, because it's as if you're asking for the light of the sun in the duration of night, which is not possible. So, hope from Allah for a better recovery, rather than finding faults in your Lord's wisdom, who is the most sure, the Creator without any fault.</p> <p>And do not blame Him if He delays the acceptance of your prayer, because if you have not gained something through that, then you have not lost it also. He has added them to your afterlife account, which is more accountable and more holdable for you, and more important for you than this present life.</p> <p>And He (Al-Gilani) gives advise for the person who is in need that either he should not ask for his need if he does not have the courage to withhold the delays which Allah puts down as a trial, so that he does not fall into the trap of disobeying his Lord. Or he should supplicate to his Lord, who has promised that if you supplicate Me, I will surely return your call, and wait for His blessings to come upon himself.</p> <p>He then says that every king has a protected land, and the protected land of Allah is His forbidden things. So avoid anything excessive, as you don't know that what comes under halal may also make you away from your Lord.</p>
+
+<p>And try to make your afterlife your capital and this life, that is the worldly life, as profit. And do not make this life your capital and the afterlife your profit. Because you don't know if you will get profit, but you know that you will get a capital in return if you do good deeds.</p> <p>Thus, the afterlife and this life are like co-wives; if you love one more than the other, it will move away, as Allah says, "Of you were some desired this-world, and of you were some who desired the Hereafter" (Q 3:151).</p> <p>Thus Allah S.W.T says in Qur'an 59:7 - "Whatever the Messenger gives you, take it. And whatever he forbids you from, leave it. And fear Allah. Surely Allah is severe in punishment."</p> <p>Al-Gilani further advises the path-seeker that you should not envy your brother in faith regarding his success, his life, his wisdom, his money, and his children. As the Prophet said, "Envy eats up your good deeds as fire eats up the fuel." </p> <p>And know that the more one accumulates worldly gains, the harder it becomes for him to be accountable before his Lord in the Hereafter.</p> <p>Be sincere towards your duty to your Lord and do not take anything from your desires as your goal.</p> <p>And when you seek to be spiritual and try to discover Allah, make your separation from worldly desires—your organs, sight, and hearing—towards the world. Be like what Allah says in the Quran, "They (desires) are enemies to me, except the Lord of all worlds (Who is the only friend)" (Q 26:77).</p> <p>Al-Gilani again gives an example: think of God as a king who has appointed humans as governors. This human, once weak and insignificant in creation, was elevated to a position of power. But as a governor, he forgot the transient nature of this life and succumbed to pride, committing crimes that warranted accountability. When the King called him to account, he was humbled. Yet, after a brief period, the King showed mercy and released him. Stripped of his former grandeur, the governor returned to his humble state, this time approaching his Lord with a spiritual heart, having gained a profound understanding of his true nature.</p>
+
+<p>This is what Allah tests a believer with, as Allah tested His prophet Ayyub (peace be upon him), but Ayyub (AS) did not commit any sin — it was a trial for him. Allah's test involved loss of wealth, position, children, and health, but soon He returned to him and blessed him with mercy — Qur'an 38:42.</p> <p>Al-Gilani describes that the spirit of man can be in a condition of either happiness or sadness. When he is in sadness, he often objects to the trials of his Lord, commits sins, and openly takes partners against Allah, thus becoming dissolute and rejected by his Lord.</p> <p>So whoever desires safety in this world should cheerfully submit and accept the way of patience toward trials, not objecting to his Lord's command, which is the only way to show true submission to Allah.</p> <p>Al-Gilani then explains that whoever asks humans for his needs is surely ignorant of his God and has weak Iman. One should not be overly optimistic towards worldly desires nor wish for the fulfillment of all desires, for true reliance is on Allah, who knows best what is good for His servants.</p> <p>He describes the servant of Allah as a laborer who does hard work, tastes bitterness, toils, and then receives his daily wages. A believer should be like him — performing actions and good deeds, and being rewarded accordingly. He should not become overly attached to worldly life, lest he forgets his creation, the Hereafter, and the accountability that awaits him, risking to get lost in worldly desires.</p> <p>And above all, he must remain thankful to the Giver, recognizing that every need is fulfilled by his Lord, and every blessing is a gift from Him.</p>
+
+<p>He then says: Trials come as a punishment from Allah (SWT) for any sin or to purify you, and if you are purified, He selects you among His special friends. The indication of a trial by way of punishment is that he complains about it to other people. And the indication of a trial by way of purification is that he remains patient and does not complain about it to anyone. And the indication for a trial for the exaltation of rank is that the presence of pleasure and tranquility is held by the person.</p> <p>[Qadir al-Gilani here also says that when someone reaches such spiritual level, earning becomes hard for him and so he is forced to beg and it becomes his necessity — which is a wrong assumption in my sense, may Allah have mercy on him.]</p> <p>He then said that the process of coming close to your Lord starts with pity (or compassion) and ends with surrendering your whole self to your Lord. And that one should first complete obligatory prayers, and then move on to Sunnah and nafl (voluntary) prayers. And that the one who looks for a return on his actions is insincere to our teachings.</p> <p>He then says that no one can have what Allah has possessed. No one can bring you calamity or make you ill, or cure you from that illness, or remove that calamity. It is only Allah who can do that.</p> <p>According to Al-Gilani, a believer scrutinizes (tries to be cautious) and doesn't accept very easily what Allah has given them. That's because a believer fears that the permissibility of the item might be questionable. And that the major jihad is against your own soul, against the evils of Shaytan, and against your desperation. Specifically, when prayers are not accepted, one should not turn against Allah.</p> <p>The best thing for you here is to ascribe all your achievements to your Lord, make Him your Helper, and be one who follows His command. Pray for forgiveness for your past and future sins.</p> <p>His final advise is that a person should look at the creation and understand the Creator, and understand that the creation is not just a mere act without any purpose.</p>
+
+<p>Al-Gilani explains that the right tasawwuf is based on eight qualities, each of which was exemplified in the life of the Prophets:</p> <ol> <li>Generosity like that of Prophet Abraham.</li> <li>Cheerful submission like that of Prophet Isaac.</li> <li>Patience like that of Prophet Jacob.</li> <li>Prayer like that of Prophet Zachariah.</li> <li>Poverty like that of Prophet John.</li> <li>Wearing of woollen dress like that of Prophet Moses and Yahya.</li> <li>Traveling about like that of Prophet Jesus.</li> <li>Religious poverty like that of Prophet Muhammad (S.A.W).</li> </ol> <p>He advises avoiding excessive swearing by Allah, as it can sometimes lead to careless usage. One should avoid speaking untruthful things, whether seriously or jokingly. Care should be taken when making a promise—to fulfill it and not break it. Additionally, one should not curse any of Allah's creation or pray for harm or doom upon anyone. Harmful actions such as intimidating or harming a Muslim should be refrained from. Furthermore, one should avoid looking at anything that is wrong, whether in public or private, and refrain from committing any sinful acts.</p> <p>He emphasizes avoiding burdening people, whether with small or big tasks, and to refrain from having expectations from others or being tempted by what they possess. Making humility a part of life is also encouraged, as it helps in elevating the rank of the believer. By embodying these qualities, the believer is protected from calamities and becomes beloved to Allah.</p> <p>I hope I was able to explain Al-Gilani's work in the best possible manner. Still, may Allah forgive us any mistakes that may have occurred in understanding the Ustad's work — <em>Futuh al-Ghaib</em> [The Revelations of the Unseen]. And may He guide us on the straight path.</p> <p>Allah-Hafiz!</p>
+ <div class="navigation">
+            <a href="nihilism.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+</html>
