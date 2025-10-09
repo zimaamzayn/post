@@ -16,33 +16,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-/* --- UPDATED STYLES FOR READING TIME (Mobile-Friendly) --- */
-/* Make the header a reference point for absolute positioning */
-.article-header {
-    position: relative; /* Essential for absolute positioning of children */
-    text-align: center; /* Keep header content centered initially */
-    margin-bottom: 20px;
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
 }
 
-/* Style and position the read time container absolutely */
+/* Style the read time container inside the flex container */
 .reading-time-container {
-    position: absolute; /* Position relative to .article-header */
-    right: 20px; /* Distance from the right edge of .article-header */
-    top: 50%; /* Vertical centering */
-    transform: translateY(-50%); /* Vertical centering */
-    display: flex; /* Align icon and text */
-    align-items: center; /* Vertically center items within the container */
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
     font-size: 0.9em; /* Smaller text size */
     color: #555; /* Muted color */
-    z-index: 1; /* Ensure it's above other content if needed */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
 }
 
 /* Add a small space between the clock icon and the time text */
 .reading-time-container i {
     margin-right: 5px;
 }
-/* --- END UPDATED STYLES --- */
+/* --- END NEW STYLES --- */
 </style>
 
 <script>
@@ -80,7 +78,7 @@ function displayReadingTime() {
     }
 }
 
-// Function to insert the read time element into the DOM after the author info
+// Function to insert the read time element into the DOM inside the author info
 function insertReadingTimeElement() {
     const authorInfoElement = document.querySelector('.author-info');
     if (authorInfoElement) {
@@ -101,8 +99,8 @@ function insertReadingTimeElement() {
         readTimeContainer.appendChild(clockIcon);
         readTimeContainer.appendChild(timeSpan);
 
-        // Insert the container after the author info element
-        authorInfoElement.parentNode.insertBefore(readTimeContainer, authorInfoElement.nextSibling);
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
     }
 }
 
