@@ -18,14 +18,23 @@
      <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-/* --- NEW STYLES FOR READING TIME --- */
-/* Style for the container holding the clock icon and time */
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
 .reading-time-container {
-    display: inline-block; /* Behave like an inline element */
-    float: right;          /* Push to the extreme right within its container */
-    font-size: 0.9em;     /* Smaller text size */
-    color: #555;          /* Muted color */
-    line-height: 1.2;     /* Adjust line height if needed */
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
 }
 
 /* Add a small space between the clock icon and the time text */
@@ -47,7 +56,7 @@ function calculateReadingTime() {
     const text = contentElement.innerText || contentElement.textContent || '';
 
     // Average words per minute reading speed
-    const wordsPerMinute = 250;
+    const wordsPerMinute = 200;
 
     // Count words
     const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
@@ -70,7 +79,7 @@ function displayReadingTime() {
     }
 }
 
-// Function to insert the read time element into the DOM after the author info
+// Function to insert the read time element into the DOM inside the author info
 function insertReadingTimeElement() {
     const authorInfoElement = document.querySelector('.author-info');
     if (authorInfoElement) {
@@ -91,8 +100,8 @@ function insertReadingTimeElement() {
         readTimeContainer.appendChild(clockIcon);
         readTimeContainer.appendChild(timeSpan);
 
-        // Insert the container after the author info element
-        authorInfoElement.parentNode.insertBefore(readTimeContainer, authorInfoElement.nextSibling);
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
     }
 }
 
