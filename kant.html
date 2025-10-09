@@ -15,6 +15,102 @@
      <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 200;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+
+    <style>
         /* Disable text selection */
         body {
             user-select: none;
