@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="A detailed explaination of sprituial journey of al-Wāsiṭī.">
+<meta name="keywords" content="Suluk, al-Wāsiṭī, Journey, Sprituial, Aqeedah, Sufism">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Suluk: The Sprituial Journey">
+<meta property="og:description" content="A detailed explaination of sprituial journey of al-Wāsiṭī.">
+<meta property="og:image" content="suluk.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/suluk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Suluk: The Sprituial Journey - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">
+<h3>Suluk: The Sprituial Journey</h3>
+
+<p><em>He who traveled during the darkness of night,<br>
+The stars he observed, his lamp he ignited<br>
+Until when guided by the moon’s light,<br>
+He looked for the morning and left the stars behind<br>
+Until when the darkness completely expired<br>
+He saw from the horizon: morning’s come in sight<br>
+So lamps, stars, and moon, all he left behind<br>
+While he waited for the radiance to shine.</em><br>
+Poem on sulūk by ʿImād al-Dīn Aḥmad al-Wāsiṭī (ʿUmdat al-ṭullāb, p. 213)</p>
+
+<p>Assalamu Alykum. This article is continuation in series of articles on rightful sufism - importantly this article will establish the lasting foundation for us for suluk, which for me has eventually replaced sufism and is similar to Zuhud.</p>
+
+<p>Here we must address briefly how al-Wāsiṭī conceptualizes Sufism. For besides the fact that he only rarely uses the terms ‘taṣawwuf’ or ‘ṣūfī. Most often he names the discipline he is concerned with ‘al-sulūk,’ which may be rendered as the spiritual way, or path towards God, treaded by the sālik, the spiritual traveler. He understands sulūk as the effort to progress on the spiritual way by applying the method of the Prophetic way, with the goal to arrive unto God spiritually. This new naming by him was eventually an effort to move away from word Sufism associated with Bida'h. Simialr to use of word Zuhud for Sufism in Hanabalis.</p>
+
+<p>Also the term appears in Qur'an, most fittingly in verse 69 of Sūrat al-Naḥl, where Allah enjoins the bees to “… travel the paths of your Lord” (fa-ʾslukī subula rabbiki). When we look at al-Wāsiṭī’s writings, one quickly notices that, like his Ḥanbalī shaykh, he mostly relies on the Qur’an and the ḥadīth and hence might be he preferred this term.</p>
+
+<p>But, on rare occasions, he does not shy away from extolling the Sufis as the folk of God (ahl Allāh) so he still believed that some Sufis were right.</p>
+
+<h3>The Muḥammadan Way (al-Tarīqa al-Muḥammadiyya)</h3>
+
+<p>What we come to know about sulūk of al-Wāsiṭī is from his description of it as the way of Muhammad. From the perspective of our Iraqi Sufi, true Sufism was nothing other than the pure inward dimension – the bāṭin – of the Prophet Muḥammad’s Sunna. He sometimes conceptualizes his method of sulūk as the Muḥammadan way (alṭarīqa al-Muḥammadiyya), and few other names. (Qāʿida fī bayān ʿamal yawm wa-layla li-al-abrār, p. 27)</p>
+
+<p>It's naming as a Sufi concept has a much longer history which was already been established by Vincent J. Cornell, who thought to have found “the apparent originator of the term” in ʿAbd Allāh al-Ghazwānī (d. 935/1528–1529), a Moroccan Sufi shaykh of the Jazūliyya order. (Realm of the Saint, p. 219)</p>
+
+<p>Ibn Taymiyya adopts it in two treatises as something of an umbrella term for the entirety of the traditionalist path towards God. First in a letter to the Sufi shaykh al-Manbijī, referring to the ṭarīqa Muḥammadiyya as the sound religious path that maintains a perfect equilibrium between the law and the spiritual (Majmu Fatawa, vol. 2, p. 452). Next he referred it when he refuted al-Ghazali's claim that Sufism is the only way out - he said, “he [alGhazālī] was not aware of the path of the Ahl al-Sunna wa-al-Ḥadīth from among the knowers [of God] (ʿārifīn) and thus makes no mention of it, even though this is the pure Muḥammadan way (al-ṭarīqa al-muḥammadiyya almaḥḍa)…” (MF vol. 2, p. 57)</p>
+
+<p>Al-Wāsiṭī ended his autobiography by saying the best way to reach God is by combining the theological teachings of traditional Islam with the spiritual practices of the Shādhiliyya Sufi order. His journey continues in a later work, Precept on the Ways to Exercise Devotion to God, where he reflects on the differences between Sufi experiences and traditionalist beliefs.</p>
+
+<p>He noticed that the spiritual "tastes" of the Sufis he had followed didn’t align with the core beliefs of the traditionalists he now admired. For example, traditionalists emphasize God's greatness and His position above the Throne, which he found spiritually uplifting and in harmony with the Qur’an. In contrast, when he immersed himself in the Sufi spiritual states, he felt a kind of inner tightness or discomfort during Qur’anic recitation.</p>
+
+<p>At first, he thought this discomfort was just part of the intense spiritual experience. But over time, he realized it happened when he focused on the spiritual presence (rūḥāniyya) of Sufi leaders instead of that of the Prophet Muhammad. He found that only through the traditionalist path could he truly connect to the Prophet’s spiritual presence, which brought clarity and light to his heart through studying the Prophet’s teachings, sayings (ḥadīth), and life (sīra).</p>
+
+<p>Still, he felt that the traditionalist approach lacked the deep closeness and warmth he had experienced with the Sufis. So, while he leaned toward traditionalism, he continued to value the emotional and spiritual depth he had found in Sufism.</p>
+
+<p>Referring to himself in the third person, he reflects upon this, "O dear God! Would that he knew that it is an incorrect view to hold that the Muḥammadan taste (al-dhawq al-Muḥammadī) is lacking until it is completed by this other taste [of the Sufi shaykhs]! On the contrary, the Muḥammadan taste is perfect and complete and, hence, all good that these [other] paths contain only branches from it, despite their deviation from it." (Qāʿida fī aṣnāf al-ta⁠ʾalluh, p.152)</p>
+
+<p>He spoke about his experience in the third person. When he did so, God opened a deep insight (baṣīra) within him, revealing a profound truth that only those with spiritual awareness could truly value. This insight was a divine inspiration (ilhām), a gift from God's mercy to a weak and troubled soul who had fallen into sadness.</p>
+
+<p>The inspiration was this: the spiritual essence (rūḥāniyya) of the Prophet Muhammad (peace be upon him) is directly connected to God. It is God's law, His path, the Book He revealed, and the spirit He gave to His Messenger. This rūḥāniyya is what God loves and is pleased with. It has no distance or difference from God—it reflects Him completely.</p>
+
+<p>When this truth settled deeply in his heart and soul, and he became certain of it, he realized something surprising. The state of close friendship with God—like that of Abraham and Muhammad—showed him that much of what he had once felt in his Sufi experiences was actually the opposite of what he had believed. (Qāʿida fī aṣnāf al-ta⁠ʾalluh, p. 153)</p>
+
+<p>Al-Wāsiṭī believed the final stage of the spiritual path is when God takes the seeker as His beloved. He saw the terms khalīl (close friend) and maḥbūb (beloved) as similar. A divine inspiration led him to connect his whole journey to the example of the Prophet Muhammad. He wanted to show that true Sufism should follow the Prophet directly, not just the teachings of other Sufi masters. His goal was to shape a form of Sufism that matched the strict, text-based approach of the Ahl al-Ḥadīth. So al-Wāsiṭī makes mention of the Abrahamic-Muḥammadan state of intimate friendship, ‘al-ḥāl al-Ibrāhīmī al-khalīlī al-Muḥammadī,’ which later in the same treatise he calls the only correct spiritual state relating that they were particularly significant in that God took both of them as His khalīl, or intimate friend.</p>
+
+<p>Next, we look at how he thought the Prophet should guide this path.</p>
+
+<h3>How to Practice the Muḥammadan Way</h3>
+
+<p>One of the first steps in the Muḥammadan way that is repeatedly mentioned throughout al-Wāsiṭī’s works is that the sālik should take the Prophet as his shaykh and stick to his guidance, inwardly and outwardly. (Umdat al-ṭullāb, p. 198)</p>
+
+<p>He believes many Sufis miss the deeper truths because they rely too much on their shaykhs and don’t seek the secrets of spiritual knowledge directly from the Sunna. They follow the Sunna outwardly, but turn to their teachers for inner truths. He uses a metaphor: the Prophet is like the pure source of a spring. If you don’t drink directly from him, you end up with water that’s been mixed with salt and dirt—far from its original purity. (Qāʿida mukhtaṣara, pg. 24)</p>
+
+<p>Al-Wāsiṭī taught that love for the Prophet should be the main reason for following him. He divided this love into two types:</p>
+
+<ul>
+<li><strong>Obligatory love</strong> means accepting the Prophet’s teachings, obeying God’s commands, and striving in God’s cause.</li>
+<li><strong>Commendable love</strong> means closely following the Prophet’s example, remembering him often, and feeling deep respect for him. (al-Sirr al-maṣūn, pg. 46)</li>
+</ul>
+
+<p>To strengthen this love, he advised reciting daily litanies (wird) that include many prayers for blessings upon the Prophet, especially during the last third of the night.</p>
+
+<p>Al-Wāsiṭī says that another way to show love for the Prophet is by gaining deep knowledge (maʿrifa) of him. Unlike the usual Sufi idea of maʿrifa as purely spiritual, he saw it as something built through study. The first step is learning as much as possible about the Prophet’s life and teachings—his biography (sīra), his actions, his miracles, and the hadiths.</p>
+
+<p>He believed that anyone who studies the Prophet’s life with an open and thoughtful mind will be convinced of his truth. Since belief in the Prophet is the foundation of faith, this kind of knowledge is essential for the seeker’s journey. That’s why al-Wāsiṭī himself wrote several books about the Prophet.</p>
+
+<p>Al-Wāsiṭī taught that by deeply studying the Prophet’s life and teachings, a seeker (sālik) can spiritually “meet” the Prophet. He said that if you truly seek faith and spiritual insight, imagine yourself living in pre-Islamic times and journeying to the Prophet to accept Islam. This journey happens through learning his biography (sīra), his practices (sunna), and the lives of his Companions. (Lawāmiʿ al-istirshād fī al-farq bayna al-tawḥīd wa-al-ittiḥād, pg. 94)</p>
+
+<p>He also said that this kind of knowledge (maʿrifa) lets you picture the Prophet in Medina, feel as if you’re with him, and see his days as if with your own eyes. (Qāʿida fī al-umūr allatī yanbaghī an takūn hamm al-sālik, pg. 193)</p>
+
+<p>Al-Wāsiṭī says that when a person truly loves the Prophet and lives by that love, they begin to receive spiritual truths from the light of Prophethood. Through inner vision (baṣīra), they recognize that all prophets share the same divine light. This leads to a deep spiritual bond (ittiḥād) with the Prophet, as if wearing his spiritual garment. (Qawāʿid al-nubuwwāt, p. 300)</p>
+
+<p>He believed this connection wasn’t symbolic—it was real. Even though the Prophet is no longer physically present, his spirit (rūḥ) still guides the seeker. So, the relationship is like that of a disciple with a living master, but on a spiritual level.</p>
+
+<blockquote>
+<p>And since the elite of the Companions (Sahaba) cannot possibly be surpassed by anyone after them, it is from what remains of their milk (riḍāʿihim) that those [who come after them] will have to be nurtured, and on them that they have to rely for the spiritual realities (al-ḥaqāʾiq). For they had a certain drink (sharābun) that they would take, of which there [still] remain drops that will quench the thirst of the people who follow them. (Lawāmiʿ al-istirshād, pg. 94)</p>
+</blockquote>
+
+<h3>The Role of the Shaykh in the Muḥammadan Way</h3>
+
+<p>Al-Wāsiṭī often suggests that the Prophet alone can guide the seeker, but he also admits that beginners need a living teacher (ustādhun ʿārifun). Without proper guidance, novices may fall into harmful extremes—like excessive fasting—which can damage their spiritual progress. (Qāʿida fī tajrīd, pg. 254)</p>
+
+<p>Al-Wāsiṭī believed that only a shaykh who has completed the entire spiritual path is truly qualified to train seekers. This means the shaykh must have passed through all stages of sulūk—from spiritual intoxication (sukr) to clarity (ṣaḥw), from self-annihilation (fanāʾ) to lasting presence (baqāʾ), and reached a stable state (tamkīn). Such a guide is not self-made but chosen by God to lead others. (Mīzān al-shuyūkh, pg. 241)</p>
+
+<p>Al-Wāsiṭī sometimes described an ideal form of Sufism practiced in groups, guided by a qualified shaykh. In his writings on Muḥammadan faqr, he laid out rules of etiquette for seekers—not just toward their shaykh, but also toward each other. A murīd should treat fellow seekers with respect and humility, putting them before himself.</p>
+
+<p>However, if a murīd shows disrespect to the shaykh like speaking harshly or pointing out faults al-Wāsiṭī says they should no longer be part of the group. Such behavior breaks the spiritual refinement (laṭīfa al-qalbiyya) needed for divine connection, which only comes through love and reverence for the teacher. (Qāʿida mukhtaṣara, pg. 35)</p>
+
+<p>Al-Wāsiṭī taught that at a certain point in the seeker’s journey, the shaykh’s role fades, and the seeker connects directly with the Prophet. Early on, the seeker sees the Prophet through the spiritual lens of the shaykh. But once the seeker reaches the Muḥammadan state, he sees the Prophet from within himself. At this stage, he no longer needs intermediaries and receives a special love from the Prophet, with their spirits united.</p>
+
+<p>This passage shows al-Wāsiṭī’s view that the shaykh’s role is to guide the seeker until he can spiritually connect with the Prophet on his own. (Qāʿida fī al-ḥubb fī Allāh ḥaqīqat, pg. 54)</p>
+
+<p>Although al-Wāsiṭī tried to balance traditionalism with Sufism, he sometimes leaned more toward Sufi ideas—especially in how he described connecting to the Prophet’s spirit (rūḥāniyya) and group-based Sufi practice led by a fully trained master.</p>
+
+<p>As a respected Sufi teacher in the Taymiyyan circle, it seems his teachings were accepted, showing that this form of Sufism was seen as normal within that circle.</p>
+
+<p>Al-Wāsiṭī taught that the shaykh helps the seeker (sālik) reach the Prophet, and the Prophet helps the seeker reach God. Through the Prophet, God made Himself known by revelation. So, knowing the Prophet deeply is the first step toward knowing God. Once the seeker understands the Prophet’s life and teachings, he can begin to understand God starting with the Qur’an and continuing through the ḥadīth. The path to knowing God follows the same method as knowing the Prophet: through careful study of sacred texts (nuṣūṣ).</p>
+
+<p>Al-Wāsiṭī hence explains that true knowledge of God (maʿrifa) comes from studying the Qur’an and the Sunna—not just from spiritual experiences. He warned that Sufism should be a tool to reach God, not the goal itself. Sufis must base their understanding on scripture. If someone treats Sufism as their main focus, they’ll only reach vague states. But if they use it to uncover spiritual truths from the Qur’an and hadith, they’ll be guided on the right path. For al-Wāsiṭī, the only complete way to know God is through how He describes Himself in revelation, which is the position of traditionalist circle. (See Miftāḥ al-maʿrifa wa-al-ʿibāda, pg. 259)</p>
+
+<h3>Affirmation versus Metaphorical Interpretation</h3>
+
+<p>The Ashʿarīs’ main criticism towards traditionalists who affirmed the apparent meanings of the above descriptions from the nuṣūṣ as attributes of God was that this inevitably leads to understanding them in an anthropomorphic sense (tashbīh) and likening God to His creation (tamthīl).</p>
+
+<p>According to the Ashʿarīs who made ta⁠ʾwīl, logic dictates that if God exists in an upward direction, seated on His Throne, He is necessarily confined and limited by space. Whenever such is the apparent meaning of statements from the holy texts, they believed that this requires a metaphorical interpretation so as to avoid the attribution of limitation to God.</p>
+
+<p>However, from Al-Wāsiṭī's understanding as a traditionalist, there was an intrinsic fallacy to ta⁠ʾwīl in such cases. His argumentation is as follows: Whenever the Prophet intended a certain word or phrase from the revelation as a metaphor, this is either clear through the linguistic context of the wording, or because he explicitly added a statement indicating that a change of the apparent meaning to a metaphorical one is required.</p>
+
+<p>As an example, al-Wāsiṭī takes the following words from the Qur’an: “Are you not aware that God knows all that is in the heavens and all that is on earth? Never can there be a secret confabulation between three persons without His being the fourth of them …” [Q. 58:7]. Here, he says, it is clear that God is not with mankind with His essence, since the context of the verse indicates that it is rather God’s knowledge that is with them. In other words, al-Wāsiṭī’s ta⁠ʾwīl of this particular verse is that they cannot hide from God’s knowledge, for He is ever aware of what they do. For an example where ta⁠ʾwīl is not allowed, he refers to the earlier example of the Qur’anic words “My (two) hands” (yadayya). While we have noted that a branch of Ashʿarīs would interpret ‘hands’ as God’s creative power (qudra), al-Wāsiṭī contests that there is no indication that a metaphor is intended, because in the Arabic language the word ‘hand’ that bears the meaning of qudra does not come in pairs. In order for it to be taken metaphorically, it would had to have read the singular form yadī, ‘my hand,’ instead of the dual form yadayya, he says. ( Risālatuhu ilā al-shaykh, pp. 105–106)</p>
+
+<p>As for anthropomorphism, al-Wāsiṭī frequently states that all of God’s attributes ought to be affirmed in a way that befits His majesty and magnificence, without imagining them to be in any way similar to those of His creation (bi-lā tamthīl) or in an anthropomorphic sense (bi-lā tashbīh), and without inquiring into their modality (bi-lā takyīf). (Risāla fī ithbāt, p. 44)</p>
+
+<p>Furthermore, al-Wāsiṭī points to the fact that the Ashʿarīs do affirm seven basic attributes of God, namely, life (ḥayāt), hearing (samʿ), sight (baṣr), knowledge (ʿilm), power (qudra), express will (irāda), and speech (kalām). Which are similar attributes like creature. If the Ashʿarīs reply that the seven attributes are certainly not accidents but apply to God in a way that befits Him, al-Wāsiṭī replies that, likewise, God’s sitting on the Throne applies to God without limitation (ḥaṣr) but in a way that befits Him. (Risāla fī ithbāt, p. 45)</p>
+
+<h3>The Importance of Allah's Elevation</h3>
+
+<p>Al-Wāsiṭī emphasized that knowing God’s attributes especially His elevation and position above creation is key to spiritual knowledge (maʿrifa). He saw this belief as the foundation for the seeker’s journey. Though some may hesitate, fearing it limits God’s transcendence, al-Wāsiṭī argued that both scripture and reason support it. For him, affirming these attributes is essential for progressing on the spiritual path. (al-Sirr al-maṣūn, p. 55)</p>
+
+<p>For God's Elevation and Aboveness The Qur’anic references given by al-Wāsiṭī are: Q. 3:55, 4:158, 6:18, 16:50 & 102, 35:10, 40:36–37, 67:16-17, 70:3–4, and 87:1.</p>
+
+<p>The Qur’anic references to istiwāʾ (sitting on throne) are: Q. 10:3 and 20:5.</p>
+
+<p>As for proofs from the ḥadīth he often refers to a report popular among traditionalists, wherein the Prophet asks a slave girl where God is, to which she replies that He is in heaven (fī al-samāʾ) while pointing towards the sky. The Prophet then validated her answer and rejected none of it, al-Wāsiṭī adds.</p>
+
+<p>His argumentation also draws from the well-known heavenly journey, the miʿrāj, during which the Prophet ascended through the seven heavenly spheres until he reached a distance of two bows or less from God. This, too, is in his eyes a clear confirmation that God exists over His creation. (ʿUmdat al-ṭullāb, p. 205)</p>
+
+<p>Wāsiṭī also deploys logic to defend his position against the accusation of attributing limitation to God. This approach was perhaps inspired by his master, Ibn Taymiyya.</p>
+
+<p>Al-Wāsiṭī addressed the tension between God’s transcendence and His attributes like elevation and sitting. He made clear that it’s wrong to think God is limited by space or direction. God existed before creation, before boundaries and directions, and nothing changes in His essence. As he put it: “He is now as He was.” (Risāla fī ithbāt, p. 41)</p>
+
+<p>We may recall that the words “He was and there was nothing with Him” were actually taught to al-Wāsiṭī as a fundamental spiritual maxim by his Shādhilī shaykh, Najm al-Dīn al-Iṣbahānī, in relation to the vanity of self-direction (tadbīr). Not basically similar to Taymiyaa's theological arguments - refer here.</p>
+
+<p>Al-Wāsiṭī says that when God willed to create beings who live in space and direction—up, down, left, right—He made them exist in a specific place (maḥall). Because of this, and because God is the majestic Lord, it was fitting that He be described as above His creation. This “above-ness” isn’t physical or spatial in the human sense, but is based on how created beings experience direction and time. It reflects the greatness of God in relation to His creation, not a limitation of His essence.</p>
+
+<p>So, when we speak of God as “above,” it’s not because He is in a location, but because that’s how created beings understand His majesty. Referring to Him by elevation (ʿuluw) is appropriate from the perspective of creation, not eternity.</p>
+
+<p>Al-Wāsiṭī also explains that God’s attribute of sitting (istiwāʾ) existed eternally (was always there for Him), but it only became known when the Throne was created—just like God’s attribute of reckoning (ḥisāb) is eternal, but will only be revealed in the Afterlife. These attributes are timeless in God’s essence, but their effects appear in time. (Risāla fī ithbāt, pp. 40–41)</p>
+
+<p>Al-Wāsiṭī teaches that creation exists in a “downward” direction because it is bound by space and time. In contrast, God is above creation—not physically, but in majesty and authority. He remains completely free from boundaries or direction, just as He was before anything was created.</p>
+
+<p>To help us understand God’s greatness, Al-Wāsiṭī refers to the Qur’anic verse [Q. 10:3], which says God created the heavens and the earth and then sat on the Throne, directing all affairs. Since humans can’t grasp the idea of being beyond direction (ghayr-jihāt), we speak of God using fawqiyya—“aboveness”—as the highest and most fitting way to describe His relation to creation.</p>
+
+<p>He then adds, when the sālik understands this, he will know that there is no anthropomorphism in affirming fawqiyya and istiwāʾ: “Whoever verifies this in his creed firstly, then in his spiritual taste (dhawq) and unveiling (kashf) secondly, his heart will be freed from the resemblance [it has] to attributing limitation [to God] and the discomfort experienced at referring to the direction [of aboveness].” (Risālatuhu ilā al-shaykh al-Maghribī, p. 109)</p>
+
+<p>Al-Wāsiṭī says that God truly exists in a state of aboveness, seated on the Throne—but not in a physical or spatial way like created things. He adds that there’s a boundary where creation ends and God’s unique, directionless existence begins. This boundary marks the separation between the created world and God’s essence.</p>
+
+<p>His own words are, “[God] is bounded by a boundary (ḥadd) that distinguishes His magnificence and essence (dhāt) from all that He created.” (Risāla fī ithbāt, p. 41) - this does not means He S.W.T is limited but rather, it is not his majesty and He is never part of creation or confined by it He remains completely separate (bāʾin), unlike anything within space or time.</p>
+
+<p>Al-Wāsiṭī calls this difference the distinction between being inside the world (dākhil al-ʿālam) and outside it (khārij al-ʿālam). For humans, reaching this “outside” would mean ascending through the seven heavens to the Throne, which marks the edge of creation. Beyond that lies a reality so vast and mysterious that neither reason nor imagination can grasp it—where God exists in His pure essence.</p>
+
+<p>I can relate this to the fact that Allah S.W.T will never come on earth, and on similar reason it is not of his majesty to be like created things, the limit which our minds perceive is due to our own lackings in knowning unseen.</p>
+
+<p>Al-Wāsiṭī concludes that the spiritually truthful ones (al-ṣādiqīn) focus their hearts on knowing that God is above all things. This belief becomes their heart’s qibla (the spiritual direction) they turn to when seeking God in other Ibadah (eg: reciting Qur'an) just like the Kaʿba is the physical qibla in ritual prayer.</p>
+
+<p>When a seeker (al-ṭālib al-murīd) truly understands this, the Throne of God becomes the center of his heart’s orientation. From this elevated place (al-maḥall al-ʿulwī), divine blessings and spiritual openings (futūḥāt) descend upon him, by God’s will. (Miftāḥ al-maʿrifa, pp. 261–262)</p>
+
+<h3>Refuting the Deviations of Sufis</h3>
+
+<p>We know that, Al-Wāsiṭī’s critiques of Sufism were based on his personal experiences. He strongly opposed samāʿ (Sufi audition), especially as practiced by the Rifāʿī order. He also rejected the influence of philosophy and kalām (Islamic theology) on Sufism. Notably, he criticized Abū al-Ḥasan al-Shādhilī, founder of the Shādhiliyya order, in a rare but sharp instance. His harshest criticism, however, was directed at Ibn ʿArabī and his followers, whom he saw as the most dangerous Sufi group of his time.</p>
+
+<p>Al-Wāsiṭī was deeply critical of samāʿ the Sufi practice of spiritual audition especially as performed by the Rifāʿī order in Wāsiṭ. He condemned their practices, which included dancing, mixed gatherings of men and women, and even eating live snakes, viewing them as serious deviations from true Sufism. He believed that if early Islamic leaders witnessed such acts, they would have called for repentance or even fought against them.</p>
+
+<p>Despite this strong stance, al-Wāsiṭī acknowledged that samāʿ could have some spiritual benefits, like calming the soul and removing depression. He also recognized that scholars and Sufis were divided on its permissibility some accepted it, others rejected it, and some changed their views over time.</p>
+
+<p>To clarify his position, he wrote a treatise titled al-Bulgha wa-al-iqnāʿ fī ḥall shubhat masʾalat al-samāʿ, aiming to show why samāʿ has no place in the pure Muḥammadan path of Sufism.</p>
+
+<p>His verdict is that the harm of samāʿ outweighs its benefit, and for this reason, it was never prescribed by the Prophet. He argues that if the practice of samāʿ truly led to greater virtue, spiritual elevation, or proximity to God, then the Prophet would not have withheld it from the community. Its absence from the Prophet’s teachings, he claims, is evidence of its lack of divine endorsement. He further emphasizes the need for vigilance against religious innovations, citing the Prophet’s warning: “Every newly invented thing is an innovation (bidʿa), every innovation is an error, and every error belongs in the hellfire.” This, he insists, is a clear directive to avoid practices not rooted in the original tradition. (al-Bulgha)</p>
+
+<p>Al-Wāsiṭī’s conception of sulūk i.e the spiritual path rests firmly on the belief that Islam, as taught by the Prophet, is complete and sufficient, requiring no additions beyond the revealed texts (nuṣūṣ). This foundational view shapes his rejection of ritual innovations, particularly the form of samāʿ that includes music, dancing, and drumming. Since such practices were absent from the lives of the Prophet and his Companions, al-Wāsiṭī sees no legitimate basis for their inclusion in spiritual life. (Mīzān al-shuyūkh, pg. 244)</p>
+
+<p>However, he does not dismiss samāʿ entirely. Instead, he distinguishes between two types: al-samāʿ al-isṭilāḥī, the technical term used in his time to refer to musical gatherings, and al-samāʿ al-mashrūʿ, the legitimate form sanctioned by revelation. The former, he argues, is tainted by shubha (doubt) and shahwa (worldly desire). The poetic references to divine love in such gatherings may stir spiritual feelings (naṣīb al-arwāḥ), but they are often entangled with carnal impulses (naṣīb al-nufūs), ultimately leading the practice away from God and toward the influence of the Devil.</p>
+
+<p>In contrast, al-samāʿ al-mashrūʿ—listening attentively to the Qur’an—is rooted in the covenant of the Prophet, the rightly guided caliphs, and the tābiʿīn (Followers). This form, al-Wāsiṭī asserts, is purely spiritual, untouched by the lower self or satanic influence. It exemplifies the kind of worship that aligns with the original, unaltered path of Islam and serves as the true vehicle for drawing near to God. (al-Bulgha)</p>
+
+<p>He then adds, "The realizers (muḥaqqiqūn) have verified that the taste of samāʿ conflicts with the taste of ritual prayer. Hence, anyone who is enraptured during the samāʿ iṣṭilāḥī and finds therein the perfection of his taste will not find the taste of Qur’anic recitation and ritual prayer. In all likelihood, the one who tastes samāʿ will never find the taste of ritual prayer, because there is a conflict between these two tastes that is known by those who know the distinguished taste of Islam." (al-Bulgha, f. 68b)</p>
+
+<p>He therefore considers it essential to listen attentively to the recitation of God’s verses and reflect on their meanings, as they are a gateway to intimate knowledge of Him (maʿrifa).</p>
+
+<p>Al-Wāsiṭī’s second major polemic targets what he perceives as the infiltration of foreign intellectual traditions into Islam, through the adoption of philosophical and theological sciences. Which introduced disciplines like logic (manṭiq) and speculative theology (kalām) into the Islamic tradition. For al-Wāsiṭī, this marks a deviation from the pure religion (al-sharīʿa al-khāliṣa).</p>
+
+<p>Prophets, he argues, were divinely inspired and thus capable of conveying absolute truths, whereas philosophers rely on fallible human intellect. Consequently, he views the integration of rational sciences into religious discourse as a corruption of Islam’s purity.</p>
+
+<p>He traces this intellectual shift to the third and fourth centuries after Hijra. In Talqīḥ al-asrār, al-Wāsiṭī identifies the reign of the ʿAbbāsid caliph al-Maʾmūn (r. 813–833 CE) as a pivotal moment of decline. Al-Maʾmūn’s infamous Miḥna - read about it here.</p>
+
+<p>Though al-Wāsiṭī never explicitly names the Ashʿarīs, his critique of kalām theology appears to be directed primarily at them. In Miftāḥ ṭarīq al-awliyāʾ, al-Wāsiṭī laments that true traditionalists had become a minority in his age.</p>
+
+<p>Al-Wāsiṭī’s critique of later Sufism is deeply rooted in his traditionalist theology, which draws a sharp line between the early Sufi masters whom he views as faithful adherents to the creed of the Salaf and the later generations, whom he accuses of having been compromised by kalām theology, particularly in its Ashʿarī form. He says that the earliest Sufis, such as al-Muḥāsibī, al-Tustarī, ʿAmr b. ʿUthmān al-Makkī, al-Junayd, and even al-Ḥakīm al-Tirmidhī, upheld the doctrine of God’s aboveness (ʿuluw), a hallmark of traditionalist belief. (Risālatuhu ilā al-shaykh al-Maghribī, pg. 108)</p>
+
+<p>From the later generations, he identifies only a few who remained aligned with traditionalist theology—namely ʿAbd Allāh al-Anṣārī and ʿAbd al-Qādir al-Jīlānī, both of whom were Ḥanbalī Sufis.</p>
+
+<p>Interestingly, while al-Wāsiṭī is vocally critical of the infiltration of kalām into Sufism, he rarely singles out individuals. One exception is Abū al-Qāsim al-Qushayrī, whom he accuses of clinging fanatically to the school of taʾwīl (figurative interpretation) and of denying divine directionality, an unmistakable jab at his Ashʿarī thoughts. Another target is the Shādhiliyya order, particularly its founder al-Shādhilī, whose work engages with philosophical sciences and invoking the concept of the “universal intellect” (al-ʿaql al-kullī) in his teachings. (Qāʿida fī aṣnāf al-ta⁠ʾalluh, p. 151)</p>
+
+<p>This reference to the universal intellect is especially telling, as it mirrors Ibn Taymiyya’s condemnation of the “active intellect” a concept rooted in Neoplatonic and Aristotelian philosophy. The overlap suggests that al-Wāsiṭī may have borrowed this line of critique directly from Ibn Taymiyya, reinforcing the idea that his Sufi traditionalism was deeply influenced by Taymiyyan thought. (See Dar' vol. 5 pg. 4)</p>
+
+<p>Al-Wāsiṭī’s most sustained and vehement polemical attacks are directed against Ibn ʿArabī and his followers, particularly those who follow the doctrine of waḥdat al-wujūd (unity of being). He authored at least three treatises dedicated solely to refuting the heretical elements in their teachings: Lawāmiʿ al-istirshād fī al-farq bayna al-tawḥīd wa-al-ittiḥād (“Flashes of Guidance to Differentiate Between Divine Unity and Monism”), Ashiʿʿat al-nuṣūṣ fī hatk astār al-Fuṣūṣ (“Rays of Statements to Expose ‘the Fuṣūṣ’”), and al-Bayān al-mufīd fī al-farq bayna al-ittiḥād wa-al-tawḥīd (“The Beneficial Elucidation on the Differentiation Between Monism and Divine Unity”).</p>
+
+<p>In these works and elsewhere, al-Wāsiṭī’s denunciation of Akbarian thought is uncompromising. He regards the doctrine of waḥdat al-wujūd not merely as a theological error but as a fundamental threat to Islam. His rhetoric is severe: he declares that those who adhere to Ibn ʿArabī’s metaphysics fall outside the fold of Islam and, in some instances, even prays for their eradication. This extreme stance underscores the depth of his concern over what he sees as the corruption of taṣawwuf by philosophical and pantheistic ideas.</p>
+
+<p>Al-Wāsiṭī’s polemic centers on Ibn ʿArabī’s Fuṣūṣ al-ḥikam, which he considers the definitive source of Akbarian doctrine. He insists that anyone seeking to understand Ibn ʿArabī’s true beliefs must consult this text, and it becomes the primary target of his refutations. In one particularly striking letter, he forbids the Muslim invocation “may God have mercy on him” when mentioning Ibn ʿArabī and other prominent figures associated with his school.</p>
+
+<p>Al-Wāsiṭī’s critique is not merely theological but also deeply personal and existential. He sees the Akbarian view as a distortion of divine transcendence, a blurring of the line between Creator and creation. His writings reflect anxiety about the infiltration of speculative metaphysics into Islamic spirituality, and his efforts to distance taṣawwuf from waḥdat al-wujūd are part of it.</p>
+
+<p>In Ashiʿʿat al-nuṣūṣ, al-Wāsiṭī explains that the Akbarians believe things only come into existence when God’s own being flows into fixed ideas or forms that don’t yet exist. These forms stay in non-existence until they are ready to receive God’s presence. When this happens, God’s names and qualities—like al-Razzāq (the Provider)—appear in the world. For example, someone who receives provision becomes al-marzūq, showing God’s name al-Razzāq. The Akbarians say God does this to know Himself by seeing His reflection in creation.</p>
+
+<p>Al-Wasiṭi disagrees, he says this idea suggests that creation has some power of its own, which limits God’s control. It also implies that God needs creation to show His names and qualities, making Him dependent which goes against the fact that God is eternal, complete, and needs nothing. In Islam, creation depends fully on God, not the other way around. It is in essence due to the Akbarians’ exaggeration in affirming God’s unity (al-tawḥīd) that they have ended up practicing what al-Wāsiṭī calls the worst form of polytheism. With this doctrine, al-Wāsiṭī says, it becomes possible to assert that worshipping idols is in reality no different from worshipping God, something Ibn ʿArabī himself actually dared to utter in the Fuṣūṣ, he points out. (Ashiʿʿat al-nuṣūṣ, pg. 67)</p>
+
+<p>What al-Wāsiṭī says as an example of the way Akbarians manipulate the Sufi concept of annihilation in God (fanāʾ), and render it into a spiritual state of intense awareness of the unity of existence. Hence the expression “glory be to me!” which is actually meant in glorification of God, in their eyes is the only true reality of existence. (Lawāʾiḥ min qawāʿid, pg. 127)</p>
+
+<p>He explains, however, that “this is not the fanāʾ of the lovers [of God] from the [true] Sufis (al-muḥibbīn min alṣūfiyya), who are annihilated through the One they love so that they become absent from their own ‘selves.’” (Risālatuhu ilā al-shaykh al-Maghribī, pg. 117)</p>
+
+<h3>Witnessing the Sulūk</h3>
+
+<p>Al-Wāsiṭī’s teachings on Sufism focus deeply on a spiritual path made up of stages called mashāhid (degrees of witnessing), which a seeker (sālik) must pass through to reach closeness and friendship with God. These stages represent the advanced levels of spiritual development (sulūk), built upon earlier foundations. In this part of his work, al-Wāsiṭī outlines how the seeker gradually ascends to witness God’s names and attributes, ultimately reaching the peak of the spiritual journey.</p>
+
+<p>His ideas here seem influenced by teachings he encountered during his travels, especially from Ibn Taymiyya and the Shādhiliyya order. By identifying these influences, we can better understand how al-Wāsiṭī shaped his own version of Sufism, especially in light of his life story and his connection to traditionalist scholars, including those in the Taymiyyan circle. This connection makes it important to explore how Ibn Taymiyya’s views may have shaped al-Wāsiṭī’s thought.</p>
+
+<p>Before diving into the stages of witnessing, al-Wāsiṭī begins with his view of human nature, his anthropology. He sees the human being as composed of multiple layers, and it’s within this structure that the spiritual journey unfolds. From this foundation, the seeker moves step by step through the degrees of witnessing, ending with the final stage where al-Wāsiṭī’s vision of spiritual fulfillment is realized.</p>
+
+<p>Al-Wāsiṭī emphasizes that a human being consists of five dimensions (aṭwār): the body (al-jism), the carnal soul (al-nafs), the intellect (al-ʿaql), the heart (al-qalb), and the spirit (al-rūḥ). He describes the human as one unified reality with both an outward and inward existence. The outward is the physical body, while the inward reality—called al-ḥaqīqa al-bāṭiniyya—includes the heart, intellect, carnal soul, and spirit. Though these are distinct attributes, they are animated by a single inner essence, referred to as al-insān al-bāṭin.</p>
+
+<p>Each attribute governs a specific domain of human experience. Love and spiritual affection (maʿnā rūḥānī) are driven by the spirit. Practical emotions like fear, hope, reliance, and determination (ṣifāt ʿamaliyya) are moved by the heart. Intellectual discernment—judging truth from falsehood, good from evil—is powered by the intellect and raʾy (judgment). Carnal desires such as hunger, sexual drive, anger, pride, and the pursuit of honor are stirred by the carnal soul. The body (al-tarkīb al-qālibī) represents the external frame, while the other four dimensions form the inner being, each with its own distinct motion.</p>
+
+<p>To attain spiritual perfection, al-Wāsiṭī outlines a sequential path for the sālik (spiritual traveler). First, the sālik must traverse the body by fulfilling outward religious obligations and guarding the seven body parts: eyes, ears, tongue, stomach, private parts, hands, and legs. Second, he must overcome the carnal soul by subduing worldly appetites, submitting to divine decree, and abandoning personal will. Third, he must engage the intellect by studying the Qur’an and Sunna to understand divine commands and prohibitions. Fourth, he must cultivate the heart by realizing its spiritual stations (maqāmāt), such as fear of God, hope, love, and trust. Fifth, he must stabilize the spirit through istiqāma (steadfastness) across all previous dimensions. Only by mastering each stage can the sālik progress and reach perfection in the spirit.</p>
+
+<p>This five-part progression echoes a similar structure found in the treatise of al-Shādhilī, which was later criticized by Ibn Taymiyya. Al-Shādhilī identifies three stations (manāzil): the carnal soul, the heart, and the spirit. The seeker begins by disciplining the nafs until he gains intimate knowledge of it, at which point divine lights begin to shine. Next, he must understand and control the heart. Once this is complete, he ascends to the final station - the spirit, where the highest spiritual realization occurs. (Madkhal ahl al-fiqh, pp. 46-48)</p>
+
+<p>Ibn Taymiyya responds to al-Shādhilī’s sequence of carnal soul, heart, and spirit by saying it’s just a matter of terminology, not based on revelation. He argues that these attributes can be righteous or corrupt and that no fixed order applies to every sālik. Al-Wāsiṭī disagrees, insisting on a set progression through five dimensions, with the spirit as the highest. His doctrine of witnessing directly contrasts with his Ḥanbalī master’s view. (al-Radd ʿalā al-Shādhilī, pg. 127)</p>
+
+<h3>After Theology</h3>
+
+<p>After grasping the divine names and attributes, al-Wāsiṭī teaches that the sālik must recite and reflect on the Qur’an as if hearing it directly from God. This opens the heart to tajalliyyāt—God’s self-manifestations through His attributes. Through this, the sālik begins to truly know God as He reveals Himself in the Qur’an and Sunna.</p>
+
+<p>God’s speech manifests in various forms—promise, threat, mercy, force, kindness, and severity. Each attribute evokes a unique spiritual taste (dhawq) and love (ḥubb). When all attributes appear together, their combined illumination fills the spirit, deepening the sālik’s maʿrifa. (al-Sirr al-maṣūn, pg. 58)</p>
+
+<p>Al-Wāsiṭī defines maʿrifa not as mystical unveiling (kashf), but as knowing God through His attributes. The more attributes the sālik understands, the more complete his status as a ʿārif. Each divine name is a gateway (ṭāqa or bāb) to deeper knowledge, and they are all interconnected. For example, knowing God as al-ʿAlīm (All-Knowing) implies knowledge of His life, will, and wisdom.</p>
+
+<p>The goal of this stage of sulūk is full acquaintance with every aspect of God’s Being. Al-Wāsiṭī insists that true servitude is incomplete unless it encompasses all divine names, attributes, and the majesty of God’s essence. (Miftāḥ al-maʿrifa, pg. 264)</p>
+
+<p>Al-Wāsiṭī explains though God is one in essence, His attributes are many, and each offers a distinct way for the sālik to know and love Him. True witnessing occurs when the realities (ḥaqāʾiq) of these attributes are unveiled and their spiritual tastes are experienced. Knowledge of God, in his view, must be accompanied by love—one cannot truly know God without loving Him.</p>
+
+<p>At this stage, the sālik becomes “al-muḥibb al-ʿārif al-dhāʾiq”: the lover who knows God through His names and has tasted their meanings. Yet al-Wāsiṭī’s account leaves open how these tastes are accessed (atleast for now). (Miftāḥ al-maʿrifa, pg. 264)</p>
+
+<p>In applying maʿrifa practically, al-Wāsiṭī draws heavily from Shādhilī teachings, especially the contrast between ʿubūdiyya (servitude) and rubūbiyya (lordship). He uses al-Shādhilī’s view that Sufism involves training the carnal soul to accept servitude and submit to divine rulings. For al-Wāsiṭī, the highest state of the servant is servitude and be content with God’s lordship. (See Ibn al-Ṣabbāgh's Durrat al-asrār, pg. 90)</p>
+
+<p>He explains that human and divine attributes are fundamentally opposite. Humans are marked by weakness and limitation; God by power and infinity. Al-Wāsiṭī cites a report about the Prophet David in that regard, according to which Allah (S.W.T) said to Dawood (ʿA): “O Dawood, you must know Me and you must know yourself.” He replied: “O Lord, I know myself by [the attributes of] weakness, feebleness, and finiteness, and I know You [by the attributes of] power, strength, and infinity!” (Mīzān al-ḥaqq, pp. 219–220)</p>
+
+<p>Al-Wāsiṭī advises the sālik to sit on the “carpet of truthfulness” (bisāṭ al-ṣidq) and reflect deeply on God’s majesty and lordship, while also contemplating his own limitations. This dual reflection helps the sālik remain grounded in servitude to Lord.</p>
+
+<p>This practice mirrors al-Shādhilī’s teaching too (Durrat al-asrār). Al-Wāsiṭī considers it essential to know all categories of divine names found in the nuṣūṣ:</p>
+
+<ul>
+<li><strong>Active attributes</strong> (ṣifāt fiʿliyya) like al-khallāq (Creator), al-wahhāb (Bestower), al-razzāq (Provider).</li>
+<li><strong>Circumstantial attributes</strong> (ṣifāt ḥāliyya) that appear in specific moments, such as divine descent or judgment.</li>
+<li><strong>Essential attributes</strong> (ṣifāt dhātiyya) like ḥayāt (life), ʿilm (knowledge), qudra (power), samʿ (hearing), baṣr (sight), quds (holiness), e.t.c.</li>
+</ul>
+
+<p>Al-Wāsiṭī divides human attributes into exalted and vile names. Exalted names include those mentioned in Qur’an 9:112 and 33:35—al-tāʾibūn (those who repent), al-ʿābidūn (those who worship), al-ḥāmidūn (those who praise), and al-muslimīn (those who submit). Vile names include al-ʿāṣī (the disobedient), al-mudhnib (the sinner), and al-ẓālim (the wrongdoer). The sālik must embrace the noble attributes and avoid the base ones.</p>
+
+<p>Al-Wāsiṭī teaches that the sālik can erase vile names by living through exalted ones. Knowing God’s attributes means reflecting on them alongside one’s own. For example, recognizing God as al-Ghanī (Self-Sufficient) means embracing one’s neediness before Him. This reflection leads to true servitude and deeper maʿrifa. (Qāʿida fī al-ṣifāt, pp. 318-320)</p>
+
+<h3>The Next Step</h3>
+
+<p>After fulfilling the practices of servitude tied to God’s names and attributes, al-Wāsiṭī moves into the realm of personal experience, using the Sufi terms dhawq (taste) and mashhad (witnessing). These refer to a spiritual perception of divine attributes, not through the senses, but through a reality that settles in the heart.</p>
+
+<p>He explains that this experience arises after completing the stages of sulūk, when a “something” (shayʾ) becomes established in the heart. This “something” is the most exalted similitude (al-mathal al-aʿlā)—a unique, incomparable reflection of God’s greatness that believers perceive inwardly. It is not a likeness in the sensory sense, but a necessary form through which God is known, loved, and served.</p>
+
+<p>Al-Wāsiṭī insists that without this similitude, God would remain unknowable. Yet he warns that some mistakenly worship the similitude itself rather than God. He is careful to clarify that this perception does not imply any anthropomorphism, affirming that God remains beyond all likeness and modality.</p>
+
+<p>Al-Wāsiṭī teaches that when the sālik turns toward God, something may arise in the heart that is witnessed above the Throne. Though it may appear as a body, the sālik must not reject it, since imagination cannot grasp God’s true reality. What forms in the heart are exalted similitudes—symbolic reflections of divine magnificence. (Qāʿida fī al-mathal al-aʿlā li-qawlihi Allāh subḥānahu, pg. 289)</p>
+
+<p>These similitudes act as intermediaries between God, who has no likeness, and creation, which relies on likeness to perceive. Just as humans need direction in worship, they also need symbolic forms to relate to divine attributes. This is not anthropomorphism, but a necessary result of human limitation.</p>
+
+<p>Al-Wāsiṭī warns against confusing these reflections with God’s actual essence. Witnessing divine majesty in the heart does not mean perceiving God’s true majesty, which creation cannot bear. The heart, imperfect and finite, becomes a mirror—a throne for the most exalted similitude, and a veil between the servant and God’s essence. Through this, connection is made without collapsing the distinction between Creator and creation. In short, heart is a connection between sālik and his Lord. (Risālatuhu ilā al-shaykh al-Maghribī, p. 111)</p>
+
+<p>Al-Wāsiṭī finally outlines three recurring degrees of witnessing in the sālik’s journey:</p>
+
+<ol>
+<li><strong>Mashhad al-ilāhiyya</strong> – Witnessing God’s divinity, tied to His law and worship.</li>
+<li><strong>Mashhad al-rubūbiyya / al-qayyūmiyya</strong> – Witnessing God’s lordship and sustaining actions over creation.</li>
+<li><strong>Mashhad al-jamʿ / al-fardāniyya</strong> – Witnessing the unity and singularity of all divine names and attributes as aspects of God’s essence. This final stage occurs in the spirit and marks the sālik’s arrival at full realization of journey. (Madkhal ahl al-fiqh, pg. 78)</li>
+</ol>
+
+<p>The journey ends when the sālik devotes himself entirely to the Muḥammadan command. His focus and energy turns toward obedience, and he embraces acts of worship and remembrance that resonate with his heart which are practised through revealed laws. When these acts become sweet, they may open the way to deeper divine connection. Which he had yearned for in the beginning. (ʿUmdat al-ṭullāb, pg. 210)</p>
+
+<p>From beginning he clearly aimed to criticize what he considers extreme ascetic interpretations of Sufism, al-Wāsiṭī emphasizes close adherence to the Prophet’s example, the Sunna, rather than adopting practices that are not explicitly revealed (ghayr mashrūʿ). For instance, he strongly disapproves of constant fasting, and instead advises to simply lessen the amount one drinks and eats slightly, and to practice supererogatory fasting only on Mondays and Thursdays in accordance with the Sunna. (Miftāḥ al-maʿrifa, pg. 272)</p>
+
+<p>I hope that this article was sucessful in presenting what I was trying to convey, and you might have got a good amount of knowledge about traditional Sufism i.e sulūk, which for me has eventually replaced Sufism.</p>
+
+<p><strong>T.C. Allah-Hafiz!</strong></p>
+ <div class="navigation">
+            <a href="universal-rule.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+</html>
