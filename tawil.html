@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="Explore Ibn Taymiyyah's understanding of true revelation (naql ṣaḥīḥ), and his hermeneutical approach to tawīl and language">
+<meta name="keywords" content="Ibn Taymiyyah, Revelation, Naql Ṣaḥīḥ, Taʾwīl, Divine Attributes, Tafsir, Salaf, Islamic Theology, Aqeedah, Islamic Hermeneutics">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Tawil: True Revelation and its Interpretation in Ibn Taymiyyah's Thought">
+<meta property="og:description" content="Explore Ibn Taymiyyah's understanding of true revelation (naql ṣaḥīḥ), and his hermeneutical approach to tawīl and language.">
+<meta property="og:image" content="tawil.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/tawil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Tawil: True Revelation and its Interpretation in Ibn Taymiyyah's Thought - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">     
+<h3>Tawil: True Revelation and its Interpretation in Ibn Taymiyyah's Thought</h3>       <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+<p>Welcome to our continuing series on Ibn Taymiyyah’s engagement with reason and revelation. Today, we will dive into one of the most important aspects of his thought which is, his understanding of true revelation. </p>
+<p>So in this article we will explore: What does Ibn Taymiyyah mean by “right revelation and how does he distinguish it from the philosophical reinterpretations? </p>
+<h3>Recall</h3>
+<p>So we have seen earlier that Ibn Taymiyya’s only concern in the Darʾ taʿāruḍ is straightforward affirmation of the divine attributes and revelation as a whole about unseen things. He insists that this way of affirmation is what he calls, understanding of the Salaf, and for that reason it remains uniquely authoritative throughout time. The kinds of rational objections (muʿāriḍ ʿaqlī) raised by various theological schools usually involve the claim that a given revealed attribute if followed literally would be subjected to anthropomorphic belied about God.</p>
+<p>Ibn Taymiyya for his part and for all his affirmationism with respect to the divine attributes in no wise sees himself as a mushabbih, or “assimilator,” and, in fact, he explicitly condemns any view or doctrine that he considers to entail tashbīh or tamthīl (anthropomorphic belief).</p>
+<p>So if you have read the previous articles, you would ask: How does he purport to avoid taʾwīl in favor of the apparent sense (ẓāhir) of the texts without falling to the odious assimilationism of tashbīh. Also, we will look at why Ibn Taymiyya believes it's important to follow common language usage when interpreting scripture. Then, we examine how he explains that language changes over time and across different fields, which leads to unclear and confusing terms. He argues that these vague words have caused serious misunderstandings of religious texts.</p>
+<p>The basis of Quranic Tafseer was laid by him in his work - Muqaddima fī uṣūl al-tafsīr, here Ibn Taymiyya says that understanding revelation and language in general should be based on two main things: context of verse and common language use.</p>
+<p>He also relied on the explanations given by the early Muslim scholars (the Salaf). He says that the Qur’an describes itself as “clear” and “easy to understand,” which means that it's message is straightforward and doesn’t need outside theories or complicated reasoning to explain it. (Darʾ, 5:373)</p>
+<p>Importantly we are interested in knowing his opinion on the Qur'an verse, "It is He who revealed to you the Book. Some of its verses are definitive; they are the foundation of the Book, and others are unspecific. As for those in whose hearts is deviation, they follow the unspecific part, seeking dissent, and seeking to derive an interpretation. But none knows its interpretation except Allah and those firmly rooted in knowledge say, “We believe in it; all is from our Lord.” But none recollects except those with understanding." (Qur'an 3:7)</p>
+<p>This verse states that the Book contains some verses that are "absolutely clear" (muhkamat), forming the "foundation of the Book," while others are "ambiguous" or "figurative" (mutashabihat) verses that some claim needs taʾwīl or the related procedureof tafwīḍ. So how does Ibn Taymiyya deals with it and also we will take up the second principal pillar of IbnTaymiyya’s interpretive theory, which involves privileging known linguistic convention(ʿurf ) over rational speculation when interpreting text.</p>
+<h3>Qur'an 3:7</h3>
+<p>Ibn Taymiyya, as mentioned, affirms that revelation is fully independent in conveying its meanings with certitude.  The common later definition of taʾwīl as “diverting a word from it's apparent sense(ẓāhir) to its non-preponderant(marjūḥ) meaning” - defined by Ar-Razi in his work "Asas".</p>
+<p>Ibn Taymiyya argues that definition of taʾwīl—changing a word from its clear meaning (ẓāhir) to a less obvious one (marjūḥ), was invented by some later scholars and didn’t exist during the time of the Qurʾān’s revelation. So, he says, it’s wrong to apply this newer meaning to the Qurʾānic use of taʾwīl.</p>
+<p>[See Darʾ, 1:14, for acomparative study of Ibn Taymiyya’s and al-Rāzī’s approaches to taʾwīl]</p>
+<p>To support this, he points to early scholars who recognized taʾwīl rejected the this meaning of it, more technical one that involves shifting a word from its literal (ḥaqīqa) meaning to a figurative (majāz) one.</p>
+<p>He also says that the early generations of Muslims (the Salaf) didn’t interpret scripture the way later philosophers and theologians did. Instead, they accepted the clear meaning of the texts, while admitting that the exact nature (kayfiyya) of certain unseen things that was beyond human understanding.</p>
+<p>Importantly, Ibn Taymiyya claims the Salaf didn’t even leave the meanings of Qurʾānic verses open (tafwīḍ).</p>
+<p>Many scholars—both classical and modern—believe that mutashābih verses require taʾwīl, meaning a figurative or non-literal interpretation that differs from the obvious meaning.</p>
+<p>This idea is based on Qurʾān 3:7, which mentions both types of verses and warns against those who misuse ambiguous ones to stir conflict (fitna) by trying to uncover their hidden meanings (taʾwīl).</p>
+<p>The verse can be read in two ways:</p>
+<ul>
+<li>Only God knows the taʾwīl → leads to tafwīḍ, where believers accept the verse without trying to explain it.</li>
+<li>God and those firmly grounded in knowledge know the taʾwīl → allows scholars to explore possible meanings.</li>
+</ul>
+<p>Any suggested meaning must follow Arabic language norms.</p>
+<p>They should not claim absolute certainty, only that a meaning might be intended by God.</p>
+<p>Also the Qurʾān doesn’t clearly label which verses are muḥkam or mutashābih.</p>
+<p>Later theologians (mutakallimūn) often judged a verse to be ambiguous if its apparent meaning seemed rationally impossible, which is the reason for the debate on reason and revelation.</p>
+<p>Since the Qurʾān was revealed in the language of those early generations, Ibn Taymiyya insists it must be understood according to their linguistic conventions. Therefore, he believes it is wrong to apply this newer, academic meaning of taʾwīl to the Qurʾān, as if it were the original meaning intended by God and understood by the Prophet’s audience. This raises the question: if taʾwīl doesn’t mean figurative interpretation, then what does it actually mean according to Ibn Taymiyya?</p>
+<p>Ibn Taymiyya argues that in the original language of the Qurʾān, taʾwīl had only two meanings for Salaf. </p>
+<p>The first meaning of taʾwīl, according to Ibn Taymiyya, is explanation or clarification, what we might call tafsīr or bayān. This refers to a clear, straightforward understanding of a verse’s meaning, like what we find in the works of early scholars such as al-Ṭabarī.</p>
+<p>The second meaning is the ultimate reality of what the verse refers to, what will actually happen or exist in the real world. For example, when the Qurʾān speaks of God or events of the Last Day, taʾwīl refers to the true nature of those things, which only God fully knows. Ibn Taymiyya calls this the ḥaqīqa—the deep, essential reality behind the words.</p>
+<p>He connects this idea to earlier scholars like al-Bāqillānī and al-Ashʿarī, who also defined ḥaqīqa not just as literal language, but as the actual qualities that make something what it is. For instance, the ḥaqīqa of a scholar is that he possesses knowledge. This “names,” or nouns (asmāʾ) and the ontological reality (ḥaqīqa) of the nominata (musammeyāt) to which they apply is of central importance to Ibn Taymiyya’s larger theological project in the Darʾ taʿāruḍ</p>
+<p>[For Ibn Taymiyya’s main discussions of taʾwīl (and tafwīḍ), see Argument 16 (Darʾ, 1:201208), Argument 27 (Darʾ, 5:234–241), and also (on taʾwīl specifically) Darʾ, 5:380–382 (which is part of Argument 41).]</p>
+<h3>Tawil of Early Scholars</h3>
+<p>To show how taʾwīl was understood by early Qurʾānic interpreters, Ibn Taymiyya refers to Mujāhid b. Jabr, a leading early scholar of tafsīr. Mujāhid reportedly asked Ibn ʿAbbās to explain the entire Qurʾān to him, which Ibn ʿAbbās did. Mujāhid believed that those firmly grounded in knowledge (al-rāsikhūna fī al-ʿilm) knew the taʾwīl of the Qurʾān—that is, its explanation or tafsīr, just as Ibn ʿAbbās had taught him. (Darʾ, 5:381)</p>
+<p>Ibn Taymiyya says this view was shared by other early scholars like Ibn Qutayba, who also believed that knowledgeable people could understand the taʾwīl of ambiguous verses (mutashābihāt). Scholars such as Ibn ʿAbbās, Muḥammad b. Jaʿfar b. Abī Ṭālib, and Ibn Isḥāq held that the verse Q. 3:7 should be read so that taʾwīl is known not only by God but also by those firmly grounded in knowledge.</p>
+<p>However, other early authorities—including Ibn ʿAbbās (in some reports), Ubayy b. Kaʿb, ʿAbd Allāh b. Masʿūd, ʿĀʾisha, and ʿUrwa b. al-Zubayr—believed the verse should be read with a pause after “God,” meaning that only God knows the taʾwīl of the ambiguous verses. (Darʾ, 1:205)</p>
+<p>According to Ibn Taymiyya, how one reads verse 3:7 of the Qurʾān affects how the word taʾwīl is understood. If the verse is read with a pause after “those firmly grounded in knowledge” (al-rāsikhūna fī al-ʿilm), then taʾwīl is taken to mean tafsīr, a straightforward explanation of the Qurʾān’s meaning. In this view, anyone who understands the Qurʾān’s tafsīr also understands its taʾwīl. (Darʾ, 5:381)</p>
+<p>But if the verse is read with a pause after “God” (Allāh), then taʾwīl refers to something only God knows: the true reality (ḥaqīqa) and modality (kayfiyya) of unseen matters, like the events of the Last Day or the essence and attributes of God. (Darʾ, 1:206)</p>
+<p>Ibn Taymiyya says this dual understanding of taʾwīl either as tafsīr or as hidden reality was based on the shared language of the Prophet’s Companions. Their usage recognized only these two meanings and rejected the later technical definition of taʾwīl developed by philosophers and theologians, which involved figurative interpretation.</p>
+<p>For Ibn Taymiyya, the issue isn’t about literal (ḥaqīqa) versus figurative (majāz) meaning, as later scholars debated. Instead, it’s about two complementary aspects of meaning:</p>
+<ul>
+<li>Maʿnā: the clear, lexical meaning of a word.</li>
+<li>Ḥaqīqa: the actual, external reality that the word refers to.</li>
+</ul>
+<p>Ibn Taymiyya refers to several reports from the Prophet’s Companions to explain how the word taʾwīl was originally understood. He says that when taʾwīl is used in the context of commands or prohibitions, it means actually doing what is commanded or avoiding what is forbidden. To support this, he quotes Sufyān b. ʿUyayna, who said that following the Sunna means carrying out the commands and prohibitions—that is, doing their taʾwīl. Reports from ʿĀʾisha and ʿUrwa b. al-Zubayr also support this meaning. (Darʾ, 1:206)</p>
+<p>Based on this evidence, Ibn Taymiyya argues that the early Muslims never used taʾwīl to mean changing a word’s clear meaning (ẓāhir or rājiḥ) to a hidden or figurative one (muʾawwal, marjūḥ, or majāz). Instead, they used taʾwīl in two ways: either as tafsīr (clear explanation) or as ḥaqīqa (the ultimate reality or outcome of something).</p>
+<p>This is why, when explaining verses like “The Most Merciful settled upon the throne” (al-Raḥmān ʿalā al-ʿarsh istawā) or “Then He settled upon the throne” (thumma istawā ʿalā al-ʿarsh), early scholars like Mālik b. Anas and Rabīʿa used to say: “God’s settling is known (al-istiwāʾ maʿlūm), but the how of it is unknown (al-kayf majhūl).” In other words, the meaning (maʿnā) of the phrase is clear based on Arabic usage, but the modality (kayfiyya)—how this applies to God, who is unlike anything created—is beyond human understanding. (Darʾ, 1:207 & Darʾ, 2:235)</p>
+<p>Ibn Taymiyya says that this unknown how is the taʾwīl that only God knows. The linguistic meaning of the verse, however, is known to us. If it weren’t, the verse would be meaningless, which contradicts the Qurʾān’s clarity and purpose.</p>
+<p>To support this view, Ibn Taymiyya cites Ibn al-Mājishūn, a jurist from Medina and a contemporary of Mālik, as well as Aḥmad b. Ḥanbal and other early scholars. They used to say: “We do not know the how of what God says about Himself, but we do know its explanation (tafsīr) and meaning (maʿnā).” Al-Ḥasan al-Baṣrī also said that God revealed every verse so that we could understand what He meant. In this spirit, Aḥmad b. Ḥanbal explained all the ambiguous (mutashābih) verses and clarified their meanings. (Darʾ, 1:207 & Darʾ, 2:234)</p>
+<p>In contrast, the third meaning of taʾwīl i.e changing a word to a figurative or hidden meaning was rejected by the early scholars. They called it false and lacking any real truth (bāṭil lā ḥaqīqata lahu).</p>
+<p>To understand Ibn Taymiyya’s position on taʾwīl, we need to look closely at how he views language and meaning. At first glance, it might seem like he denies the existence of non-literal or figurative language—both in general and in the Qurʾān. But that’s not quite accurate.</p>
+<p>Ibn Taymiyya does reject the later theological idea of taʾwīl, which involves shifting a word from its clear, primary meaning to a hidden or figurative one based on rational arguments. However, he’s not saying that words only have one meaning or that they must always be taken in their most obvious sense.</p>
+<p>Instead, he argues that the traditional distinction between “literal” (ḥaqīqa) and “figurative” (majāz) meanings is artificial. It’s a mental construct that doesn’t reflect how language actually works. In real life, words often have multiple meanings, and which one is intended depends entirely on context—not on some fixed hierarchy of meanings.</p>
+<p>For example, the Arabic word yad (hand) can mean a physical hand, but it can also mean “help” or “involvement,” depending on how it’s used. Ibn Taymiyya accepts this flexibility in language. What he rejects is the idea that words have a fixed “real” meaning that must be abandoned in favor of a “figurative” one when reason demands it.</p>
+<p>I know you will argue with me that did how can Ibn Taymiyya accept this? </p>
+<p>He states explicitly, as a matter of principle, that “when contextual evidence makes the meaning of a word clear,then that [meaning] is the apparent [or‘literal’] sense [i.e., in that context]” - (al-lafẓ idhā qurina bihi mā yubayyinu maʿnāhu kāna dhālika huwa ẓāhirahu). (Darʾ, 5:236)</p>
+<p>So, for Ibn Taymiyya, meaning is always determined by context and by the shared conventions of the language community. He doesn’t deny that words can have multiple meanings, he just refuses to label some as “literal” and others as “figurative” in the way later scholars did.</p>
+<p>In addition to emphasizing the importance of context, Ibn Taymiyya also highlights the role of tabādur- the first meaning that comes to mind in figuring out what a speaker intends to say (murād al-mutakallim) in any given situation. For example, while Arabic dictionaries agree that the word ẓahr (“back”) can refer to the back of any animal, most people immediately think of a human back when they hear it. Ibn Taymiyya explains that this is simply because the word is most often used to describe human backs—not because the human back is the “real” or “literal” (ḥaqīqa) meaning of the word.</p>
+<p>He argues that this frequent usage makes the human back the most common or dominant meaning, but not the only correct one. Which meaning is intended—human, camel, ant, or otherwise—depends entirely on the context in which the word is used. (see Majmu Fatawa, 20:436)</p>
+<p>Mohamed Yunis Ali comments that scholars like Ibn Taymiyya, who reject the idea of majāz (figurative language), believe that the meaning that first comes to mind in a specific situation is both the intended and the proper meaning. In other words, for Ibn Taymiyya, the proper meaning (al-maʿnā al-ḥaqīqa) and the intended meaning (al-maʿnā al-murād) are the same, and this is often guided by tabādur.</p>
+<p>Interestingly, Ibn Taymiyya doesn’t talk about tabādur directly in his major work Darʾ taʿāruḍ, even though he discusses many related aspects of how language works and how meaning is understood.</p>
+<p>(For details look at “Radical Hermeneutics,” 144–148.)</p>
+<p>Ibn Taymiyya believed that the meaning of any expression is completely tied to its context—you can't separate the two. He also introduced the idea of tabādur, which means that meaning arises naturally and immediately in the mind when hearing an expression. This view stands in sharp contrast to mainstream Islamic legal theory, which says that a word has a literal (ḥaqīqah) meaning if it makes sense on its own, without any context, and a figurative (majāz) meaning if it needs context to be understood. (Medieval Islamic Pragmatics, 111–112)</p>
+<p>But Ibn Taymiyya rejected this distinction. He argued that no word is ever used in a truly context-free way. Even though dictionaries list words in isolation, he explained that lexicographers are simply summarizing how native speakers typically use those words in various situations. (See his Kitab al-Iman pg. 104)</p>
+<p>Mainstream scholars believe that the apparent (ẓāhir) meaning of a text exists within the text itself, and that this meaning may or may not match what the author actually intended. Ibn Taymiyya disagreed. He said that texts don’t have any meaning on their own. Meaning only comes from the speaker or author, based on what they intended to say in a specific context.</p>
+<p>So for Ibn Taymiyya, the meaning that the speaker intends—based on context—is the only real meaning. Even calling it the ẓāhir meaning of the text is misleading, because meaning belongs to people, not to texts. This view fits with his broader philosophy, which draws a clear line between mental concepts and objective reality.</p>
+<p>Hence what most scholars say is that, a text has two meanings:</p>
+<p> The apparent meaning (ẓāhir): what the words seem to say on their own.</p>
+<p> The interpreted meaning (muʾawwal): what the speaker actually meant, figured out by looking at other related texts.</p>
+<p>If the speaker’s intended meaning doesn’t match the apparent meaning, scholars use clues from other parts of scripture to find the correct interpretation.</p>
+<p>But Ibn Taymiyya disagrees. He says the only real meaning is what the speaker meant, based on all the context and other revelations. He doesn’t believe texts have a separate “apparent” meaning when taken alone. For him, meaning always comes from the speaker, not the words by themselves.</p>
+<h3>Practical Application of Taymiyyan Taʾwīl</h3>
+<p> Ibn Taymiyyah strongly emphasizes that revelation—like the Qur’an and authentic hadith—is clear in its message. It doesn’t contain confusion or hidden meanings that would make it hard for people to understand. Even when some verses seem unclear on their own, their meaning becomes clear when we look at the full message of revelation as a whole. (Darʾ, 5:239)</p>
+<p>One of Ibn Taymiyyah’s key arguments against philosophers and rationalists is that revelation doesn’t need outside help—especially not abstract reasoning—to explain what it means. The texts speak for themselves.</p>
+<p>When it comes to verses or hadith that seem difficult or strange, Ibn Taymiyyah avoids relying on pure logic to explain them. Instead, he sticks to the rules of language and context. For example, there’s a famous hadith that says:  </p>
+<p>“The Black Stone is the right hand of God on earth; whoever shakes it and kisses it, it is as if he had shaken and kissed the right hand of God.” </p>
+<p>Ibn Taymiyyah doesn’t accept this as a true prophetic hadith. But he uses this kind of example to show how people can misunderstand texts if they take them too literally or without proper context.</p>
+<p>He also draws on earlier scholars like Imam al-Shāfiʿī, who explained that unclear verses in the Qur’an can be understood by comparing them with other parts of revelation. This method helps clarify meaning without needing philosophical speculation.</p>
+<p>For knowing the authenticityof this hadith, refer Darʾ, 5:236; 5:239; 3:384; and the editor’s note at 3:384, n. 2. The ḥadīth appears in various versions and has alternatively been categorized as fair (ḥasan), weak but with corroborating narrations (ḍaʿīf lahu shawāhid), and authentic (ṣaḥīḥ) but as a saying of Ibn ʿAbbās, not the Prophet.</p>
+<p>Ibn Taymiyya believes that a hadith saying “the Black Stone is the right hand of God on earth” should be understood clearly and literally—without needing outside reasoning to change its meaning. He argues that this hadith is actually very clear (ṣarīḥ) in showing that the Black Stone is not God’s hand.</p>
+<p>Why? First, the phrase includes the words “on earth,” and since other religious texts say God doesn’t exist physically on earth, this shows the statement isn’t meant to be taken literally.</p>
+<p>Second, the hadith says that whoever touches the Black Stone, it’s as if they shook God’s hand. Ibn Taymiyya points out that in a simile, the two things being compared are never the same. So, touching the Black Stone is not the same as touching God’s hand.</p>
+<p>Because of these reasons, he says the hadith doesn’t need any reinterpretation (taʾwīl)—its obvious meaning already makes it clear that the Black Stone isn’t literally God’s hand. (Darʾ, 3:384-385)</p>
+<p>When Ibn Taymiyya insists upon a firm adherence to the “lafẓ” (that is, to the explicit verbal form) of a text, he is not advocating anything like a strict “literalism.” Rather, what Ibn Taymiyya refers to as the “lafẓ” is always the lafẓ (1) as embedded in a given context, (2) as understood according to the linguistic conventions of the Salaf, and (3) as interpreted in light of other relevant texts.</p>
+<p>So we can conclude, Ibn Taymiyya and his student Ibn Qayyim who are often called “literalists,” are not actually literalist. Their approach is actually very different from the Ẓāhirī school, which is much more literal in a strict sense. So they are the one who claimed that words have primary, disembodied default meanings, then insisted that a word can be taken to denote only this one meaning whenever and wherever it is used, regardless of such factors as context, convention, and intertextuality..</p>
+<p>Ibn Taymiyya focuses on context and speaker intention. He believes that understanding a text depends on things like tone, situation, and what the speaker meant—not just the words themselves.</p>
+<p>The Ẓāhirīs, on the other hand, mostly ignore context. They rely only on the fixed rules of language and grammar. According to scholar Yunis Ali, they believe that meaning comes only from the structure of the text, and not from outside clues or the listener’s interpretation.</p>
+<p>So while Ibn Taymiyya is often accused of being a rigid literalist, deeper analysis—like that of Carl Sharif El-Tobgui, shows that his method is actually more flexible.</p>
+<h3>Role of Intertextuality in Taʾwīl</h3>
+<p>To better understand Ibn Taymiyya’s idea of contextual taʾwīl—especially his belief in using multiple texts to interpret meaning we can look at how he praises Aḥmad ibn Ḥanbal’s approach to interpreting scripture.</p>
+<p>One example comes from Ibn Ḥanbal’s work al-Radd ʿalā al-Jahmiyya wa-l-Zanādiqa. In it, Ibn Ḥanbal responds to a group called the Jahmiyya, who claim that God is everywhere, in every place, and not separate from creation. They support this idea by reading a verse from the Qur’an (6:3) literally: “He is God in the heavens and on the earth.” They take this to mean that God exists physically in both places.</p>
+<p>Ibn Ḥanbal disagrees. He says the verse means that God is the Lord of those in the heavens and the Lord of those on earth, but He Himself is above the throne, not physically present in creation. God knows everything happening in creation, but His essence is not inside it.</p>
+<p>To support this, Ibn Ḥanbal refers to other verses that describe God as being “above” or “in the heavens,” (Q 2:29, 3:55, 4:158, 6:18) and points out that things “below” are often described as lowly or impure (Q 41:29 and 95:5). He also uses common sense: we instinctively know that God, in His greatness, wouldn’t exist in dirty or shameful places like inside animals or humans.</p>
+<p>So, Ibn Ḥanbal concludes that God is not physically present in creation, and the verse should be understood to mean that He rules over everything, while remaining separate from it. Ibn Taymiyya sees this method—using other verses and reasoned reflection—as a perfect example of how to interpret scripture properly.</p>
+<p>The critical point for Ibn Taymiyya, ultimately, is that the texts of revelation, taken collectively and considered in light of one other, are always fully independent and self-sufficient in conveying explicitly the meanings we are intended to take from them.</p>
+<h3>The Use of Sayings of Salaf in Taʾwīl</h3>
+<p>Besides context and cross-referencing other verses (intertextuality), Ibn Taymiyya says there’s a third key way to understand the meaning of revealed texts: by looking at the sayings (aqwāl) of the early Muslim scholars—the Companions and the Salaf. If these early authorities agree on an interpretation, especially if there’s consensus (ijmāʿ), that interpretation carries strong weight.</p>
+<p>For example, the verse Qur’an 57:4 says: “And He is with you wherever you may be.” Some people might think this means God is physically present everywhere. But Ibn Taymiyya cites scholars like Abū ʿUmar al-Ṭalamankī who, in his book al-Wuṣūl ilā maʿrifat al-uṣūl, reports a “consensus among the Muslims of ahl al-sunna” that this verse refers to God’s knowledge, not His physical essence. They agree that God Himself is above the heavens, but His knowledge reaches everywhere.</p>
+<p>Another verse, Qur’an 58:7, says: “There is no secret meeting among three but He is their fourth.” Again, Ibn Taymiyya refers to scholars like Ibn ʿAbd al-Barr, who say this means God knows everything, not that He is physically present. They affirm that God is on His throne, and His knowledge is everywhere.</p>
+<p>This view is also supported by Mālik ibn Anas and many other respected scholars, who said: “God is in the heavens, but His knowledge is in all places.” (Darʾ, 6:261)</p>
+<p>Ibn Taymiyya says the correct meaning comes from the early Muslim scholars the Salaf especially when they all agreed on it (ijmāʿ). He doesn’t say exactly how they knew, but he believes that once we know the Salaf agreed on an interpretation, that view becomes authoritative.</p>
+<p>So if the Salaf understood a verse non-literally—like saying God’s knowledge is everywhere, not His physical presence then that’s the correct meaning. If they understood a verse literally like saying God is truly “above” the heavens—then that’s also the correct meaning.</p>
+<p>What Ibn Taymiyya rejects is when later thinkers try to reinterpret them.</p>
+<p>Even though the Qur’an comes from God, it was revealed in human language to a human audience. That means it follows the normal rules and habits of the Arabic spoken by the Prophet Muhammad and his community.</p>
+<p>So, if the Qur’an is meant to be clear (mubīn), it must use words in ways that were familiar to its first listeners. This is why Ibn Taymiyya says we must interpret revelation based on how language was used and understood at that time.</p>
+<p>For example, in English, when someone says “Can you give me a hand?” we know they mean “help,” not a literal hand—because we understand the way English speakers use that phrase. Without knowing those language habits, we wouldn’t understand the intended meaning.</p>
+<p>Sometimes, though, revelation changes how certain words are used. It might give old words new meanings or introduce entirely new terms. This special use of language in revelation is called ʿurf sharʿī—the “convention of revelation.” A good example is the word ṣalāh. Before Islam, it meant any kind of prayer or supplication. But the Qur’an redefined it to mean the specific ritual prayer Muslims perform.</p>
+<p>So, when interpreting revelation, Ibn Taymiyya says we must look at:</p>
+<ul>
+<li>The normal language habits of the original audience</li>
+<li>The context of the statement</li>
+<li>The new meanings and terms introduced by revelation itself</li>
+</ul>
+<p>Hence he aims to follow Salaf in understanding the Qur'an especially the Companions, their Successors, and the Successors of the Successors (collectively called the Salaf) as they were not only the most pious but also the most knowledgeable and wise in understanding Islam. </p>
+<p>Ibn Taymiyya saw these qualities as central to how truth should be understood. He also cited al-Shāfiʿī, who said the Companions were better than later generations in every way—reasoning, science, and insight(Darʾ, 5:73). </p>
+<p>So Ibn Taymiyya strongly defended the Salaf’s authority in interpreting the Qur’an and other revealed texts. Some later scholars (called the khalaf) claimed that the Salaf only accepted the wording of the texts without deeply thinking about their meanings. These later scholars believed that true understanding required complex reasoning and reinterpretation (taʾwīl), which they thought the Salaf avoided out of caution.</p>
+<p>Ibn Taymiyya rejected this idea. He argued that the Salaf:</p>
+<ol>
+<li>Affirmed the divine attributes clearly and directly.</li>
+<li>Thought deeply about the meanings of the texts.</li>
+<li>Actively opposed false interpretations that denied key beliefs.</li>
+</ol>
+<p>(He says some stories of how Salaf defended against the new innovations about Qur'an see Darʾ, 8:53.)</p>
+<p>For Ibn Taymiyya, the Salaf’s approach was not only the safest (aslam) but also the most knowledgeable and wise (aʿlam wa-aḥkam).</p>
+<p>Ibn Taymiyya argues that the Qur’an never directly denies any specific attribute of God. Instead, it emphasizes that nothing is like God and no one is equal to Him, as seen in verses like “There is none like unto Him” and “There is none comparable unto Him.”</p>
+<p>But these verses, according to Ibn Taymiyya, don’t mean that God lacks attributes. Rather, they mean that God’s attributes are completely unique and not like those of created beings. So, God may have attributes like knowledge, power, or mercy but they are unlike anything we experience or possess. (Darʾ, 7:111)</p>
+<h3>Where do doubts and confusions (shubuhāt) come from?</h3>
+<p>Ibn Taymiyyah explains that many of these arise when experts in a field use everyday words in specialized, technical ways. It’s like how craftsmen might use common terms to mean something very specific in their trade. These technical meanings are agreed upon within their group, but they often differ from how the wider community understands those words in normal language.</p>
+<p>Take the word jism (body), for example. In the Qur’an and regular Arabic speech, it refers to the physical body of a human or animal. Revelation never uses this word for God—neither to affirm nor deny it. But philosophers use the word differently. For them, a “body” means any being that has distinct qualities or attributes. So when they say “God is not a body,” they’re not just denying the physical form; they’re denying something much broader—something that contradicts revelation.</p>
+<p>Ibn Taymiyyah warns that this kind of confusion happens when philosophers use familiar words in unfamiliar ways, especially when they try to support their views by quoting revelation. He divides these problematic terms into two types:</p>
+<ol>
+<li>Words found in both revelation and everyday speech, but used by philosophers in a new technical sense. This causes ambiguity and misunderstanding.</li>
+<li>Words not found in revelation but used in common Arabic, again with meanings that differ sharply from the philosophers’ definitions.</li>
+</ol>
+<p>Examples include:</p>
+<ul>
+<li>tarkīb (composition)</li>
+<li>juzʾ (part)</li>
+<li>iftiqār (dependence)</li>
+<li>ṣūra (form/image)</li>
+</ul>
+<p>And many more from philosophical vocabulary:</p>
+<ul>
+<li>jawhar (substance)</li>
+<li>ʿaraḍ (accident)</li>
+<li>dhāt (essence)</li>
+<li>ṣifa (attribute)</li>
+<li>taḥayyuz (occupying space)</li>
+<li>jiha (direction or location)</li>
+<li>ʿilla (cause)</li>
+<li>maʿlūl (effect)</li>
+<li>wujūb (necessity)</li>
+<li>imkān (possibility)</li>
+<li>qidam (eternity)</li>
+<li>ḥudūth (origination)</li>
+</ul>
+<p>Ibn Taymiyyah’s point is clear, when technical language is used carelessly or without proper context, it can distort the meaning of revelation and lead to serious misunderstandings. (Darʾ,1:222)</p>
+<p>In addition to the confusion caused by vague and ambiguous terms, Ibn Taymiyya points out that misunderstandings also arise from misinterpreting grammar. Just like with word meanings, these grammatical errors happen when people ignore how language is actually used by native speakers and instead rely on abstract, idealized rules created by professional grammarians.</p>
+<p>One example Ibn Taymiyya gives is how many rationalist thinkers (nuẓẓār) interpret passive participles (ism mafʿūl) in Arabic. These thinkers often see a passive form and assume, based on its structure alone, that there must be an agent who caused the action. For instance, if God is described as makhṣūṣ (meaning “specified” or “characterized” by certain attributes), they conclude that there must be a mukhaṣṣiṣ (a “specifier” or “characterizer”) outside of God who gave Him those attributes.</p>
+<p>Ibn Taymiyya disagrees with this view. He explains that in actual Arabic usage, some passive participles are used in an intransitive way. In the case of makhṣūṣ, it simply means that something has a certain attribute—it does not mean that someone gave it that attribute. In practice, makhṣūṣ is equivalent in meaning to the active participle mukhtaṣṣ, which comes from the verb ikhtaṣṣa. This verb means “to be characterized by” or “to possess” a trait, without implying that an external agent caused it.</p>
+<p>Ibn Taymiyya argues that many other terms used by rationalists fall into the same category. These include:</p>
+<ul>
+<li> mawjūd (existent or existing)</li>
+<li> muʾallaf (made up of or constituted by)</li>
+<li> murakkab (composite)</li>
+<li> muḥaqqaq (realized, real, or actual)</li>
+</ul>
+<p>Although these words are grammatically passive forms of transitive verbs, they are commonly used in an intransitive or mediopassive sense. This means they describe a state or quality without implying that someone caused it. When applied to God, these terms do not mean that an external agent gave Him these qualities.</p>
+<p>However, many people misinterpret these terms by focusing only on their grammatical form and ignoring how they are actually used in Arabic. Ibn Taymiyya says this is a mistake. These people treat the grammar too literally, giving more importance to abstract rules and generalizations than to real-world usage.</p>
+<p>He sees this as another example of rationalists forcing language to fit their own philosophical ideas. They take conclusions from their reasoning and apply them to language in ways that distort its original meaning. Ibn Taymiyya insists that paying attention to how language is actually used can help resolve these issues and challenge the assumptions and doctrines built on such misinterpretations.</p>
+<h4>Another Example</h4>
+<p>To make things further clear, Ibn Taymiyya carefully examines the meaning of the words wāḥid (one) and tawḥīd (oneness of God), along with the related idea of tarkīb (composition). He responds to the view held by the early Muʿtazila, who were influenced by Aristotle’s distinction between essence and attributes. They believed that true oneness means perfect simplicity—something whose essence is completely undivided and without any distinct parts or qualities.</p>
+<p>According to this philosophical definition, if God has attributes that are separate from His essence, then He cannot be truly one. Instead, He would be composite—made up of both His essence and His attributes. This leads to a problem: revelation clearly affirms both that God is one and that He has attributes. The Muʿtazila and philosophers argue that these two claims contradict each other. They believe that if revelation is to be consistent and rational, it cannot affirm both oneness and attributes at the same time.</p>
+<p>To resolve this, they interpret God’s attributes as metaphorical. They say these attributes are just names and do not refer to actual qualities that exist in God’s essence. They also argue that anything with attributes must be a body (jism), and all bodies are divisible. Since something divisible cannot be truly one, they conclude that God cannot have real attributes.</p>
+<p>This reasoning leads them to claim that true oneness must mean pure simplicity, without any attributes. They believe this idea is supported both by reason and by revelation, since revelation strongly emphasizes God’s oneness. As a result, they treat the affirmation of attributes in revelation as symbolic, not literal, to avoid any contradiction. (Darʾ, 7:116)</p>
+<p>Ibn Taymiyya challenges this idea. He argues that the meaning of revelation should be based on what the Prophet and his Companions understood from its wording, within the context of their own language and worldview. Before analyzing or criticizing the philosophers’ idea of divine oneness, he insists we must first ask: what did the word “one” mean in the language and understanding of the Prophet and his Companions? And what did the Qurʾānic statement about God’s oneness mean to them, based on their linguistic habits and the theological worldview shaped by the Qurʾān itself?</p>
+<p>The question of whether the idea that true oneness must mean perfect simplicity is rationally coherent or necessary is explored further in the next chapter, where Ibn Taymiyya critiques the philosophers’ views on existence and knowledge.</p>
+<p>Ibn Taymiyya explores the linguistic side of the debate about God’s oneness. He asks whether, from a purely language-based perspective, it makes sense to equate the Qurʾān’s affirmation that God is “one” with the philosophers’ and Muʿtazila’s idea that “one” means perfectly simple and without any real attributes.</p>
+<p>A Muʿtazilī might argue that reason shows “one” means “simple,” and since God and His revelation must be rational and coherent, the Qurʾān’s statements about God being one must be understood as affirming His perfect simplicity and lack of attributes.</p>
+<p>Ibn Taymiyya disagrees. He says that revelation should be interpreted based on what the Prophet and his Companions would have understood from its words, within their own linguistic and cultural context. So before any philosophical analysis, the first step is to ask: what did the word “one” mean in the language of the Prophet and his Companions? And what did the Qurʾān’s statement about God’s oneness mean to them, shaped by their language and the worldview of the Qurʾān?</p>
+<p>Ibn Taymiyya argues that in Arabic—and in all languages, he adds—the word “one” is used to refer to things that the philosophers and Muʿtazila would call “divisible” and “bodies.” For example, Arabs say “one man,” meaning a physical being with attributes, parts, and the possibility of division. In this context, “one” simply means a single entity, not a being without qualities.</p>
+<p>Therefore, in Arabic usage, “one” refers to a particular individual that naturally has attributes. Ibn Taymiyya points to Qurʾānic verses where “one” clearly refers to entities that have qualities. He insists that the word “one” was never used by Arabs in the abstract, technical way that philosophers and the Muʿtazila use it. That kind of usage would have been impossible, because the distinction between essence and attributes was not part of the Arabs’ way of thinking.</p>
+<p>Since God spoke to the Arabs in their own language, Ibn Taymiyya concludes that the Qurʾān’s affirmation of God’s oneness must be understood in terms of how the Arabs would have naturally understood it—through their own linguistic and intellectual framework.</p>
+<p>Ibn Taymiyya argues that the philosophers’ definition of “one”—as a perfectly simple essence without any attributes is something most people cannot even imagine. He says people have no theoretical knowledge or practical experience of such an entity, so it’s unreasonable to expect that ordinary language would contain a word to describe it.</p>
+<p>He emphasizes that language is shared by everyone in a speech community, not just by specialists. Therefore, a word that is widely used by both the general public and experts cannot be assumed to carry a meaning that only a few specialists understand. This is especially true for the language of revelation, which is meant for all people equally. (Darʾ, 7:120)</p>
+<p>Ibn Taymiyya also argues that people naturally know, through their basic reasoning, that the kind of “one” the philosophers describe—something with no attributes at all—can only exist as an idea in the mind, not in reality. And even if such a thing could exist, one would still need to prove that the word wāḥid (one) was used by seventh-century Arabs to describe it. But in actual Arabic usage, wāḥid never carried the technical meaning used by philosophers and Muʿtazilī theologians.</p>
+<p>Because of this, Ibn Taymiyya says it is wrong to use Qurʾānic verses like “Your God is one God” (Q. 2:163) or “Say, He is God, One” (Q. 112:1) as proof that God has no attributes. He concludes that applying the later philosophical meaning of “one” to these verses distorts both the meaning of the Qurʾān and the way language works. It misrepresents the revealed texts and disrupts the shared understanding that language is supposed to provide. He supports this point by citing the Qurʾānic verse: “We never sent a messenger except [that he spoke] in the language of his people, so that he might explain to them clearly.” (Qur'an 14:4)</p>
+<p>So, what does the Qurʾān mean when it says God is “one”? Ibn Taymiyya explains that it means more than just that there is only one God. It affirms that God alone is divine and that no other being deserves worship. In other words, the Qurʾān’s message is not just that God is one, but that He is the one true God.</p>
+<p>This view contrasts with how many theologians (mutakallimūn) define tawḥīd. They often describe it as God’s oneness in His essence (having no parts or counterpart), His attributes (having no equal), and His actions (having no partner). Ibn Taymiyya’s understanding focuses instead on the Qurʾān’s emphasis on exclusive divinity and worship. (Darʾ, 1:224)</p>
+<p>Ibn Taymiyya argues that dividing tawḥīd (the oneness of God) into three parts—oneness of essence, attributes, and acts—only partially reflects what the Qurʾān actually affirms. The Qurʾān clearly teaches that God is the only true deity (ulūhiyya) and that He alone deserves worship. This aspect of divine worship is central to the meaning of tawḥīd in revelation.</p>
+<p>However, Ibn Taymiyya says that later theologians (mutakallimūn) failed to include this essential meaning in their definition of tawḥīd. Instead, they added other meanings based on the technical language of philosophers. These added meanings often contradict the clear message of revelation, especially by denying the divine attributes that the Qurʾān affirms.</p>
+<p>The Qurʾān uses the words wāḥid and tawḥīd in two ways: first, in the everyday sense that there is only one God, and second, in a deeper sense introduced by revelation—that this one God alone deserves worship. Problems arise when a group uses a word in a technical way and gives it meanings that were never part of its original use.</p>
+<p>Ibn Taymiyya acknowledges that when philosophers and the Muʿtazila say God has no parts, no counterpart, and no equal, they are expressing a valid idea: that God cannot be divided, corrupted, or destroyed. This is consistent with the Qurʾānic descriptions of God as aḥad (emphatically one) and ṣamad (solid and complete, and also meaning a perfect master or lord).</p>
+<p>But Ibn Taymiyya criticizes the philosophers and Muʿtazila for going further. They use these ideas to deny that God is above His creation (ʿuluww) or distinct from it (mubāyana), claiming that affirming such attributes would make God composite (murakkab) and divisible (munqasim), and therefore similar (mithl, shabīh) to created things. (Darʾ, 1:228)</p>
+<p>In response, Ibn Taymiyya argues that people who understand Arabic and the context of revelation know that the terms “composition,” “divisibility,” and “likeness” do not carry these philosophical meanings in the language of the Qurʾān. He insists that the Qurʾān speaks in clear, commonly understood Arabic, and that its words should be interpreted according to their normal usage, not through the lens of later philosophical theories.</p>
+<p>Ibn Taymiyya examines the term tarkīb (composition), which philosophers use in a technical way to argue against God having attributes. He begins by listing the common meanings of tarkīb in everyday Arabic:  </p>
+<ol>
+<li>Something assembled by something else. </li>
+<li>Something that was separate and then brought together. </li>
+<li>Something that can be taken apart, like a man, an animal, or a plant. (Darʾ, 3:389)</li>
+</ol>
+<p>He agrees that God is not composite in any of these ordinary senses. However, philosophers—especially Ibn Sīnā—redefine tarkīb to mean something more abstract. They argue that if God had attributes, He would be composed of His essence and those attributes. And since every composite thing depends on its parts, God would then be dependent on something other than Himself, which would contradict His perfection and self-sufficiency. (Darʾ, 3:16 & 5:142)</p>
+<p>Based on this reasoning, they claim that God must not have any real attributes, because having them would make Him composite and dependent. They believe this protects the idea of divine oneness (tawḥīd). (Darʾ, 5:141)</p>
+<p>Ibn Taymiyya strongly disagrees. He says the distinction between essence and attributes is only a mental one—used for analysis—but it doesn’t exist in reality. In the real world, an entity’s essence and its attributes are inseparable. You can’t have one without the other. (Darʾ, 1:281)</p>
+<p>So, when philosophers say that a composite entity depends on its parts, Ibn Taymiyya rephrases this to mean: any being that necessarily has certain attributes exists along with those attributes. This, he says, is a self-evident truth and matches both reason and scripture.</p>
+<p>He argues that philosophers wrongly treat attributes as if they were separate parts of a thing, and then claim that having attributes means being composed and dependent. But in reality, attributes are part of what a thing is—they’re not separate or external. (Darʾ, 1:281)</p>
+<p>Therefore, Ibn Taymiyya argues that if philosophers have redefined common terms like “part,” “other,” “dependence,” and “composition” in a highly technical and specialized way, then there is no valid reason—either rational or scriptural—to reject the idea that God is “composed” of His essence and attributes or “dependent” on what they call “parts.” These conclusions only follow if one accepts the philosophers’ unusual definitions.</p>
+<p>However, Ibn Taymiyya points out that these technical meanings are very different from how these words are normally used by Arabic speakers. Because of this, using such definitions is misleading and can cause confusion both in logical reasoning and in interpreting scripture. He insists that language should be understood according to its widely shared and conventional usage, especially when it comes to interpreting the Qurʾān, which was revealed in clear and accessible Arabic. (Darʾ, 1:281)</p>
+<p>Ibn Taymiyya argues that any theological question must be resolved through both sound reasoning and careful interpretation of scripture. This requires analyzing the terms involved, clarifying their meanings, and judging each meaning based on its consistency with both reason and revelation.</p>
+<p>He gives the example of two terms: wāḥid (used in the Qurʾān) and tarkīb (not used in revelation). Over time, both words were given new meanings by philosophers and theologians—meanings that reflected a foreign conceptual framework unfamiliar to the early Muslims. These new meanings were then read back into the Qurʾān.</p>
+<p>As a result, the simple and clear statement “God is one and not composite,” which originally meant that there is only one God who alone deserves worship and who was neither assembled nor made of parts, was reinterpreted to mean something very different: that God is a perfectly simple, unconditioned being (wujūd muṭlaq) with no attributes at all.</p>
+<p>Ibn Taymiyya strongly rejects this reinterpretation. He says it contradicts the plain meaning of scripture as understood by its original audience. At the time of revelation, words like wāḥid and murakkab did not carry the technical meanings later assigned to them by philosophers. These meanings were shaped by a foreign worldview and imposed onto the Arabic language.</p>
+<p>But Ibn Taymiyya goes further. He argues that the idea of an unconditioned being with no attributes is not only incompatible with scripture—it’s also irrational. Such a concept, he says, is purely abstract and can exist only in the mind, not in reality.</p>
+<p>The key point for Ibn Taymiyya is that statements like “God is one and not composite” must be carefully examined. We must break down the terms, clarify their meanings, and then judge each meaning on its own. What matters in rational inquiry, he insists, is the actual meaning not the technical terms used to express it. (Darʾ, 10:239)</p>
+<p>This end showing that Ibn Taymiyya aims to move away from an approach to interpretation that relies on impure reasoning which tries to force revelation into a fixed philosophical framework. Instead, he promotes a method rooted in language, where the revealed texts are seen as fully capable of conveying theological and other truths on their own, without needing to be reshaped by speculative thought.</p>
+<p>In the next article, our focus will shift to how Ibn Taymiyya challenges the core assumptions of philosophy. How he manage to rebuild the relationship between true revelation (naql ṣaḥīḥ) and a purified form of reason (ʿaql ṣarīḥ), the one that is free from the distortions of philosophical speculation.</p>
+<p><strong>T.C. Allah-Hafiz!</strong></p>
+ <div class="navigation">
+            <a href="suluk.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+</html>
