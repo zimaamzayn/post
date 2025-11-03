@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"><meta name="description" content="My personal reflection on lust in the modern age, its consequences, and the Qur’anic solution to it.">
+<meta name="keywords" content="Lust, Islamic Morality, Desire, Purity, Modesty, Qur'an, Hadith, Self-Control, Islamic Ethics, Nafs, Fitnah, Islam and Temptation">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Lust: A Story of Our Time">
+<meta property="og:description" content="An introspective essay on lust, temptation, and the path of purity in Islam — guided by Qur’anic wisdom and prophetic teachings.">
+<meta property="og:image" content="lust.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/lust.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Lust: A Story of Our Time - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">     
+<h3>Lust: A Story of Our Time</h3>       <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+          <p><em>Assalamu Alaikum.</em></p>
+
+  <p>We have in our lives two types of companions — those who are good and those who are not bad but can lead us towards it. I have some friends who ask me, “Akhi, just find a good religious girl for me from your contacts.” Since I find them financially dependent on parents, I am supposed to ask, “For what purpose?” They reply, “So that I will be fixed on that single girl and not think of anyone else.” Apparently, his concept seems logical — if sin can be reduced, then it is good, isn’t it?</p>
+
+  <h3>What is Lust?</h3>
+
+  <p>You know why I am writing this article. Lust is instant gratification — whether physical, emotional, or sexual. Its definition is clearly seen in this hadith:</p>
+
+  <p><em>Abu Huraira reported: The Messenger of Allah, peace and blessings be upon him, said, “When Allah created Paradise and Hellfire, He sent Gabriel to Paradise saying: Behold it and what I have prepared therein for its people. Gabriel came and looked at it and what Allah had prepared therein for its people, then he returned to Allah and he said: By Your might, no one will hear of it but that he will enter it. Allah ordered that it be surrounded by adversity and He said: Return to it and behold what I have prepared therein for its people. Gabriel returned and found that it was surrounded by hardship, then he returned to Allah and he said: By Your might, I fear that no one will enter it. Allah said: Go to the Hellfire and behold it and what I have prepared therein for its people. Gabriel found that it was in layers, one above another, then he returned to Allah and he said: By Your might, no one who hears of it will enter it. Allah ordered that it be surrounded by desires and He said: Return to it. Gabriel returned and he said: By Your might, I fear that no one will escape it.”</em> <strong>(Sunan al-Tirmidhī 2560 – Sahih)</strong></p>
+
+  <p>So anyone who forces his heart to give up the things which it desires and which his lower self yearns for, but which his Lord dislikes, has protected himself. But why is it so hard for us to do so?</p>
+
+  <h3>A Personal Experience</h3>
+
+  <p>I have personally experienced this. There was a subreddit on atheism where I was very active against atheists. There, someone caught my attention. She was a Muslim, a nice girl, and she was very sad about what she thought of Allah before it was explained to her. She exchanged contacts for further communication. As normally happens, I forgot — maybe she did too. Then one day, I got a message. It was her, now with another problem. We were discussing, and somehow the topic shifted from her to me — then to emotional matters. Our souls desire and crave sins, thanks to Iblis. By the time I realized it, it was late. When I did realize, I found how weak our souls are, as Allah says: <em>“And it is Allah’s Will to lighten your burdens, for humankind was created weak.”</em> (Q 4:28)</p>
+
+  <p>This article is not about the corrupt, but about you and me — those who are prone to corruption — and how we can stop ourselves.</p>
+
+  <h3>Levels of Lust</h3>
+
+  <p>Lust has different levels for each of us — some desire to look, some desire to touch, and at its lowest level, the desire to talk. It is important for us to know our level and how to stop ourselves.</p>
+
+  <p>When I thought about that discussion, I realized how many people think they are doing right but are unaware of how wrong they are. I searched the Qur’an and found:</p>
+
+  <p><em>“Say: ‘Shall I inform you of the greatest losers in respect of their actions? Those whose striving in the life of this world is misguided while they suppose that they are doing good.’ Those are the people who reject the signs of their Lord and the meeting with Him. Their actions come to nothing, and on the Day of Rising, We shall assign no weight to them.”</em> (Q 18:103–105)</p>
+
+  <p>This verse felt as if it was for me and my condition. And I knew the Qur’an would have a solution too. It says: <em>“And do not come near adultery. It is immoral, and an evil way.”</em> (Q 17:32)</p>
+
+  <h3>Understanding Fahisha</h3>
+
+  <p>The word used in this ayah for adultery is <em>Fahisha</em> — meaning “immoral lust.” Any act leading to a great sin. Scholars say this means to stop lust or desires. The Qur’an’s solution is to be aware of where you are going and how it might end.</p>
+
+  <p>Allah says: <em>“To mankind the love of worldly appetites is painted in glowing colours...”</em> (Q 3:14)</p>
+
+  <p>This means Allah has created people with love of worldly appetites as a test. When we commit sins, we often forget, then later realize. But if we persist, Allah warns us:</p>
+
+  <p><em>“However, repentance is not accepted from those who knowingly persist in sin until they start dying, and then cry, ‘Now I repent!’ nor those who die as disbelievers. For them We have prepared a painful punishment.”</em> (Q 4:18)</p>
+
+  <p>If we persist in sin, how can we expect His mercy?</p>
+
+  <h3>Islam’s Guidance on Purity</h3>
+
+  <p>Islam guides people to purification and purity. It establishes pure morals founded on fidelity and virtue. Although verse Q 3:14 mentions many desires, the hardest to control is the love for women. I do not say we will always end up loving someone, but it depends on our <em>Iman</em>.</p>
+
+  <h3>The Solution: Marriage and Self-Control</h3>
+
+  <p>Love for women originates in the sexual instinct (<em>ghariza</em>), meaning it is something implanted in man. To manage it, Allah made marriage easy in Islam. Due to this fitnah, clear limits have been laid down on how men and women should interact.</p>
+
+  <p>Allah says: <em>“And do not go near to fornication. It is an indecent act, an evil way.”</em> (Q 17:32)</p>
+
+  <p>The commentator ‘Ata said: “The worst of the gates in respect of grief, heat, and torment — and the one with the foulest stench — is the gate of the fornicators who committed fornication knowing it to be wrong.”</p>
+
+  <h3>Lowering the Gaze</h3>
+
+  <p>Allah commands: <em>“Say to the believing men that they should lower their eyes and guard their private parts. That is purer for them. Allah is aware of what they do…”</em> (Q 24:30–31)</p>
+
+  <p>These verses are directed primarily at women because they are often the focus of men’s attraction, but both are commanded to guard their modesty. The Prophet ﷺ said: <em>“O ‘Ali, do not follow one glance with a second one. The first is all right, but not the second.”</em></p>
+
+  <h3>Avoiding Temptation</h3>
+
+  <p>Allah made it obligatory for Muslim women to wear hijab to protect the virtue of men whose glances might fall upon them. Similarly, He commanded men to avoid every step toward haram.</p>
+
+  <p><em>‘Uqba ibn ‘Amir</em> reported that the Messenger of Allah ﷺ said, “Beware of visiting women.” In another hadith, <em>Ma’qil ibn Yasar</em> reported that the Prophet ﷺ said, “It would be better for one of you to be pierced in the head with an iron prong than to touch a woman not lawful to him.”</p>
+
+  <h3>Marriage and Abstinence</h3>
+
+  <p>Marriage is the basic remedy for sexual appetite. But since not everyone can marry early due to academics or culture, we must abstain from what destroys <em>Iman</em>. Allah says: <em>“Those who cannot find the means to marry should be abstinent until Allah enriches them from His unbounded favour.”</em> (Q 24:33)</p>
+
+  <p>Abu Umamah reported that the Prophet ﷺ said: <em>“There is nothing more beneficial to a believer after fear of Allah Almighty than a virtuous wife.”</em></p>
+
+  <h3>Controlling Desires Through Food</h3>
+
+  <p>The Prophet ﷺ said: <em>“A human being does not fill any vessel worse than his stomach. Enough for the son of Adam are a few morsels to keep his back straight. If it cannot be avoided, then a third is for food, a third for drink, and a third for breath.”</em></p>
+
+  <p>‘Aisha said: <em>“The first disaster which occurred to this community after its Prophet died was satiety. When people fill their stomachs, their bodies become fat, their hearts weak, and their appetites ingrained.”</em></p>
+
+  <h3>Manners and Etiquette</h3>
+
+  <p>Allah commands believers to seek permission before entering houses:</p>
+
+  <p><em>“O you who believe! Do not enter houses other than your own until you have asked permission and greeted their inhabitants…”</em> (Q 24:27–28)</p>
+
+  <p>I have great dislike for men who invade our sisters’ privacy. May Allah curse them if they refuse to change.</p>
+
+  <h3>Following Desires Leads to Destruction</h3>
+
+  <p>Allah explains: <em>“And who could be further astray than someone who follows his own whims and desires without any guidance from Allah? Allah does not guide the people of the wrongdoers.”</em> (Q 28:50)</p>
+
+  <p>But He also says: <em>“But as for him who fears the Station of his Lord and forbids the self its appetites, the Garden is his refuge.”</em> (Q 79:39–40)</p>
+
+  <p>So if we fear Allah and His punishment, we will not fall into wrongdoing. As He says: <em>“Your Lord has made it unlawful for you to approach indecency — outward or inward.”</em> (Q 6:151)</p>
+
+  <p>May Allah protect us from both online and offline forms of lust present in our society. We ask Allah to forgive us, our brothers and sisters, and make us firm in following His Deen — Islam.</p>
+
+  <p><em><strong>Allah Hafiz!</strong>strong></em></p>
+
+ <div class="navigation">
+            <a href="tawil.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+</html>
