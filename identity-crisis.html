@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="My heartfelt reflection on developing a soft personality in Islam.">
+<meta name="keywords" content="Muslim youth, Soft personality, Islamic ethics, Heart">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Towards a Soft Personality">
+<meta property="og:description" content="My heartfelt reflection on developing a soft personality in Islam.">
+<meta property="og:image" content="soft.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/soft-personality.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Towards a Soft Personality - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">     
+<h3>Identity Crisis</h3>       <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+<p>So I was not able to think about a beginning, so let’s just begin with a short story (or myth).<br>
+In Greek myth, Sisyphus was a clever king punished for his defiance. His eternal sentence was to push a massive boulder up a steep hill, only to watch it roll back down the moment he nears the top. Over and over, forever. No progress. No rest. Just endless, pointless labor.</p>
+
+<p>Today, many of us feel like Sisyphus, because the world around us makes it nearly impossible to hold on to who we truly are. Although it is a myth, it still holds true to the world we are in today. Governments, social media, and wars are designed to make a specific group or a person or even ourselves disappear or at least change into an identity we are not. Humanity has always wanted to lead others. What <strong>Nietzsche</strong> says, “<em>Might Makes Right</em>,” means those who are in power will always try to suppress others, and when it happens the oppressed lose their identities. In today’s article we will try to understand how they try to remove your identity and how we can preserve ourselves.</p>
+
+<p>I used to wonder why kings and emperors used to build such great monuments and forts. Then one day I was reading a book and it quoted a poem from <em>Ozymandias</em>:</p>
+
+<p>I met a traveller from an antique land,<br>
+Who said—“Two vast and trunkless legs of stone<br>
+Stand in the desert… Near them, on the sand,<br>
+Half sunk a shattered visage lies, whose frown,<br>
+And wrinkled lip, and sneer of cold command,<br>
+Tell that its sculptor well those passions read<br>
+Which yet survive, stamped on these lifeless things,<br>
+The hand that mocked them, and the heart that fed;<br>
+And on the pedestal, these words appear:<br>
+My name is Ozymandias, King of Kings;<br>
+Look on my Works, ye Mighty, and despair!<br>
+Nothing beside remains. Round the decay</p>
+
+<p>So you would ask, Zayn, what this means. These lines show a ruined statue standing alone in the desert where the proud face and bold inscription of a once mighty ruler still remain although his empire has long disappeared. The king tried to make those who came after him remember him through his sculptures, which reflects a familiar human longing to achieve a form of lasting presence in the world. And this idea is still present. For example, cultural exports and ideological wars for survival. This fight to survive in a world of various identities gives rise to identity crisis.</p>
+
+<p>An identity crisis in the modern world is a period of deep uncertainty in which individuals or communities struggle to understand who they are and what they stand for. This struggle is shaped by social pressures, political conflicts, and financial instability. It is important to understand an identity crisis because it helps explain how people think, feel and act when their sense of self becomes unclear. Knowing this allows individuals and societies to respond to changes constantly driving them away from who they are.</p>
+
+<p>As a whole, there are three main identity crises in the world today:</p>
+
+<p><strong>1. Displacement</strong><br>
+This happens when a person is removed from the environment or time that once defined them or they yearn for. It may be a place, a social circle, or a role that gave them stability. When the old setting disappears, they feel rootless and unsure who they are because the anchors of identity are gone. Migrants, students leaving home, or people losing a long-held job often face this. For example, humanity always thinks that the past was much better than the present in something or other.</p>
+
+<p><strong>2. Constrictment</strong><br>
+Here the person feels trapped in a narrow role. Expectations from family, society, or culture limit how they can express themselves. They know there is more to their personality but conditions don’t allow it. Because of that their inner identity feels suffocated and incomplete, which creates conflict between who they are and who they are forced to be.</p>
+
+<p><strong>3. Overwhelming freedom</strong><br>
+In this form the person has too many choices and no clear guidance. Instead of being restricted, they have an open field with endless options. This abundance creates anxiety because they do not know which version of themselves to choose. With no structure they fear making the wrong decision and feel lost in the weight of total freedom.</p>
+
+<p>So for a Palestinian the old days before occupation of Palestine were much better than modern Israel, they yearn for those days and try to do things to regain their identities. The current condition they are in is displacement identity crisis. While those who travel abroad or work in daily life like a robot without changing schedules (for example constant work by the king in the myth of Sisyphus) feel that they have lost true identity in this small circle of life. While those who are overwhelmed by social media and content like that truly lose their true identities to the cults they follow, owing to the fact that the diversity these contents provide them is well beyond what they can digest (<em>read my article on K-Pop: how it has changed the true identities of youth is a good example</em>).</p>
+
+<p>Whenever anyone falls into any of these identity crises they tend to follow a common pattern.</p>
+
+<p>The initial stage is confusion. They feel that their present condition is not what they want. This curiosity can become a driving force to achieve something essential in life. Yet many withdraw from social circles for a while as they search for identity. In this search they explore different friends, beliefs, and places which open up endless possibilities. This often leads to anxiety and from here two things can happen. They may grow into someone they genuinely believe is right or they may get trapped in ideas that are not natural to them. In that case they lose their original identity only to adopt a new one that is not truly theirs but an imposed one.</p>
+
+<p>So let us take example of a young Palestinian who has grown up with a clear sense of home suddenly finds everything shaken and his first reaction is deep confusion because his present condition is not what he wants. This confusion pushes him to pull away from friends and familiar routines as he begins a quiet search for who he is now. In this space he meets new people, hears new beliefs, and moves through new places that open endless possibilities for what his life could become (<em>for example he may join a military force or a political camp</em>). These possibilities bring both hope and anxiety because each direction pulls his identity in a different way. In this pressure he either grows into someone he truly believes he is or he becomes trapped in ideas that never belonged to him, losing his original identity only to take on a new one shaped by forces outside his own heart. Identity crisis in oppressed nations is very common.</p>
+
+<p>So how does someone lose identity and who is responsible for this crisis at the social level? Before going further it is helpful to clarify that the aim of this article is to understand what drives a society into identity crisis rather than what influences an individual who may shift identity out of personal emotional experiences or curiosity (<em>for example joining LGBTQ just because they were cheated or wanted to explore something new at an individual level</em>). So our focus here is on the larger forces that shape people without their awareness. At the social level identity can be altered passively when powerful groups design systems and algorithms that slowly redirect how communities see themselves. These mechanisms do not work by open force but by shaping information, choices, and narratives in ways that serve the interests of those who control them. In this way entire groups drift away from their true identity not because they choose to, but because they are guided by structures built for the benefit of others.</p>
+
+<h3>The Organisations</h3>
+<p>When a mishap happens in society at a great level due to economy or wars, this creates a social dysphoria in people of that society and this dysphoria is the starting point of ideologies which the elites build up for their own benefit. As such, the community which thinks itself in crisis has two major factions in it: one which is elite or dominant, and the other which is supposed to listen to these elites (let us call them “the people”). The difference in living standards of both groups is entirely different, but elites rebrand the institutions (<em>any medium through which ideas are pushed towards people</em>) symbolically and culturally to a point that these normal groups consider themselves a part of the elite cult and adopt those ideas too.</p>
+
+<p>In every society there is always a small group that has more access to wealth, influence, and decision-making than everyone else, and even though they belong to the same community they are not accountable to the people beneath them. When identities begin to shift at the social level these groups often play a central role. They do not work openly. Instead, they reshape information, culture, and public imagination in a way that looks harmless on the surface but slowly pulls whole communities away from their real concerns. They take projects, ideas, or movements that were meant to benefit the wider population and redirect them toward their own interests. So the people start believing that identity is something to display rather than something deeply tied to their life. This is what drives a society into identity crisis. It happens not because communities lack values but because the systems they depend on are built in ways that allow those at the top to guide narratives and choices. The issue is thus the unequal structure itself which naturally produces this kind of capture.</p>
+
+<p>When we talk about identity crisis at the level of a whole society we often imagine big laws or powerful institutions. But the reality is that identity is shaped every day in the rooms where normal people spend their time. The environments we live in decide what can be said and what must be kept quiet. When powerful groups control what becomes acceptable public knowledge, they quietly guide how millions think about themselves without ever giving direct orders.</p>
+
+<p>Think of how people behave in a workplace where everyone praises an idea that nobody actually believes in (<em>for example everyone in KSA knows how the Saudi regime is at fault especially these days, yet they turn a blind eye</em>). They do not agree from the heart. They simply understand that disagreeing brings trouble so they act along with the crowd. The same thing happens on a larger social scale. People follow the common ground because resisting it feels risky. Over time this pressure erodes genuine identity because people stop expressing what they truly feel and start mirroring what the environment rewards.</p>
+
+<p>Modern systems deepen this capture by simplifying our values. Social media reduces complex selves into measurable likes so whatever you do it is just important that the majority accepts it whether it is Halal or Haram. Workplaces measure a worker’s worth by ratings instead of the richness of their real contribution in work. News cycles are shaped by algorithms that reward anger and noise over clarity and truth. None of this requires a conspiracy because systems reward those who follow the path set by elites and make it hard for others to build alternatives.</p>
+
+<p>In this way identity crisis does not begin in one dramatic moment. It begins when people adjust themselves to fit the shape of the room they are placed in. They imitate the values that the system praises even when those values have nothing to do with their real needs and drift away from their own stories.</p>
+
+<p>When people talk about saving identity they often imagine that giving space to marginalized voices will naturally correct the imbalance. For example, Al-Jazeera may take interview of Hamas leadership which is actually not in Gaza but still shares the same suffering. They are the most elite members in the oppressed community. How can they share the same stance as the one under oppression? So inside elite environments this practice usually works in the opposite direction. The rooms where public opinion is shaped are not built by ordinary people but by elites. They are built through filters that select only those who already fit the expectations of think tanks or media boards or donor-funded organisations (<em>in our case Qatar, which funds Al-Jazeera</em>). So when these rooms try to centre the marginalized they are usually listening only to the few who have already passed through layers of privilege even if they come from oppressed communities, and it becomes only a useless performance shown to people with hopes.</p>
+
+<p>People in these rooms are treated as if they speak for those outside it. Their personal experience is turned into authority and others step back out of politeness or fear of saying the wrong thing. But the structure of the room remains untouched. The same institutions decide the agenda, the tone, the acceptable ideas, and even the emotional rules. Ordinary people who are homeless or trapped in debt or living under violence never even enter these spaces, and if it happens so they are asked to speak on behalf of elite agenda. So the idea of centering them becomes symbolic. The room looks diverse but it behaves exactly as it was built to behave.</p>
+
+<p>Identity crisis grows quietly in such environments. People begin to believe that being represented is the same as being empowered, so a Palestinian may think he is accepted in the West, that ideas are changing in Western minds, but it is either temporary or even just image from one point of view. Movements start fighting for visibility instead of material change, and we have seen this very clearly in the Gaza genocide where Hamas and Israel both were sharing pictures of their success. Activists in such cases speak in a professionalised tone because it is the only language the room accepts. A student might be praised for sharing a painful story while the deeper structures that caused the pain remain untouched, in our case the absurd attack of 7th October. This soft performance of justice creates comfort for the room but no transformation for the society that is looking at these daily debates with hope for a better future.</p>
+
+<p>A different approach is possible and history gives many examples. Groups that resisted colonial rule did not wait for elites to offer them space. They built their own schools, clinics, and councils from the ground up. Their goal was not to express identity but to rebuild the social conditions that make identity stable. Instead of a way to extinction they raised support for their voices. They did not treat culture as something sacred that cannot be questioned. For example they questioned the intentions of those who do so-called jihads in times when we are ourselves weak. They used a flexible, practical approach aimed purely at achieving freedom. This meant working together and taking real action, rather than focusing on self-glory.</p>
+
+<p>The main lesson here for understanding identity crisis is simple. A society cannot regain its true self by adjusting who sits in elite spaces. Identity does not collapse because of who speaks in the room but because the room itself is designed to protect certain interests. When people confuse representation with power they begin to live by narratives that do not match their realities. And once that gap appears, entire communities drift further into crisis thinking they have achieved progress when they have only shifted appearances. This is important because many of our friends may say Palestine gained recognition and certainly it means that they are giving free hand to Hamas to again do such acts which gives Israel an open chance for genocides.</p>
+
+<p>This set of ideas shows that identity crisis at the social level does not begin with personal feelings or self-discovery. It begins with the structures that surround people. When those structures are controlled by powerful groups, identity becomes unstable and easy to redirect. Manipulation works best on Muslims because from the beginning we gave chances to those who had power rather than those who can change our conditions.</p>
+
+<p>The alternative is a constructive approach that focuses on building new spaces for collective action. Instead of arguing over who gets symbolic respect, this approach looks at who has the capacity to shape the material conditions of society without support from elites but from each other.</p>
+
+<p>Another important point I want to tell you is that education is not simply information transfer. It is a process that forms the ability to understand the world and act within it. When schooling, media, and digital spaces are owned by powerful actors, identity formation itself becomes something managed from above. Like a student from Saudi Arabia is inherently Salafi and he thinks other Muslims are irreligious when it comes to creed. Constructive models of learning, where people participate, question, and create together, protect identity from being rewritten by algorithmic priorities from dominant groups (<em>in our case the West, which controls media</em>).</p>
+
+<p>A community also needs cultural infrastructure, meaning the everyday practices that allow people to coordinate their lives. Culture in this sense is not decoration. It is a system of shared meaning that lets people act collectively, and fortunately as Muslims we have the most developed community which meets at the same place five times a day. We spend time learning about others’ issues at micro-level better than other cultures. But the important question is: do we act on our culture or are we inspired by what the West has given us in our hands?</p>
+
+<p>Another key lesson is that critique alone cannot stabilise identity. I have been listening to some really intellectual people in the Muslim community who say, “Look how much self-criticism we do for development of our thoughts.” But they forget that people need institutions that let them act, organise, and build after these pondering sessions. Without the spaces to do these things, identity becomes vulnerable to whatever narratives are pushed by those with the largest platforms.</p>
+
+<p>All of this connects directly to the question of identity crisis in the modern world. When the flow of information, the rules of representation, and the foundations of public life are shaped by elites, societies naturally drift into confusion about who they are. When these foundations are rebuilt by communities themselves, people regain the ability to define who they are without needing approval from any elite structure.</p>
+
+<p>One of the core points here is that nothing in society happens by accident. The institutions that harm people are usually the product of deliberate planning carried out by powerful actors who know exactly what they want (<em>for example Qatari cash which was transferred to Hamas was approved by Israel, as if it was known that Hamas would attack soon</em>). If ordinary people do not create their own plans, then they simply fall under the plans made for them. In contrast, whenever communities design their own criteria, they gain the ability to block harmful systems and replace them with ones that actually serve human needs.</p>
+
+<p>In Muslim societies the emotional and moral weight brings representatives into politics. Many carry deep pain from racism, gender violence, colonialism, displacement, or economic exploitation. This suffering is real, but it becomes harmful when it is turned into a system where the most hurt are treated as guides and everyone else stands back in passive deference, shutting their minds against the larger goals of such activists. Pain alone does not produce clarity. It can mislead as much as it can illuminate. What actually transforms pain into understanding is sustained collective reflection and discussion. According to me someone’s trauma should connect people, not divide them into speakers and spectators.</p>
+
+<p>And for me working together is about figuring out how different groups can combine their knowledge, resources, and strengths to change real conditions, so that not a single person decides the fate of an entire community. Movements that have succeeded in any part of the world did so because different people with different roles worked together around concrete goals. Cooperation requires humility, discipline, and commitment to those who are not in the room yet, especially the most vulnerable and I think it is most hardest part for us to implement in actual sense, where everyone does contribute somehow at thier level in decision making.</p>
+
+<h3>What can we do individually</h3>
+<p>I don't want you to stay blank on this, so I am sharing my view on how can we act actually at our level for our own better future, it begans by changing algorithm we can interrupt this influence by consciously choosing what we read, who we listen to, and which voices we let into our daily thinking. This is a small act, but over time it rebuilds our personal common ground instead of letting it be filled by whatever is loudest online. Also identity confusion grows when people feel isolated. Creating small spaces of honest discussion as a part of community is our duty, so others can express what they feel easily. And finally we need to develop practical changes rather than symbolic representations and at individual level we can do this by helping someone fight a bureaucratic injustice, so something like that.</p>
+
+<p>Just as powerful institutions plan decades ahead, individuals can learn to think in longer timeframes, taking small steps towards that goal. And when we feel exhausted we can go and ask Allah S.W.T to open our hearts and give us Hidayah.</p>
+
+<p>The all pulls of west and east on our identity ends when we decide to be one Allah has described in Qur'an, the one who is not concerned for worldly achievements, online approval, or borrowed lifestyles but focused on changing himself and his immediate surroundings.</p>
+
+<p>This article was written in hopes that those who think that following a special identity defined by ethnicity or ideology or elites is the only way. Then they have never pondered on their own selves and have never sought to bring about any chnages, but are just following already decided algorithms, this article was based on my reading of a book by Olúfẹ́mi O. Táíwò - <em>Elite Capture</em>, which I was passively reading during mid-November.</p>
+
+<p>T.C Allah-Hafiz.</p>
+ <div class="navigation">
+            <a href="soft-personality.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+  </html>
