@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="A critical look at existentialism from it's earliest roots, written for your understanding.">
+<meta name="keywords" content="Existentialism, Freedom, Dovetsky, Philosopher, Absurdity, Nietzsche">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Existentialism & Freedom">
+<meta property="og:description" content="A critical look at existentialism from it's earliest roots, written for your understanding.">
+<meta property="og:image" content="existentialism.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zayn.us.kg/post/existentialism.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Existentialism & Freedom - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">     
+<h3>Existentialism & Freedom</h3>       <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+<p>I have been quite inactive for days about the philosophical discussions. <em>You can say I was not in the mood</em>. I have been suffering from insomnia and I thought this would end only when I write something to you. So let us discuss Existentialism which I have postponed for long, and I am a bit ashamed to say that this article, like our earlier writings, will again move into academic language.</p>
+
+<p>With such a broad and diverse range of types, it becomes hard to explain what the term <em>existentialism</em> is all about. The word was first written by Marcel in nineteen forty three though it was Sartre who turned it into a world famous label two years later. It is not a reference to a fixed system or philosophical school but more like a state of mind. It is an attempt to live what they call an authentic life despite what they call the absurdity of existence. It came into picture in mid twentieth century France. By that time a more scientific and secular view had taken shape and the old religious frame of Christian thought was collapsing.</p>
+
+<p>With the rejection of Church authority a new kind of Christianity formed. It stressed inward feeling and personal emotion. It shaped a social pattern based on individualism, freedom and self trust. The result was a loss of community and belonging. This is very close to our digital world where people wonder if they live in a simulation. Thinkers at that time were trying to escape nihilism while the stories of Dostoevsky, Camus and Kafka showed the emptiness of modern life.</p>
+
+<p>The thinkers failed when they gave up Plato’s high view toward the mass and placed themselves inside the crisis. They shifted from third person distance to first person experience.</p>
+
+<p>Third person distance or Plato’s high view means seeing life from outside like a neutral watcher. Existentialists argued against this. They said we are always caught up inside life. We never stand outside to watch it calmly. Our experience is always inside the world we stay in.</p>
+
+<p>So these modern thinkers began looking from first person angle and built their ideas from their own crisis. This made them claim that truths are social constructs shaped by people at certain moments in history and they last only while useful. For Nietzsche these truths are passed down till people accept them without question. So he said a thinker must accept this absurdity and rewrite his life through personal freedom.</p>
+
+<p>In existentialism authenticity means action should match personal values even if society pressures you. So they argued that truths a community inherits are only perspectives and cannot lead morality anymore. To them new thinkers must form new morals. This pulls the thinker away from old values and for them this detached life is the most authentic.</p>
+
+<p>In the same way existentialists say our body moods and experience carry meanings from the world. These meanings shape how we live. Beauvoir shows this by saying a woman often absorbs the male centred view and sees herself as weak though this is not her true nature.</p>
+
+<p>They said existence shapes essence. There is no inborn nature inside a human being. So identity must be created through choice and action.</p>
+
+<p>Before we go deeper let me clear some terms. Essence is the inner nature of something in the mind. For example in essence a circle means equal distance from centre to edge. Existence means the thing is present. So a drawn circle on paper exists.</p>
+
+<p>From their view existence comes before essence. Humans are born without values and they create values. Sartre spread this idea in his work <em>Existentialism is a Humanism</em> in nineteen forty six though later he rejected many lines in it. Some scholars pointed out mistakes in it such as calling Karl Jaspers a Catholic and giving a weak definition of existentialism.</p>
+
+<p>Steven Rose the biologist said Sartre’s line <em>man will be what he makes of himself</em> is empty rhetoric and more like a slogan than real thought. He said age and disease limit freedom.</p>
+
+<p>Whatever critics say Sartre believed in freedom so deeply that he claimed a person creates himself through choice alone. In doing so he ignored real limits like money social laws and inequality. When I read him I found many opposite statements. Sometimes he praises despair and sometimes he attacks atheists for loneliness. Both rise from misunderstanding life or ignoring limits.</p>
+
+<p>If there is no human nature then anyone forming new morality will be rejected by others due to their freedom. This brings confusion and social chaos. In history freedom has clashed with itself. My gain can be your loss. Sartre never deals with the results of freedom. He treats freedom like a bubble and lifts it as the highest value. This leads to fear that any act will take away freedom and this fear brings loneliness in the name of courage.</p>
+
+<p>Sartre also does not talk about shared human nature or shared values. But we are not born in a vacuum. Our world shapes us. So this pure freedom he imagines does not exist. He also mixes inner life with moral life. Inner life wants survival. It cannot teach duty. Freedom is not the aim of society. It is only a tool. It allows action but does not guide action. Freedom needs values aims and ties. Without these freedom is only a pleasant idea.</p>
+
+<p>Sartre as an atheist said a true atheist is also an existentialist and does not care about social order or shared values. For me this is one of the strangest claims ever made.</p>
+
+<p>Now it is important to note existentialism is not only atheistic. There are two types. Atheist existentialists like Nietzsche Camus and Sartre. And religious existentialists like Kierkegaard and Martin Buber.</p>
+
+<p>The first group can be removed from discussion. None of them answer basic questions. Nietzsche for example admired creators of new ideas but attacked those who followed culture. I saw the same thing in Sartre who wrote a pile of ideas but never formed a working system. Nietzsche attacked everyone and then proposed the Ubermensch who forms values from nothing. But his Zarathustra is shaped by older works and moral figures like Christ and Socrates. So this new freedom is not new. It becomes strange and unclear. I feel his ideas come from rejecting parts of Rousseau’s natural man, taking some parts of Goethe’s Faust and speaking like Schopenhauer but without full pessimism.</p>
+
+<p>So the atheistic branch never gave new ideas. They only repeated one another. How can one speak of freedom when he is not free from older voices.</p>
+
+<p>Now the religious existentialists. Their core belief is that truth rises after crisis. Many claim God cannot be reached by reason and His ways look dark. So faith becomes a personal act born from uncertainty. For me this feels like a blind jump. In Islam we believe every act of God carries wisdom even if the mind does not see the full picture. Reason is a gift that reads His signs.</p>
+
+<p>Also when they choose their own meaning while believing in God they lower His status. Why believe in a God who has not given you right and wrong beforehand. Their focus becomes the self not God. It is a selfish type of freedom where you accept God but do not submit. This is still hidden individualism that lifts the ego while seeming to bow.</p>
+
+<p>So existentialism is not only illogical but cannot be applied. Its founders never found anything new. They tried to destroy human history and replace it with personal values which bring clash of freedoms.</p>
+
+<p>Sartre himself saw this later. In <em>Being and Nothingness</em> he claimed pure freedom. After Marxist attacks he changed his view and said freedom is shaped by social historical and material conditions. So even they knew their idea of freedom cannot exist.</p>
+
+<p>Kierkegaard said subjective truth is higher than universal truth. This means sometimes you must drop moral duty to be true to yourself. This is unreasonable. It weakens belief in moral laws. It harms society. He tried to prove his point through the story of Ibrahim A S but God never commands evil. His commands hold wisdom even if unseen. He never breaks His own moral laws. So Kierkegaard’s claim does not prove freedom.</p>
+
+<p>Nietzsche said only the highest types can be free. Freedom is a reward of the strong. So his idea kills universal freedom.</p>
+
+<p>Heidegger said freedom is being open to who you are instead of being locked in a fixed form. But without moral frame life becomes chaotic. Duty trust and promise need stability. Growth needs steady direction. Without this one cannot speak of responsibility. In such a world one can break promise or cheat in the name of freedom. Heidegger also said one must drop values based on circumstances. This again means no tie has meaning.</p>
+
+<p>He also said we should not help someone fully because it might control their freedom. He saw help and care with doubt. For him giving full support could harm freedom. Even normal care becomes a question. This strange way of seeing bonds appears again in Beauvoir and Heidegger who see care as danger. So you can see existentialism struggles to explain healthy human ties.</p>
+
+<p>It becomes clear Heidegger also falls into deep worship of freedom. His idea of <em>liberating concern</em> says we should not help someone in a way that removes their responsibility and that if we leap in we turn them into an object. But this is not how humans work. Bonds depend on deep care and sometimes we do take on another’s burden fully not to control but to support. Real care is not domination. Real help does not wipe away responsibility. Many times a person can rise only because someone else stepped in at the moment they were falling. His model tries so hard to protect freedom that it removes compassion and the shared duty we owe to each other. It turns help into a risk instead of a basic human act. This shows how existentialism when stretched becomes too stiff for real life and ignores how people lift each other.</p>
+
+<p>And when it comes to Sartre he says in <em>No Exit</em> one should not strip others of freedom. But they never follow this. Limiting your own freedom for others lessens your freedom. So a pure existentialist would not accept this.</p>
+
+<p>Dostoevsky through Father Zossima sums the end of all existentialism. He speaks of terrible individualism born from too much freedom. It brings loneliness and despair. The modern man trusts only himself and cuts himself away. Zossima says this terrible individualism will end one day and people will see how lonely they have become.</p>
+
+<p>In the end when I see existentialism from its atheistic side to its religious side one pattern stands out. All of them start by taking the person out of the shared human story and placing him alone in a crisis. From this lonely point they tell him to create meaning for himself shape morals for himself and define truth for himself. It sounds strong for a moment but leads to confusion clash of freedoms and people drifting from one another.</p>
+
+<p>They speak of courage and authenticity but both come at the cost of breaking ties with community history and wisdom. They try to escape what they call the absurd but end up creating a deeper absurd life where nothing has stable meaning and each follows personal desire.</p>
+<p>Allah SWT says about them, <em>Have you seen (O Prophet) the one who has taken their own desires as their god? Will you then be a keeper over them? Or do you think that most of them listen or understand? They are only like cattle—no, more than that, they are astray from the (Right) Way! (Q 25:43-44)</em></p>
+
+<p>If you want to see an existential society read <em>Brave New World</em> or just look around today's 🌎.</p>
+
+<p>T.C <strong>Allah Hafiz</strong></p>
+ <div class="navigation">
+            <a href="identity-crisis.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+  </html>
