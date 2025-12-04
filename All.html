@@ -173,6 +173,47 @@
             margin-bottom: 20px;
         }
 </style>
+
+<style>
+/* Android-only responsive fixes */
+@media screen and (max-width: 768px) and (-webkit-device-pixel-ratio: 2) {
+    
+    /* Make post container fit small screens */
+    .post {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    /* Make images fit and not overflow */
+    .post img {
+        height: auto;
+        max-height: 180px;
+    }
+
+    /* Tighter padding for small screens */
+    .post-content {
+        padding: 10px;
+    }
+
+    /* Fix header height on small Android displays */
+    .header {
+        height: 30vh;
+        background-position: center;
+    }
+
+    /* Better title scale for Android */
+    .header h1 {
+        font-size: 1.8rem;
+        padding: 10px 15px;
+    }
+
+    /* Keep everything readable */
+    body {
+        font-size: 16px;
+    }
+}
+</style>
+
         <title>All Posts - Zimaam Zayn</title>
 <div class="latest-posts">
     <h2>All Posts</h2>
