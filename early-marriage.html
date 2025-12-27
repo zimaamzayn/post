@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="A search for why Aisha R.A married at age of nine.">
+<meta name="keywords" content="Aisha, Marriage, Hadith, Betrothal, Islam, Dawah">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Early Marriages in Early Middle Ages">
+<meta property="og:description" content="A search for why Aisha R.A married at age of nine.">
+<meta property="og:image" itemprop="image" content="early-marriage.jpg">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://zayn.us.kg/post/early-marriage.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Early Marriages in Early Middle Ages - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">     
+<h3>Early Marriages in Early Middle Ages</h3>       <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+<p><em>Assalamualaikum.</em> After a long break and much reading, I am writing this article. As you read, you may agree with me or you may not. What I have written is based on scholarly sources, which I have tried to include as always. Readers are kindly requested not to form opinions based solely on my words, but to use this article as a source of authentic knowledge to understand why what may seem illogical today was once a part of common history.</p>
+
+<p><bold>Hazrat Aisha (R.A.)</bold> was a beloved wife of the Prophet Muhammad ﷺ, known for her sharp mind, pure character, and deep knowledge. In this article, we will discuss the issue raised by modernists about her so called controversial age of marriage with the Prophet Muhammad ﷺ. She was the third wife of the Prophet Muhammad ﷺ in the order of marriage. I am aware of the work of Joshua Little against the hadith of Aisha’s age, but his work is solely based on his own assumptions, which, in fact, are not supported by other scholars even now. I am not saying that Bukhari and Muslim are without errors. Assim Al Hakeem has pointed out that there are some narrations that are not sahih, but it does not exclude the fact that we have evidence of other marriages at the same time which were pre-pubertal—though in every case, or so it seems, the marriage consummation (the first sexual relationship) was only established after the girl reached puberty.</p>
+
+<p>The following are some examples of early marriages among the Sahaba (companions):</p>
+
+<ol>
+  <li><p>Ali ibn Abi Talib, may Allah be pleased with him, married off his daughter, Um Kulthum, to Umar ibn Al Khattab, may Allah be pleased with him, and she mothered a child before the death of the Prophet (Sallallahu Alaihi wa Sallam). Umar married her while she was young, before reaching the age of puberty. This is reported by Ibn Saad in <em>Al Tabaqat</em>.</p></li>
+  <li><p>From Urwa ibn Zubair: that Zubair, may Allah be pleased with him, married off his daughter when she was very young. Reported by Saeed ibn Mansour in his <em>Sunnah</em>, and Ibn Abi Shaibah in <em>Al Musannaf</em>, with a sahih chain of narration.</p></li>
+  <li><p>Al Shafie said in the book of <em>Al Um</em>: Many companions of the Prophet (Sallallahu Alaihi wa Sallam) married their daughters while these were still young.</p></li>
+  <li><p>In fact the evidence by Ibn Ishaq and Muhammed Ibn Sa'd (based on Aisha Bewley's translation) <a href="https://archive.org/details/kitab-at-tabaqat-al-kabir/Kitab_at_Tabaqat_al_Kabir_Volume_VIII_The_Women_of_Madi_Muhammad/page/26/mode/2up">https://archive.org/details/kitab-at-tabaqat-al-kabir/Kitab_at_Tabaqat_al_Kabir_Volume_VIII_The_Women_of_Madi_Muhammad/page/26/mode/2up</a> Shows that Muhammed himself ﷺ married off Ruqqya and Umm Kulthum under the age of 10 before Islam started, as it was a norm then.</p></li>
+</ol>
+
+<p>Now that it is established that marriages at such an age were common then, the question asked by atheists is why did not the Prophet stop such marriages. But before answering this question, let me tell you something. In this modern society, the age of marriage has increased, but the age of first sexual experience is still very young. Approximately 7.1 percent of American youth report sexual debut prior to age 13, as shown in the following PubMed research—PMC3064497—and also in another study published in the journal <em>JAMA Pediatrics</em>, which found that 3.6 percent to 7.6 percent of boys and young men in the United States—nearly 1 in 13—report having had sex for the first time before they turned 13. (<a href="https://edition.cnn.com/2019/04/08/health/sex-health-statistics-teen-boys-study">https://edition.cnn.com/2019/04/08/health/sex-health-statistics-teen-boys-study</a>)</p>
+
+<p>So even though the West has imposed legal limits on the age of marriage, it has completely failed in preventing childhood sexual activity.</p>
+
+<p>Now, as for the question of why Muhammad ﷺ did not prevent early marriage, one must understand that early marriage during that time was never considered a sin (while alcohol and other things were clearly known to be hazardous). At that time, a girl was considered ready for marriage and childbearing once she reached puberty and physical maturity, which could occur at a younger age than is common today due to differences in diet, environment, and lifestyle. Marrying at an early age was a practical necessity for continuing a family lineage, given the high rates of infant and child mortality. If his early marriage had been considered bad, the enemies of Muhammad’s religion would have condemned him during his lifetime—but he was never criticized for it.</p>
+
+<p><bold>When Did the Debate on Aisha's (R.A.) Marriage Start</bold></p>
+
+<p>It was not debated until the West formulated its own marriage laws. According to Professor Jonathan Brown, there is no criticism (see this: <a href="http://www.youtube.com/watch?v=hE_zypf8DAU&t=3m30s">http://www.youtube.com/watch?v=hE_zypf8DAU&t=3m30s</a>) of Muhammad ﷺ marriage to Aisha at a young age before 1905, when the British historian David Margoliouth called it an ill advised union in his book <em>Mohammed and the Rise of Islam</em>.</p>
+
+<p>In fact, child marriage and consummation on the cusp of puberty with a significantly older husband appears to have been an accepted part of medieval society in Europe. Witness Margaret Beaufort, who was married to Edmund Tudor at age 12 and was seven months pregnant at age 13 with her son Henry, later Henry VII of England, when her husband died. The general historical reaction to that union is not outrage or disgust. From that, it is fair to infer that pubescent consummation was acceptable 800 years after the Prophet. (I am aware that both these English couples were young, and for reasons stated, it does not matter for the age difference—the discussion I want to prove here is that early marriages were still then common.)</p>
+
+<p>In the 15th century in Europe, under canon law, a girl was not bound by the marriage contract if it was entered into before reaching the age of twelve. (See Jones and Underwood, <em>The King’s Mother</em>, et al., 1993—a derivative source, but consistent with other European historical discussions of child marriage alliances.)</p>
+
+<p>Also, the Italian jurist Gratian, one of the founders of European canon law, opined that seven year olds could meaningfully consent to sex, and at that time it was normal to do so. (See: <a href="http://faculty.cua.edu/Pennington/canon%20Law/marriagelaw.htm">http://faculty.cua.edu/Pennington/canon%20Law/marriagelaw.htm</a>)</p>
+
+<p>This conclusion—that Muhammad’s ﷺ marriage to young Aisha was a sinful act—is held in the eyes of the modern world due to their being unaware of such norms. In historical context, it is the bias of interpreting past events or people through modern values, ideas, and perspectives, often leading to a distorted understanding, and is known as <em>presentism</em>. It is a false belief that makes the past seem foolish for not knowing what we know now, rather than understanding it on its own terms.</p>
+
+<p>As concluded by Anthony in his work, who says, “Based on the available data, it appears that ʿĀʾishah’s age at her first marriage was not an extreme outlier in the seventh century Ḥijāz.” (Anthony, <em>Muhammad and the Empires of Faith</em>, University of California Press, 2020, p. 115.)</p>
+
+<p>To prove my point—that early marriages were common among desert Arabs (both pagans and Jews before Islam), as well as in the Sasanian Empire and permitted among the elites of Byzantium—let me quote some points:</p>
+
+<p>For the Jews, it is sufficient to quote Monnickendam, who has shown that the juridical strength of betrothal (formal engagement of young ones) within late antique Semitic Near Eastern cultures—in both Jewish and Christian contexts—led to a degree of toleration of premarital sexual relations among betrothed couples within some communities, although this was generally condemned at the time by Ephrem and rabbis alike. On the level of ritual, Ephrem’s imagined betrothal rite for Jacob and Rachel is noteworthy, since it includes a formal kiss. (Monnickendam, <em>Jewish Law</em>, p. 52.)</p>
+
+<p>So not only the betrothal marriages were common in Middle East Jews and Christians, sexual relationship was also not mandated as sin during such arrangements even before marriage. To contrast this with Islam, although the father (not guardian of orphan) of a girl could betrothal her for marriage—in Islam the consummation of marriage was not allowed till the girl cross her puberty. This in fact is attested many times by scholars of Islam, but I will quote it from Orientalist work because the main audience of this article rather prefers their statements.</p>
+
+<p>As Angeliki E. Laiou observes in <em>The Economic History of Byzantium</em>, Canonical and civil law in Byzantium followed Roman precedents: girls could marry at 12, boys at 14… though betrothals might be arranged earlier, actual marriage required physical maturity (Dumbarton Oaks, 2002, vol. 1, p. 101). Similarly, in the Sasanian Empire, Zoroastrian jurisprudence permitted guardians to contract marriages for minors, but emphasized that sexual relations should occur only after the girl reached puberty. According to Maria Macuch’s analysis of the Pahlavi legal text <em>Mādigān ī Hazār Dādestān</em> (<em>Book of a Thousand Judgments</em>), the wife’s consent upon reaching maturity was increasingly recognized, and puberty (<em>baromān</em>) was typically defined as age 9 or 12 for girls in religious legal discourse (Macuch, <em>Rechtskasuistik und Gerichtspraxis zu Sasanidischer Zeit</em>, Harrassowitz Verlag, 2008, pp. 142–145). R. C. Zaehner also notes that although child betrothals occurred among the Sasanian elite, cohabitation usually began only after the girl reached menarche (<em>The Dawn and Twilight of Zoroastrianism</em>, Weidenfeld and Nicolson, 1961, p. 198). Thus, across both empires, the prevailing norm was that marriage in its full social and physical sense was deferred until after puberty.</p>
+
+<p>In Islam, the consummation of marriage was not allowed till the girl crosses her puberty. This in fact is attested many times by scholars of Islam, but I will quote it from Orientalist work because the main audience of this article rather prefers their statements.</p>
+
+<p>Professor Lynn Welchman writes:</p>
+
+<blockquote>
+  <p>The majority of all classical schools of law held that minors could be contracted in marriage by their guardians, although consummation was <bold>NOT PERMITTED UNTIL THE MINOR WAS PHYSICALLY READY TO ENTER A SEXUAL RELATIONSHIP.</bold> [1]</p>
+</blockquote>
+
+<p>Professor Lynn Welchman, in her other book called <em>Women and Muslim Family Laws in Arab States: A Comparative Overview of Textual Development and Advocacy</em>, also reiterates the point that:</p>
+
+<blockquote>
+  <p>There was, generally, less opposition on jurisprudential (or political) bases to the setting of minimum ages of marriage than to other aspects of the reform agenda; although the classical juristic consensus permits the marriage of minor wards by their guardians, the fact that <bold>CONSUMMATION WAS NOT SUPPOSED TO OCCUR UNTIL PUBERTY OR LATER, DEPENDING UPON THE WIFE’S PHYSICAL MATURITY…</bold> [2]</p>
+</blockquote>
+
+<p>Glenn L. Roberts, in his book <em>Islamic Human Rights and International Law</em>, clarifies the misconception held by some people that Islam allows child marriages by stating the following:</p>
+
+<blockquote>
+  <p>It is sometimes reported that Sharia permits child marriage, or that an Islamic marriage occurs in two stages. These assertions are not correct. The Sharia sets no minimum age for concluding a contract for marriage, but such a contract is not a contract in the Western sense because no consideration is required (and it typically will not even be written, but simply presumed from birth). The couple may be betrothed while the wife is still a child, but the man does not deliver the dowry until the actual wedding ceremony, which customarily can occur <bold>ONLY AFTER THE GIRL’S PUBERTY, AND THE MARRIAGE CANNOT BE CONSUMMATED UNTIL AFTERWARDS. THUS THE SHARIA PROVIDES FOR TRUE MARRIAGE ONLY AFTER THE GIRL’S PUBERTY</bold>, and there are no economic transactions until then. [3]</p>
+</blockquote>
+
+<p>[1] <em>Beyond the Code: Muslim Family Law and the Shariʼa Judiciary in the Palestinian West Bank</em> [Copyright 2000] by Lynn Welchman page 108<br>
+[2] <em>Women and Muslim Family Laws in Arab States: A Comparative Overview of Textual Development and Advocacy</em> by Lynn Welchman page 62<br>
+[3] <em>Islamic Human Rights and International Law</em> by Glenn L. Roberts page 67 Note 174</p>
+
+<p>You must be wondering: if the girl’s father has already arranged her marriage and she is going to be consummated in that same marriage, then if the girl was not old enough (i.e., any age that is considered appropriate—which varies, but in that period it was considered to be at puberty, though it is a norm and can vary to higher limits)—so when she reaches her age of consummation, is it clearly her wish to avoid consummation?</p>
+
+<p>This is clearly stated in a hadith in <em>Musannaf Abd al Razzaq</em>, which is quoted by Baugh (<a href="https://ijtihadnet.com/wp-content/uploads/Minor-Marriage-in-Early-Islamic-Law.pdf">https://ijtihadnet.com/wp-content/uploads/Minor-Marriage-in-Early-Islamic-Law.pdf</a>), which lists extracts in her appendix and links Muhammad directly to the ruling on the Option of Puberty and it give us a hadith:</p>
+
+<blockquote>
+  <p>16230: Khalid ibn Idris related to us from Kahmas from Ibn Barida, who said: A young girl (<em>fata</em>) came to Aisha and said, “My father married me to his nephew in order to raise his status through me (<em>li yarfaa bi khasisatahu</em>), even though I did not want it (<em>wa inni karihtu dhalik</em>).” So Aisha said to her, “Wait until God’s Messenger comes.” And when God’s Messenger came, he sent for her father, and he (the Messenger, S.A.W.) allowed her to decide for herself (<em>jaala al amra ilayha</em>). And she said, “If it’s up to me, I would permit what my father did, but I wanted to know: do women have any authority in this matter? (<em>hal lil nisa min al amr shay?</em>)”</p>
+</blockquote>
+
+<p>So as soon as the girl reaches the age of consummation, she is allowed to break the marriage if she does not wish for it to continue. Now this point is clear: the girl decides for herself about the future of her pre arranged marriage.</p>
+
+<p>In another example, a freed slave girl, Barirah, refused to remain married to a slave (Mughith) to whom she had been forcibly mated by her former owner. Mughith loved her and followed her around, pleading, but she would have nothing to do with him.</p>
+
+<p>The Prophet said to Abbas, “O Abbas, do you not find it strange—how much Mughith loves Barirah, and how much Barirah hates Mughith?”</p>
+
+<p>His sympathy with the slave’s feelings led him to suggest to Barirah that she return to him.</p>
+
+<p>She said, “O Messenger of Allah, are you commanding me to do so?”</p>
+
+<p>He said, “I am merely trying to intervene on his behalf.”</p>
+
+<p>She said, “I have no need of him.” (<em>Fath al Bari</em>)</p>
+
+<p>One can surmise that Barirah refused to sleep with him from the moment she was freed. Barirah rejected Mughith's pleas because she had no desire for him after gaining freedom, highlighting that a woman's consent in marriage is paramount, and she can annul it if she chooses—even if they had a child. Her refusal to reconcile, despite the Prophet's gentle suggestion (as she was merely a freed slave under <em>walaa</em>, not yet a free wife), showed her autonomy, and the Prophet affirmed her choice—even telling others to stop spreading rumors about her situation.</p>
+
+<p>Thus, it becomes clear that any marriage that was pre arranged without the girl’s consent could be revoked by her as she reaches maturity, which is evident from the above two examples.</p>
+
+<p>Also, the Qur’an has clearly stated that women cannot be inherited like goods or items, as was previously done before Islam. Allah commands in Surah Nisa, verse 19:</p>
+
+<blockquote>
+  <p>O you who believe! It is not lawful for you to inherit women against their will. Nor shall you make difficulties for them so you can take back some of what you had given them, unless they commit a clear immorality.</p>
+</blockquote>
+
+<p>This clearly shows that Islam has always respected the rights of women when their marriage is arranged, and they have an equal right to nullify it.</p>
+
+<p>I will also quote for you some texts from the Christian Bible where the writers have allowed marriage as soon as a girl reaches puberty (and, as we have quoted above, they allowed betrothal even before that):</p>
+
+<p>Two Bible passages—one from the Old Testament and one from the New—indicate that the minimal age for marriage for a woman is when she reaches puberty.</p>
+
+<blockquote>
+  <p>7 I have caused thee to multiply as the bud of the field, and thou hast increased and waxen great, and thou art come to excellent ornaments: thy breasts are fashioned, and thine hair is grown, whereas thou wast naked and bare.<br>
+  8 Now when I passed by thee, and looked upon thee, behold, thy time was the time of love; and I spread my skirt over thee, and covered thy nakedness: yea, I sware unto thee, and entered into a covenant with thee, saith the Lord God, and thou becamest mine.</p>
+  <p>Ezekiel 16:7–8 (KJV)</p>
+</blockquote>
+
+<p>In the passage above from Ezekiel, we read of God’s love story with Israel. He presents Himself as a wealthy man who finds an infant girl who had just been born and is left for dead in a field. He takes her as a ward in his home, and when she reaches puberty (grows breasts and pubic hair), he declares that “thy time was the time of love” and he takes her as his wife.</p>
+
+<p>In the New Testament, the Apostle Paul tells of a similar story of a man with a young woman who is his ward, whom he has an attraction to:</p>
+
+<blockquote>
+  <p>36 But if any man think that he behaveth himself uncomely toward his virgin, if she pass the flower of her age, and need so require, let him do what he will, he sinneth not: let them marry.</p>
+  <p>1 Corinthians 7:36 (KJV)</p>
+</blockquote>
+
+<p>When it says “pass the flower of her age,” it literally means ripe—as when a fruit is ready to be plucked and eaten. Like Ezekiel 16:7–8, it refers to the fact that she has reached puberty and is now ready for marital love. (Source: biblicalgenderroles.com)</p>
+
+<p>Unlike Christianity, Islam has not mandated that the age of marriage is after reaching puberty; instead it is when they have reached age of maturity as Allah says in Qur'an (4:6): “Test the orphans [in their abilities] until they reach a marriageable age. Then if you perceive in them sound judgment, release their property to them”. The term “age of marriage” (<em>balaghu al-nikah</em>) is synonymous with reaching a level of maturity and sound judgment (<em>rushd</em>) that qualifies a person to handle significant responsibilities, particularly financial matters and contractual obligations other than just physical maturity. Since a guardian cannot decide the betrothal marriage for an orphan—they are directly married—hence this age of maturity (which is actually for consummation of marriage) is not only applicable to orphans but to other marriages too.</p>
+
+<p>As far as Hinduism is considered, it is similarly mandated by them that a girl should be married as she reached age of puberty.</p>
+
+<p><em>Vasistha Dharmasutra</em> 17.69-70 states: “Out of fear of the appearance of the menses let the father marry his daughter while she still runs about naked. For if she stays (in the house) after the age of puberty, sin falls on the father”. This emphasizes the religious imperative for the father to arrange his daughter's marriage before she begins menstruating, which was considered the onset of sexual maturity (puberty).</p>
+
+<p>Some interesting stories you can catch up with are:</p>
+
+<ul>
+  <li><p><bold>Rama married 6 years old Sita:</bold> In <em>Skanda Purana</em>, it is clearly mentioned that Sita was 6 years old when he married and consummated marriage with her.<br>
+  Reference: <em>Skanda Purana</em> >> Book 3: Brahma Khanda >> Section 2: Dharmaranya Khanda >> Chapter 30: Rama’s life >> Verse 8-9 (>> Page 156)</p></li>
+  <li><p><bold>Krishna married 8 years old Rukmini:</bold> Rukmini was 8 years old at the time of marriage and consummation of marriage.<br>
+  Reference: <em>Skanda Purana</em> >> (Part 15) >> Book 5: Avanthya Khanda >> Section 3: Reva Khanda >> Chapter 142: The greatness of Rukmini Tirtha >> Verse 8-79</p></li>
+</ul>
+
+<p>At the end let us discuss the two Ayats where Allah has explained the marriage laws, and someone might get confused about them—as to whether they allow for prepubertal consummation of marriage,</p>
+
+<p>1) It become evident from the hadith of Aisha (ra) that the delay in consummation in marriage was done for her to reach puberty (maturity) but a reader of Qur'an 65:4 which says:<br>
+<em>“Such of your women as have passed the age of monthly courses, for them the prescribed period, if ye have any doubts, is three months, and for those who have no courses (it is the same): for those who carry (life within their wombs), their period is until they deliver their burdens: and for those who fear Allah, He will make their path easy.”</em></p>
+
+<p>First ayat is, “O you who believe, when you marry believing women and then divorce them before you have marital relations, then you have no ‘iddah upon them…” (Qur’an 33:49)—this Ayat clearly make it a rule that no consummation of marriage means no Iddah.</p>
+
+<p>Next ayat is, “Such of your women as have passed the age of monthly courses, for them the prescribed period, if ye have any doubts, is three months, and for those who have no courses (it is the same): for those who carry (life within their wombs), their period is until they deliver their burdens: and for those who fear Allah, He will make their path easy.” (65:4)</p>
+
+<p>But for the former ayat (65:4) the word by word translation is:<br>
+<em>And those who have despaired of the menstruation among your women, if you doubt, then their waiting period (is) three months, and the ones who not [they] menstruated. And those who (are) pregnant, their term until they deliver their burdens. And whoever fears Allah, He will make for him of his affair ease.</em> (By: Dr. Shehnaz Shaikh, Ms. Kauser Katri, and more)—which clearly has no use of word “Yet”.</p>
+
+<p>Here one can be confused to find that period of Iddah in girls who have not menstruated is like the one who is menstruating (does it means that Quran allow for pre-pubertal marriages?), but the word used here for women is the Arabic word ‘Nisa’ which also has been used 59 times in the Quran. Not once has the word ‘Nisa’ been used for a ‘child(ren)’, it has always referred to mature adult women. If Allah in chapter 65:4 wants to tell about child marriages or approve of child marriages, why isn’t the Arabic word ‘itfal’ (طِفْلًا) [child] mentioned in the verse (65:4), as has been done in following verses:</p>
+
+<ol>
+  <li><p>(Quran 22:5) <em>ṭif’lan</em> which means (as) a child—the complete Ayat is: “O People, if you should be in doubt about the Resurrection, then [consider that] indeed, We created you from dust, then from a sperm-drop, then from a clinging clot, and then from a lump of flesh, formed and unformed – that We may show you. And We settle in the wombs whom We will for a specified term, then We bring you out as a <bold>child</bold>, and then [We develop you] that you may reach your [time of] maturity. And among you is he who is taken in [early] death, and among you is he who is returned to the most decrepit [old] age so that he knows, after [once having] knowledge, nothing. And you see the earth barren, but when We send down upon it rain, it quivers and swells and grows [something] of every beautiful kind.”</p></li>
+  <li><p>(Quran 24:31) Uses word <em>l-ṭif’li</em> which means [the] children, it is used in this Ayat and the complete Ayat is: “And tell the believing women to reduce [some] of their vision and guard their private parts and not expose their adornment except that which [necessarily] appears thereof and to wrap [a portion of] their headcovers over their chests and not expose their adornment except to their husbands, their fathers, their husbands’ fathers, their sons, their husbands’ sons, their brothers, their brothers’ sons, their sisters’ sons, their women, that which their right hands possess, or those male attendants having no physical desire, or <bold>children</bold> who are not yet aware of the private aspects of women. And let them not stamp their feet to make known what they conceal of their adornment. And turn to Allah in repentance, all of you, O believers, that you might succeed.”</p></li>
+  <li><p>(Quran 24:59) Uses word <em>l-aṭfālu</em> which means the children, it is used in this Ayat and the complete Ayat is: “And when the <bold>children</bold> among you reach puberty, let them ask permission [at all times] as those before them have done. Thus does Allah make clear to you His verses; and Allah is Knowing and Wise.”</p></li>
+</ol>
+
+<p>Professor Ian Richard Netton explains the concept behind Idda as: “The Arabic word Idda (number) is used for the period of waiting prescribed in Islamic law during which newly widowed and recently divorced women are prevented from entering into a new contract of marriage. The Qur’anic authority for the different prescriptions is found in Q. 2:228 and Q. 2:234. In the case of divorced woman, the time of waiting is three menstrual periods. For non-menstruating women or those past the age of menstruation the time is three months (Q.65:4). This is intended to provide sufficient time to ascertain whether or not there is unborn child of the dissolved marriage. In the case of a widow the Idda is four months and ten days. The longer period of waiting in this case provides additional time for mourning.”</p>
+
+<p>Muhammad Asad wrote in his commentary of this Ayat that: (Iddah for non-menstruating women means amenorrhea) for any physiological reason whatever.</p>
+
+<p>Yusuf Ali’s writes in his Commentary –5513 Cf.2:228: “For normal women, the Iddah is the three monthly courses after separation: if there are no courses or if the courses in doubt, it is three calendar months. By that time it will be clear whether there is pregnancy: if there is, the waiting period is still after the delivery (see also 2:234).”</p>
+
+<p>In <em>Tafsir Anwarul Bayan</em>, Mufti Muhammad Aashiq Elahi Muhajir Madani explains in a note on this Ayat that: If a woman stopped menstruating without her having reached menopause, her Iddah (waiting period) will not expire after three months (if after three months she is still having amenorrhea). She will have to wait until three menses pass or until she undergoes menopause (which is based on this ayat).</p>
+
+<p>In addition to all of these scholastic references, the staunch critic of Islam Rev. Elwood Morris Wherry a Christian scholar, who when commenting on Q. 65:4, notably mentions nothing about ‘child marriage’.</p>
+
+<p>Allah says in the Qur’an, in Surat un-Nur, verse 59, “But when the children among you come to puberty, let them (also) ask for permission, as those who were before them (in growing up) did: Thus does God make clear His Signs to you: for God is omniscient and wise.”</p>
+
+<p>This proves that children should stay at (their parents') home at least until they are sexually aware and have attained puberty. So does consummating a marriage with a prepubescent girl add up?</p>
+
+<p>Children are “( الاطفال )” [<em>al-aTfal</em>], and while still a child is “( طفلا )” [<em>Taflaa</em>] according to this verse, a person becomes “( الحلم )” [<em>al-Hulum</em>] or sexually aware because of approaching puberty and hormonal changes.</p>
+
+<p>A number of traditional explanations of the Qur’an all try to interpret it the first way: Prepubescent girls living with their husbands.</p>
+
+<p>In support of this, a hadeeth is quoted via ‘Amr ibn Saalim from ‘Ubay bin Ka’ab, who said,</p>
+
+<blockquote>
+  <p>“O messenger of God! [When the verse in Surat-ul-Baqarah was sent down prescribing the waiting period for divorce] [some people of Medina said] Some women [whose waiting period has] / [have] not been mentioned in the Qur’an; [they are] the young, the old [whose menstruation has been discontinued] and the pregnant.” Later on this verse (65:4) was revealed.</p>
+</blockquote>
+
+<p>Ibn Kathir, the author of the above explanation, says that ‘Amr ibn Saalim never met ‘Ubay bin Kaab, so the chain of narration is cut off — cannot be traced reliably back to the Prophet, or even to ‘Ubay. Hence the use of this hadith is of no use in explaining this ayat.</p>
+
+<p>Another explanation of 65:4 we found was,<br>
+<em>“And similarly those who have attained puberty (<strong>balaghat</strong>) by age, but have not menstruated, based on the end of the verse [‘And those who have not menstruated’ (65:4)], meaning those who have reached puberty by age, but not by menstruation; [those who have attained puberty] by reaching the age of 15 years according to the opinion of both (Abu Yusuf and Muhammad ibn Hasan al-Shaybani) or 17 years according to the opinion of Abu Hanifah and Malik, but have not yet menstruated; when they divorce they observe a waiting period based on months as well.”</em> Imam ibn al-Humam, <em>Fath al-Qadir</em>, Vol. 4 (n.d.), p. 280.</p>
+
+<p>This explanation clearly mentions that those women who have not menstruated due to delay in their physiology menstrual cycle or have temporary amenorrhea are also bound to follow period of Iddah, but this Ayat never allows for the consummation of such marriages.</p>
+
+<p>As far as I can make out, “yet” and “as yet” are in no popular translations of the Qur’an except Arberry, and exists in two Qur’an translations by Abdul Daryabadi and Mufti Taqi Usmani. Saheeh International, Pickthall, Ali, Muhsen Khan, and Shakir all leave out the “yet.” and to prove this I've added image of that part of Ayat's Morphological Analysis you can check it out full morphology here (<a href="https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=4">https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=4</a>)</p>
+<img src="morpho.jpg" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="description">
+<p>Some argue that the usage of the term “lam” (<strong>لَمْ</strong>), which means “not” in the past tense, implies that these are women who “have not yet” menstruated in an attempt to push the meaning that this implies children. But in the similar sense we see the word “lam” (<strong>لَمْ</strong>) being used in the following—Q 2:283 Ayat: “If you are traveling and you do not find a scribe, a bond shall be posted to guarantee repayment.”—So the claim that the word “lam” (<strong>لَمْ</strong>) signifies “not yet” as in “never” would mean that the condition above applies to those who have never found a scribe in their life. Obviously, such an understanding would be inaccurate. And hence in these both ayat 'lam' does not translate to never or not yet but it means the hope of finding scribe or the hope of having menstruation has passed.</p>
+
+<p>Amongst the Orientalists only George Sale was able to catch this concept so he translated the ayat as, “As to such of your wives as shall despair having their courses, by reason of their age; if ye be in doubt thereof, let their term be three months: And let the same be the term of those who have not yet had their courses. But as to those who are pregnant, their term shall be, until they be delivered of their burden. And whoso feareth God, unto him will He make his command easy” (65:4)</p>
+
+<p>So I hope I've made it clear for you about this Ayat and provided enough proof for the fact that those who advocate for pre-pubertal marriage consummation is wrong, still then I am writing a short conclusion of this discussion if you were not able to follow me.</p>
+
+<p>The term <em>'lam yahidna'</em> (no courses) is <bold>not</bold> a reference to pre-pubescent young girls. Instead, it captures all those women that for one reason or another have never had courses, or, though they expect to menstruate, have not done so for a number of reasons. A breakdown of the Arabic words are provided for analysis.:<br>
+<em>“...wa-allai (and the ones who) lam (did not) yahidna (menstruate)...”</em><br>
+<em>Haid'</em> simply means to menstruate, but readers will note that it preceded with a prefix 'ya' and the suffix subject pronoun 'na' to denote a feminine plural imperfect verb in the 3rd person.</p>
+
+<p>In the Quran, verse 2:196 the same grammar methodology is followed, it talks about people who cannot find a sacrifice during Hajj (again this is a temporary condition it is not like that they never were able to find a animal). The Arabic phrase used is for it is <em>lam yajid</em>, which means did not find. In this case, fasting is prescribed instead.<br>
+The verb <em>yajid</em> is in the imperfect form and in the jussive mood. This is the same grammatical form used in verse 65:4 with the verb <em>yahidna</em>, which relates to menstruation.<br>
+Because of this, the phrase <em>lam yahidna</em> is best understood as those who did not menstruate. It refers to a past condition, even though menstruation may still be expected later.<br>
+This wording points to women who are mature in age but do not menstruate, such as those who are older or have a medical condition.<br>
+It does not refer to young girls who have not yet reached puberty.</p>
+
+<p><bold>In conclusion</bold>, we were able to establish the fact that the marriage after reaching maturity was common during the era of Prophet S.A.W and it was practised commonly then. If you still want to know how faulty are argument of progressive muslims who deny the marriage age of Aisha (r.a) you can watch: Yasir Qadhi destroys the argument of those who say that she was not 6/9 @ <a href="https://www.youtube.com/watch?v=1GMwR1gmZ6M&t=4m47s">https://www.youtube.com/watch?v=1GMwR1gmZ6M&t=4m47s</a> and <a href="https://www.youtube.com/watch?v=3HzAjXIb5xA">https://www.youtube.com/watch?v=3HzAjXIb5xA</a>, also I recommend you this video by Omer Suleiman—<a href="https://youtube.com/watch?v=5gDTh-6X9vo">https://youtube.com/watch?v=5gDTh-6X9vo</a></p>
+
+<p>And as Allah has commanded that “No soul shall be burdened the burden of another” in verses like Surah Fatir (35:18), Surah Al-An'am (6:164), and Surah An-Najm (53:38) and marriage is a solemn agreement in Islam that requires the free consent of both parties and in modern time since the norms has changed and we have found the risk of early marriage the age of maturity (Qur'an 4:6) is mandatory to rise and following the norms of past make no sense at all.</p>
+
+<p>Take Care, Allah-Hafiz.</p>
+ <div class="navigation">
+            <a href="existentialism.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+  </html>
