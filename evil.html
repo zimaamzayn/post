@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="description" content="An Islamic perspective on the problem of evil: exploring suffering, divine wisdom, free will, and theodicy through the Qur’an, Hadith, and classical scholarship.">
+<meta name="keywords" content="problem of evil, theodicy, Islam, suffering, divine justice, free will, Qur'an, Aisha, Satan, disability, animal suffering, retribution, greater good">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="The Problem of Evil">
+<meta property="og:description" content="An Islamic perspective on the problem of evil through the Qur’an, Hadith, and classical scholarship.">
+<meta property="og:image" itemprop="image" content="evil.jpg">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zayn.us.kg/post/evil.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Problem of Evil - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">     
+<h3>Early Marriages in Early Middle Ages</h3>       <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+<p>Assalamualaikum! I want to begin honestly. During my da‘wah training and early research, the problem of evil was almost invisible to me. Not because it had been answered, but because it was rarely asked. It was not treated as a serious theological crisis. Suffering existed, pain existed, but they were absorbed into ideas of patience and trust. For a long time, that felt enough. Only later did I realize that as atheism grows, the problem of evil is repeatedly used as the first tool to shake belief. Not always with sophisticated arguments, but with a simple emotional question that unsettles people before they even open a book of theology.</p>
+
+<p>Before entering philosophy, I believe it is necessary to see how the Qur’an frames human responsibility and divine guidance. The Qur’an does not begin by defending God. It begins by limiting human claims over one another.</p>
+
+<I>“No soul bears the burden of another soul.” (Qur’an 35:18)</I>
+
+<p>Responsibility is not transferable. No one carries another person’s sins, doubts, or salvation. This idea is reinforced when even the Prophet is reminded of his limits:</p>
+
+<I>“You cannot guide whom you love, but Allah guides whom He wills, and He knows best those who are guided.” (Qur’an 28:56)</I>
+
+<p>The verse responds to the problem of evil in a simple way. People are not forced to act. God understands more than humans do. And pain or going astray does not mean God is careless or unfair. It means that life is a test, and its full purpose cannot be seen while we are living it.</p>
+
+<p>This warning is extended to believers themselves:</p>
+
+<I>“O you who believe, take care of your own souls. Those who have gone astray will not harm you if you are guided. To Allah is your return, all of you, and He will inform you of what you used to do.” (Qur’an 5:105)</I>
+
+<p>Each person is ultimately responsible for their own moral state. No crowd, no movement, no preacher can replace that responsibility. The Qur’an makes this explicit about the Day of Judgment:</p>
+
+<I>“And all of them will come to Him on the Day of Resurrection alone.” (Qur’an 19:95)</I>
+
+<p>The Qur’an is also honest about human response. It does not promise mass belief or universal acceptance:</p>
+
+<I>“And most of mankind will not believe, even if you are eager.” (Qur’an 12:103)</I>
+
+<p>Difference, rejection, and dispute are not anomalies. They are part of how human history unfolds. The Qur’an states that while people choose to do evil, God has created a replacement and hope in every era:</p>
+
+<I>“And if your Lord had willed, He could have made mankind one community. But they will not cease to differ, except whom your Lord has given mercy. And for that He created them.” (Qur’an 11:118–119)</I>
+
+<p>Yet individual responsibility remains central. On that Day, nothing external will save a person:</p>
+
+<I>“The Day when neither wealth nor children will benefit anyone, except one who comes to Allah with a sound heart.” (Qur’an 26:88–89)</I>
+
+<p>At the same time, the Qur’an does not promote isolation or indifference. Believers are commanded to call toward good and resist evil, but without claiming ownership over outcomes. It says:</p>
+
+<I>“And those who are righteous are not accountable for them (those who do evil) in anything, but only to remind them, that perhaps they may fear Allah.” (Qur’an 6:69)</I>
+
+<p>And it asks a question that shifts the entire discussion of punishment and evil:</p>
+
+<I>“What would Allah gain by punishing you if you are grateful and believe? And Allah is Appreciative, Knowing.” (Qur’an 4:147)</I>
+
+<p>And finally, the most important of its statements, the Qur’an elucidates that what may seem harmful can have hidden benefits:</p>
+
+<I>“Perhaps you hate a thing and it is good for you, and perhaps you love a thing and it is bad for you. And Allah knows while you know not.” (Qur’an 2:216)</I>
+
+<p>This Qur’anic posture reminded me strongly of a moment in Voltaire’s <em>Candide</em>. When Voltaire wrote <em>Candide</em>, Europe was bleeding. The Seven Years’ War had devastated nations. Cities were ruined, economies collapsed, all for imperial ambitions. Then came the Lisbon earthquake of 1755, and it crushed thousands in minutes. Children died under its rubble, and for many, this single disaster made it hard to follow moral justice and belief in a divine God who does not intervene.</p>
+
+<p>Leibniz had argued that this is the best of all possible worlds, which was earlier also said by al-Ghazali. Pangloss, who is a philosopher, also represents this idea. In <em>Candide</em>, he is super optimistic about this world. No matter how extreme the suffering, Pangloss insists throughout the novel that everything happens for the best. War, rape, slavery, disease, execution, all are rationalized. Voltaire is not attacking belief in God directly. He is attacking a shallow optimism that tries to explain away suffering instead of facing it.</p>
+
+<p><em>Candide</em>, the lead character who was raised in a royal court, himself suffers endlessly after his expulsion. He is expelled, beaten, robbed, enslaved, betrayed, and disillusioned. Everywhere he goes, human cruelty and natural disaster follow him. The novel becomes a catalogue of evil, but as lived experience by both of its leads.</p>
+
+<p>Near the end of the novel, the group meets a Muslim farmer. Candide’s companion, Pangloss, ever curious about current events, cannot resist asking this farmer, “What was the name of the strangled mufti?”</p>
+
+<p>The farmer answers calmly, “I do not know, and I have never known the name of any mufti, nor of any vizier from Istanbul. Those who meddle in politics die miserable deaths, and they deserve it. I never trouble myself with what is happening in Constantinople. I am content to send there the fruits of the garden that I cultivate.”</p>
+
+<p>After great hospitality by the farmer, astonished, Candide exclaims, “You must have a vast and magnificent estate!”</p>
+
+<p>The farmer replies, “I have only twenty acres. I and my children cultivate them, and our labor keeps us safe from three great evils: weariness, vice, and want.”</p>
+
+<p>As Candide went back to his farm, he reflected deeply on the Turk’s remarks. He said to Pangloss and Martin, “That good old man seems to me to have made himself a life far preferable to that of the six kings with whom we had the honor of having supper.”</p>
+
+<p>“Great eminence,” said Pangloss, “is very dangerous, according to the report of all philosophers. For after all, Eglon, King of the Moabites, was assassinated by Ehud. Absalom was hanged by his hair and pierced with three darts. King Nadab son of Jeroboam was killed by Baasha.”</p>
+
+<p>“I also know,” said Candide, “that we must cultivate our garden.”</p>
+
+<p>“You are right,” said Pangloss, “for when man was put in the Garden of Eden, he was put there <em>ut operaretur eum</em>, to work, which proves that man was not born to rest.”</p>
+
+<p>Voltaire is suggesting that the problem of evil cannot be solved by grand metaphysical systems. It is responded to through limited responsibility, honest labor, and refusal to control what cannot be controlled.</p>
+
+<h4>Why We Exist</h4>
+
+<p>Now before we go deep into why evil exists, we need to find the answer to why we exist.</p>
+
+<I>Allah S.W.T says, “I created jinn and men only that they may serve Me.” (Qur’an 51:56)</I>
+
+<p>God in Islam is not in need of our worship. What our servanthood does is create a moral law, reducing evils which are possible under free will.</p>
+
+<p>In fact, for me the answer lies in this verse itself:</p>
+
+<I>“When your Lord said to the angels, ‘I am placing a successor on earth.’ They said, ‘Will You place in it someone who will cause corruption in it and shed blood, while we declare Your praises and sanctify You?’ He said, ‘I know what you do not know.’”</I>
+
+<p>So the angels had already asked why You are making another creation when we are already praising You. He answers that the limit of their knowledge is evident from their question. As He knows that some of them will truly fulfill the goals for which they have been created. Hence, their reward for doing good even when they had an option to do evil makes the acts of humans and jinn much higher than the remaining creatures.</p>
+
+<p>As far as affliction is concerned, Allah says, <I>“We created man in distress.” (Qur’an 90:4)</I>. Hence, whatever his condition, whether due to other humans or by virtue of natural acts, the goal of humanity is not to question what he cannot change but instead to strive for better. In the Qur’an, Allah says, <I>“And We sent not the signs except to warn.” (Qur’an 17:59)</I>, and hence Muslims believe that it is a part of trials in this world.</p>
+
+<I>Allah S.W.T further says, “Nor would your Lord be the One to destroy communities for a single wrongdoing, if its members were likely to mend.” (Hud 11:117)</I>
+
+<p>In his commentary, Imam al-Razi stated: “The meaning is that Allah does not destroy the people of the towns merely because they are polytheists, as long as they are just in their dealings with each other. The result is that the punishment of extermination does not descend merely because the people are adherents of polytheism and disbelief. Rather, this punishment descends when they engage in wrongdoing in their interactions and actively pursue harm and injustice. Therefore, jurists have stated that the rights of Allah are based on forgiveness and leniency, while the rights of the people are based on strictness and withholding. It is said in a narration: Dominion remains with disbelief but does not remain with injustice.” <em>Tafsir al-Kabir</em>, known as <em>Mafatih al-Ghayb</em> (18/410)</p>
+
+<p>Regarding the hadith, there is the saying of the Prophet: “Indeed, Allah does not punish the general masses for the actions of a specific group until they witness the reprehensible acts among them, and despite having the ability to condemn it, they do not. When they do so, Allah will punish both the specific group and the general masses.” (<em>Musnad Ahmad</em>, Hadith 17720)</p>
+
+<p>Similarly, there is the hadith where Abu Bakr as-Siddiq, when addressing the people, said: “O people, you recite this verse but misplace it: ‘Upon yourselves is your souls. It will not harm you those who have gone astray if you are guided.’ (al-Ma’idah 5:105). We heard the Prophet say: ‘If people witness an oppressor and do not prevent him, Allah is likely to encompass them all with His punishment.’” (<em>Abu Dawood</em>, Hadith 4338)</p>
+
+<p>As for the doubts on why Allah does not punish those who do evil, He reminds us: <I>“But Allah was not going to send them a penalty whilst you were amongst them, nor was He going to send it whilst they could ask for pardon.” (Qur’an 8:33)</I></p>
+
+<p>So if some communities are not punished, it can be that there is a purpose behind it. For example, in the story of Nineveh, Allah gave a chance to the people of Yunus A.S, and thus they were saved from destruction.</p>
+
+<p>And finally, before we start discussing the topic of the problem of evil, I would like to answer a specific question asked by Javed Akhtar, which I feel was not properly answered by the other party. He asked that when we ask Allah to change our normal conditions or grant us a job and He intervenes, why does He not intervene in the case of children being killed in Gaza. As we have answered the last part of the question, that we do not know what is hidden behind His wisdom, it must be understood that Allah does not change the condition of a community unless they change it themselves. A prior effort from the human side is always required.</p>
+
+<p>This cannot be blindly believed, as it is narrated that Anas ibn Malik reported: A man said, “O Messenger of Allah, should I tie my camel and trust in Allah, or should I leave her untied and trust in Allah?” The Prophet, peace and blessings be upon him, said, “Tie her and trust in Allah.” (<em>Sunan al-Tirmidhi</em> 2517)</p>
+
+<p>And finally, I would end the first section with an ayah from the Qur’an: <I>“And among the people is he who worships Allah on the edge. When something good comes his way, he is content with it. But when an ordeal strikes him, he makes a turnaround. He loses this world and the next. That is the obvious loss.” (Qur’an 22:11)</I></p>
+
+<h4>Historical Models in Islamic Thought</h4>
+
+<p>After we have answered the basic questions which are frequently asked, I would like to share with you the historical models the Muslim world has used to answer the various doubts around the problem of evil.</p>
+
+<p>Evil can be understood as any action or behavior that causes suffering to others. It is often viewed as the direct opposite of good, or in some perspectives, as the absence of good itself.</p>
+
+<h4>Is God the Creator of Evil?</h4>
+
+<p>The first question is whether God is the creator of evil.</p>
+
+<p>In Islam, when man uses his free will and makes a wrong choice out of several available options, evil follows. We should remember that evil is the absence of good. Thus, it is true that evil happenings come from man.</p>
+
+<p>It is also possible that what appears to be evil may very well turn out to be good in the end.</p>
+
+<I>Allah clearly explains this: “Wherever you may be, death will catch up with you, even if you were in fortified towers. When a good fortune comes their way, they say, ‘This is from God.’ But when a misfortune befalls them, they say, ‘This is from you, O Prophet.’ Say, ‘All is from God.’ So what is the matter with these people that they hardly understand a thing? Whatever good happens to you is from God, and whatever bad happens to you is from your own self. We sent you to humanity as a messenger, and God is Witness enough.” (Qur’an 4:78–79)</I>
+
+<I>And He says, “Indeed, Allah does not wrong the people at all; it is they who wrong their own selves.” (Qur’an 10:44)</I>
+
+<p>So evil has its origin in human actions, even disasters are due to injustice caused on earth by humans, because it is an effect of not doing good.</p>
+
+<p>For example, forest fires are due to collective human actions and pollution of our nature. Allah commands, <I>“Eat and drink from the provision of Allah, and do not commit abuse on the earth, spreading corruption.” (Qur’an 2:60)</I></p>
+
+<p>We are in a state of a climate crisis, yet we have not taken the proper steps to address it. Then how can we blame it on Him, when we did not take proper measures?</p>
+
+<h4>Do We Have True Free Will?</h4>
+
+<p>Now the next question is, do we really have true free will?</p>
+
+<p>Free will is the ability to exercise our own choices in this world. It is the ability to act in a good or bad manner. A reader of the Qur’an must know that Allah has clearly allowed us to choose our path in this world, as He says, <I>“Indeed, We showed him the way, whether he be grateful or ungrateful.” (Qur’an 76:3)</I></p>
+
+<I>And He again says, “So whoever wills, let him believe, and whoever wills, let him disbelieve.” (Qur’an 18:29)</I>
+
+<p>Yet Allah S.W.T says, <I>“With Him are the keys of the unseen; none knows them except Him. He knows what is on land and sea. Not a leaf falls but that He knows it.” (Qur’an 6:59)</I></p>
+
+<p>So the Qur’an presents a balanced view. Allah’s knowledge is complete and prior, but knowledge does not compel action. Humans choose, and Allah knows what they will choose, not because He waits to see it, but because His knowledge is not bound by time. It is similar to a teacher knowing that a student will fail because the teacher knows the student did not study, yet the teacher is not to be blamed for the student’s failure.</p>
+
+<p>In my understanding, it is for us to choose the path, but the destination is already decided.</p>
+
+<h4>The Role of Satan</h4>
+
+<I>Allah commands the community of believers not to follow the footsteps of Satan and defines him as their enemy: “O mankind, eat from whatever is on earth that is lawful and good, and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.” (Qur’an 2:168)</I>
+
+<I>Allah says that Satan arouses desires in humans: “Satan promises them and arouses desire in them. But Satan does not promise them except delusion.” (Qur’an 4:120)</I>
+
+<p>But he cannot make us do evil deeds. He only raises the desire to do evil: <I>“And Satan will say, when the issue is settled, ‘God has promised you the promise of truth, and I promised you, but I failed you. I had no authority over you, except that I called you and you answered me. So do not blame me, but blame yourselves. I cannot come to your aid, nor can you come to my aid. I reject your associating with me in the past. The wrongdoers will have a most painful torment.’” (Qur’an 14:22)</I></p>
+
+<I>But he has no authority over righteous people, as Allah further explains: “He certainly has no authority over those who believe and put their trust in their Lord. His authority is only over those who take him as a patron and who, under his influence, associate others with Allah in worship.” (Qur’an 16:99–100)</I>
+
+<p>So in Islam, Satan’s role is limited to tempting, deceiving, and inciting humanity to stray from God’s path using a wide variety of strategies. He has no power to force anyone to do anything, only to whisper suggestions and make evil deeds seem attractive. Humans have a clear choice whether to follow his advice or not. In traditional Christian theology, Satan is a powerful fallen angel who directly rebelled against God, taking a host of other angels with him. He is often considered the originator of evil and the ruler of this world, unlike Islam, which limits his role to that of a deceiver only.</p>
+
+<h4>The Problem of Evil in Islamic Thought</h4>
+
+<p>When people talk about evil and God, they usually split it into two different things. On one side, there's evil as something people actually go through and experience in their lives. On the other side, there's evil as something to think about and debate in theory.</p>
+
+<p>The first problem is about how real people deal with tough situations in their daily lives. It's about how individuals face personal and practical difficulties when they know about suffering and experience it, or when they become victims of terrible events and evil actions.</p>
+
+<p>The second problem is totally different. It's a purely intellectual discussion that looks at how the existence of evil might affect whether God's existence is true or makes sense on supernaturalist theism (ST). This theoretical problem of evil usually gets divided into two types: first, the logical problem, which is also called the deductive problem, and second, the evidential problem, which is also called the inductive problem.</p>
+
+<p>Ibn Sina talks about the problem of why there is evil in the world in several different ways. Inati has discussed these, and they are: evil does not have positive existence, evil is part of the providential ordering of creation, good outweighs evil, evil is inevitable and unavoidable as it is a consequence of there being good, evil is a necessary means for realizing good, evil is a necessary part of creation, and evil is caused by free will. (Inati, <em>The Problem of Evil</em>, 127–67)</p>
+
+<p>There's a simple table below showing what major schools of thought gave their opinions on the Problem of Evil.</p>
+
+<h4>Disability in Context of Problem of Evil</h4>
+
+<p>It's important now to understand what the Quran says about disability, which itself is a part of the debate on the problem of evil. The Quran in general touches on almost all types of disabilities, and in that context it tries to give a balanced approach toward those who are disabled. Allah in al-Rum, verse 22 and other chapters invites the readers to reflect on that diversity. Here also the readers of the Quran are made to think about the types of disabilities that exist in society. General words referring to persons with such states and conditions include orphans (<em>yatim</em>), the weak (<em>da'if</em>), the oppressed (<em>mustad'af</em>), the destitute (<em>miskin</em>), the sick (<em>marid</em>), the poor (<em>faqir</em>), and the traveler (<em>musafir</em>). The second sense is instances of specific impairments, whether they are sensory impairments like muteness (<em>kharas</em>), blindness (<em>'ama</em>), and deafness (<em>samam</em>), or physical impairments like being immobile (<em>a'raj</em>), or mental impairment like loss of sanity (<em>majnun</em>) or cognitive functioning, and also diseases. (see <em>Islam and Disability: Perspectives in Theology and Jurisprudence</em>, pg: 11–14)</p>
+
+<p>For this reason, the Quran itself puts disability into the center frame of the Islamic message. The most clear example is in the account of the blind man (<em>a'ma</em>) whom the Prophet Muhammad "frowned" and "turned away" from because he was annoyed at being interrupted in conversation. The entire 80th chapter of the Quran was specifically named after that incident as "'Abasa" which means "He Frowned." The unnamed blind person in the Quranic chapter is identified as 'Abd Allah ibn Umm Maktum who sincerely and eagerly approached the Prophet seeking religious instruction and learning but was ignored as the Prophet was busy addressing Islam to a hardened and powerful elite group of Meccans. As a result, a "deft and pithy set of verses" were revealed to the Prophet for failing to give proper attention to 'Abd Allah ibn Umm Maktum. Whenever the Prophet would see 'Abd Allah ibn Umm Maktum, he would remark, "welcome o dear one about whom my Lord reproached me ('atabani rabbi)" and in honoring him would extend his robe for him to wear. (<em>Mafatih al-ghayb</em>, 12:246–47)</p>
+
+<p>In Islamic theology, the discussion about why specifically persons with disability are made to go through pain and suffering falls under the general topic of why the righteous or innocent suffer. Below are some models of theodicy that Muslim scholars have proposed based on their understanding of this subject:</p>
+
+<strong>1. Retribution Theodicy</strong>
+
+<p>Some verses of the Quran suggest that physical disabilities come from some earlier sin that someone committed. This sin forms the reason for God punishing communities or individuals in different ways. Disability on this reading, although not a symbol of demons, is still a sign of God's wrath and discipline. This indeed is how some of the companions of the Prophet Muhammad understood their personal experiences with afflictions. They believed that God individualized His punishment by specifically giving it to them.</p>
+
+<p>Abdulaziz Sachedina explains this retributive view as "a divinely sanctioned evil inflicted to teach humanity in general—as opposed to a particular person—a lesson in humility." (<em>Islamic Bio-Medical Ethics</em>, 77–78)</p>
+
+<p>In Surah al-Nisa', verse 79, for example, it reads that what comes to you of good is from God, but what comes to you of bad, is from yourself. The term "good" (<em>hasana</em>) is often understood to broadly mean divine favors like prosperity, health, and well-being, and the word "bad" (<em>sayyi'a</em>) is taken as a counterpart to good and is broadly equated with "misfortunes" (<em>musiba</em>) like calamities and infertility. (Ibn al-Jawzi, <em>Zad al-masir fi 'ilm al-tafsir</em>, 303)</p>
+
+<p>Another verse that's supposed to show a link between afflictions and sin is in al-Rum, verse 41: corruption has appeared throughout the land and sea by reason of what the hands of people have earned so He may let them taste part of the consequence of what they have done that perhaps they will return to righteousness. And similarly in al-Shura, verse 30, Allah states that whatever strikes you of affliction—it is for what your hands have earned, but He pardons much.</p>
+
+<p>Ibn Kathir (d. 774/1373) in his commentary of this verse writes: the verse means whatever misfortune befalls you, O people, is because of evil deeds that you have already done, and "He pardons much" refers to evil deeds—He does not punish you for them but He pardons them. "And if God were to punish men for that which they earned, He would not leave a moving creature on the surface of the earth." (Quran al-Fatir, verse 45)</p>
+
+<p>One clear example is that of Prophet Sulayman who on account of failing to utter "God willing" (<em>insha' Allah</em>) for his ambition to produce offspring with his numerous wives that will become warriors in God's path was granted "half a human baby" (<em>shiqq al-ghulam</em>) from one wife as a punishment, which may be understood as a baby with dysmorphic features. (<em>Sahih al-Bukhari</em>, Hd. no. 6720)</p>
+
+<p>The retributive theodicy creates some serious objections. First, it is extremely restrictive as an explanation because by no means is all disability a result of wrongdoing. Second, it seems to suggest that persons with disability are entirely or partially at fault for the disabilities they have acquired. This further suggests that there are no other welcome, positive, and beneficial resources within the Quran and Hadith to make the pain better. Third, seeing disabilities as punishment for sins or moral transgressions, even of past generations, directly contradicts the Quranic principles such as: there is no transferal of sin, there is no sin without accountability, no one can bear the burden of another, no one is punished for the crimes of another, and none shall be burdened with more than they can bear.</p>
+
+<strong>2. Therapeutic Theodicy</strong>
+
+<p>This way of explaining the existence of disability is to describe it as curative, meaning it serves to contribute to the overall afterlife well-being of the sufferer.</p>
+
+<p>The Prophet is reported to have mentioned many times the therapeutic nature of hardship, suffering, pain, and affliction. In one version of the narration, the Prophet states as reported by Muhammad b. Khalid al-Sulami: "From his father and his grandfather who was a companion of the Messenger of God who said: I heard the Messenger of God say: 'When God has previously decreed for a servant a rank which he has not attained by his action, He afflicts him in his body (ibtala Allah fi jasadihi), or his property or his children.'" (<em>Sunan Abu Dawud</em>, Hd no. 3090)</p>
+
+<p>Ibn al-Qayyim elaborates on the wisdom behind this kind of therapeutic theodicy: Were it not that The Most Glorified treats (yudawi) His servants with the remedy of trials and calamities, they would transgress and overstep the mark. When God wills good for His servant, He gives him the medicine of calamities and trials according to his situation and circumstances, so as to cure him from all fatal illnesses and diseases, until He purifies and cleanses him, and then makes him qualified for the most honourable position in this world, which is that of being a true servant of God and for the greatest reward in the Hereafter, which is that of seeing Him and being close to Him. (<em>al-Tibb al-nabawi</em>)</p>
+
+<p>The Prophet comments on it: Whatever befalls you of illness, punishment or misfortune in the worldly life is because of what your hands have wrought, but God is more tolerant than doubling the punishment by inflicting it again in the Hereafter. As for what God has pardoned in the worldly life, one should know that God is more bountiful than reverting to punishing after His pardon. (<em>Ahmad, al-Musnad</em> Hd. no. 649)</p>
+
+<p>Hence, although physical disabilities can affect the overall modality of engaging with stipulated and mandatory religious injunctions pertaining to ritual and behavior, insofar as the spiritual quality and afterlife compensation are concerned, nothing whatsoever diminishes. The critical remarks from a disability perspective on this theodicy include how, for example, it rests at core on a principle of delayed reward.</p>
+
+<strong>3. Greater-good Theodicy</strong>
+
+<p>This model attempts to explain the pain and suffering caused by disability based on a higher value obtained in the afterlife. God will compensate the bad arising from temporal hardship of a person with disability with an outweighing good in the eschaton.</p>
+
+<p>Mulla 'Ali al-Qari (d. 1606) composed a small text called <em>Tasliyat al-a'ma 'ala baliyat al-'ama</em> which means "Consoling the Blind for the Affliction of Blindness" in which he "gathered forty narrations (arba'un hadithan) on patience in the face of trials, gratitude for divine blessings, and contentment with the divine decree in times of happiness and hardship" as a way of consoling those afflicted with visual impairments whether congenital or acquired. (<em>Disability in the Ottoman World</em>, 52–87)</p>
+
+<p>The set of greater goods for persons in Islam with disability are: first, elevation in the person's rank before God due to the disability. Second, assurance of Paradise for the person suffering through the disability. Third, brightening face on Judgement Day on account of patience through adversity. Fourth, atonement of sins. Fifth, God's tribute for the person before the angelic host. (<em>Tasliyat al-a'ma</em>, 31–42)</p>
+
+<p>However for an atheist this model also has problems, especially that it may seem like false assurances. And another issue is if God is unable to secure those goods without that disability, it would seem to suggest there is something that He cannot bring about, namely a set of goods without a specific disability, and then God must make disability unavoidably part of His plan. This would mean as well that God wills the disability on people. He would not be able to do otherwise and he would be the cause of evil.</p>
+
+<p>An answer to this query is found in this hadith, which has a clear example of this kind of attitude in the incident of Sa'ida al-Asadiya who came to the Prophet and asked him to pray for her well-being as she was prone to seizures because of her epilepsy. 'Ata' ibn Abi Rabah relates the narration in full: Ibn 'Abbas said to me ['Ata' ibn Abi Rabah]: "Shall I show you a woman of the people of Paradise?" I replied: "of course." He said: "This black lady came to the Prophet and said: 'I get attacks of epilepsy and my body becomes uncovered; please pray to God for me.' The Prophet said to her: 'If you wish, be patient and Paradise is yours; or if you wish, I will pray to God to cure you.' The lady said: 'I will remain patient,' and added: 'but I become uncovered, so please pray to God for me that I may not become uncovered.' So the Prophet prayed to God for her."</p>
+
+<p>Here, the lady opted out of choice to endure the difficulty of seizures over the easier option of being healed. She rationalized her preferences based on the two options and judged the alternative to be in her afterlife self-interest. In this way, her relinquishing medical intervention is interpreted as a meritorious and exemplary attitude toward personal disability in the face of hardship. Interestingly, second only to her pain and distress, the lady was extremely mindful of her compromised modesty in public when suffering these seizures and implored the Prophet to supplicate to God to spare her from that. Her attitude captured the admiration of the Prophet's companions and the subsequent Muslim community in general because she emulated the moral paradigm of the Prophets like Ayyub (Job) who endured undeserved personal suffering with patience without challenging God to explain the reasons behind such afflictions.</p>
+
+<strong>4. Educative Theodicy</strong>
+
+<p>This view says disability has a purpose and can help a person grow in character, faith, and self understanding. It also helps society learn kindness, care, and responsibility toward one another. Even though disability involves hardship, it can give suffering meaning by teaching humility, hospitality and interdependence in society.</p>
+
+<p>Rouzati has extensively discussed the cosmological significance of the Quranic concept of "bala" which means trials and tribulations in prosperity and adversity, as well as its related concept "fitna" which means trials, tests, sedition. She continues, explaining the rationale for why God tests human beings through adversity: The Quran explicitly affirms that man, as part of his human experience, will be put to the "test," bala, by various means of "good and bad." Consequently, the test encompasses the "negatives," illness, natural disasters, and loss of livelihood, and the "positives," wealth, and good health. What the Quran seems to emphasize, however, is man's behaviour and how he perceives the particular circumstances of his life. Needless to say that, by nature, while man strives for joy and happiness; he resists any undesirable situation which may cause him sadness and sorrow . . . however, from the Quranic perspective, adversity, misery, and human suffering, is central to man's spiritual development . . . This notion, which frequently appears in explicit terms in the Quran, illustrates that suffering is an instrument in the fulfilment of purposes of God in creation of humankind. (<em>Trial and Tribulation in the Qur'an</em>, 126–27)</p>
+
+<p>Far from disability being an impediment in drawing closer to God, it is able-bodied persons who are veiled from God on account of their functioning abilities because it leads them to haughtiness, which in turn causes them to be ignorant of their true reality and status as created beings. This haughtiness and ignorance also become a reason for their negligence in God's remembrance (dhikr). If disability shields a person from that negative consequence, it is actually a blessing. A narration of the Prophet in this regard reads: "The blind are not those who have lost their sight but those who have lost their insight." This statement is supported by the Quran in al-Hajj, verse 46: <I>So, have they not travelled through the earth and do they not have hearts by which they reason and ears by which to hear? For indeed, it is not eyes that are blinded. But blinded are the hearts that are in the breasts.</I></p>
+
+<p>As for the second part of the educative theodicy, its core is constructed from an examination of the idea of hospitality within the Islamic tradition.</p>
+
+<p>The core idea is that some forms of suffering are so severe that they destroy a person's ability to see their life as meaningful, valuable, or worth living. These evils do not merely cause pain but undermine dignity, self worth, and the capacity to form a coherent life narrative. A successful theodicy cannot rely on abstract calculations where good simply outweighs evil. Instead, the suffering itself must be defeated by being integrated into a meaningful whole that the sufferer can recognize as good from their own perspective.</p>
+
+<p>For example: A person desires friendship and belonging, but a mental condition makes sustaining relationships difficult. When there is no social support or communal care to help bridge this gap, the person's rational desire remains permanently unfulfilled. This can give them reason to doubt that their life, but it is not because of disability but because of social conditions the disabled is bound to which can be changed in human context, for example medicating them.</p>
+
+<I>In fact Allah says, "...Indeed, Allah would never change a people's state of favour until they change their own state of faith. And if it is Allah's Will to torment a people, it can never be averted, nor can they find a protector other than Him." (Q 13:11)</I>
+
+<p>One particular Islamic valuable that will be explored here is the important notion of 'hospitality' (diyafa). In its broad sense, "Islamic hospitality" means "to give voluntarily and without compensation." Hospitality is a form of an "unconditional welcome of the guest" and is made "through acts, words, and objects."</p>
+
+<p>The Prophet Muhammad is reported to have said: Verily, God the Exalted, and Glorious will say on the Day of Resurrection: "O son of Adam, I was ill but you did not visit Me." He would say: "O my Lord, how could I visit you and You are the Lord of the worlds?" Thereupon He would say: "Did you not know that such and such a servant of Mine was ill but you did not visit him? Did you not realize that if you had visited him (you would have known that I was aware of your visit to him, for which I would reward you) you would have found Me with him? O son of Adam, I asked food from you but you did not feed Me." He would submit: "My Lord, how could I feed You and You are the Lord of the worlds?" He would say: "Did you not know that such and such a servant of Mine asked you for food but you did not feed him? Did you not realize that if you had fed him, you would certainly have found its reward with Me? O son of Adam, I asked water from you but you did not give it to Me." He would say: "My Lord, how could I give You water and You are the Lord of the worlds?" Thereupon He would say: "Such and such a servant of Mine asked you for water to drink but you did not give it to him. Did you not realize that if you had given him to drink you would have found its reward with Me?" (<em>Sahih Muslim</em>, Hd. no. 2569)</p>
+
+<h4>The Theodicy on Animal's Suffering</h4>
+
+<p>Though I believe that, it is easier to explain why animals die or are killed by predators than human suffering. Muslim scholars from various schools have tried to find its answer. Ibn Qayyim (r) holds that there is no true or absolute evil. What people see as evil is only partial and relative. (<em>Shifa' al-'alil</em>, 362–70)</p>
+
+<p>God does not create pure evil. Everything God creates is based on wisdom and leads to a greater good, even if that good is not immediately clear.</p>
+
+<p>He explains this through the idea that God has the right to allow pain and suffering. Any suffering is permitted because it leads to a good that is possible within scripture and that good outweighs the harm, for example: Predators keep prey populations balanced. Without them, animals overreproduce, leading to overgrazing, food shortages, disease, and starvation, as seen with deer in areas without predators.</p>
+
+<p>This loss of predators, such as the absence of the Tasmanian tiger, causes trophic downgrading, where ecosystems become unstable and vulnerable due to cascading effects through the food web.</p>
+
+<p>Hence from a wider view, what seems harmful is actually beneficial.</p>
+
+<p>This view also applies to animals. Animal pain and suffering may appear excessive, but Ibn Qayyim argues that the benefits animals experience are far greater than their pain. Their pleasures, health, rest, and satisfaction outweigh hunger, illness, fatigue, and discomfort. (<em>On Divine Wisdom and the Problem of Evil</em>, trans. Talal Zeni, 160–61)</p>
+
+<p>He also suggests that animals do not suffer in the same deep way humans do. Animals lack human intellect and higher reflection. They feel pain, but they do not internalize it in an existential or traumatic way. This limits their suffering and can itself be seen as a form of mercy.</p>
+
+<p>Animals are given just enough perception and understanding to survive and serve their role in the world as a part of foodchain. (<em>Miftah dar al-sa'ada</em>, 665–66)</p>
+
+<h4>Eternal Punishment and Divine Mercy</h4>
+
+<p>In the ending section I would love to answer or rather inform you about another question which is a part of problem of evil - it is why will the merciful God punish someone eternally?</p>
+
+<p>Although I am planning to write an article on this, especially about the temporality of hell amid eternality of heaven as was proposed by Ibn Taymiyya, majority of Muslim scholars hold that hell will be eternally present. The reason they give for eternal punishment is, if someone knows that his punishment will someday end. Then people won't take it serious as anyhow they will endure the punishment and then get permanently destroyed.</p>
+
+<p>So I hope you have enjoyed reading this long article and gained some insights. The aim was not to give answers but to find a balanced approach through Qur'an and Sunnah. I've been working on this article from past few weeks, and during it's writing I am now promoted in my Final MBBS - I hope that we will deliver same intruding articles for our small audience, which are based on free thinking rather than a strict approach. Take Care and be Curious. </p>
+
+<p><strong> Allah Hafiz</strong></p>
+<div class="navigation">
+            <a href="early-marriage.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+  </html>
