@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"><meta name="description" content="Explore how politics and personal beliefs affected scholars and their works in early Islam, focusing on the life of Muslim b. al-Ḥajjāj, the Miḥna, and the Lafẓ controversy.">
+<meta name="keywords" content="politics in early Islam, Muslim b. al-Hajjaj, Sahih Muslim, Mihna, Inquisition, Islamic history, Qadar, Lafz controversy, Naysabur">
+<meta name="author" content="Zimaam Zayn">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Politics : In Early Islam and It's Result.">
+<meta property="og:description" content="A deep dive into how politics forced and shaped religious beliefs in the early Islamic era.">
+<meta property="og:type" content="article">
+<meta property="og:image" itemprop="image" content="politics.jpeg">
+<meta property="og:url" content="https://zayn.us.kg/post/politics.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="https://i.postimg.cc/3RS56xZj/20250119-095943-removebg-preview.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* --- NEW STYLES FOR READING TIME (Flexbox Approach) --- */
+/* Style the author info container as a flexbox */
+.article-header .author-info {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space: author name left, read time right */
+    align-items: center; /* Vertically center items within the line */
+    margin-top: 5px; /* Space below the title */
+    margin-bottom: 0; /* Remove default paragraph bottom margin */
+}
+
+/* Style the read time container inside the flex container */
+.reading-time-container {
+    display: flex; /* Maintain flex for icon/text alignment */
+    align-items: center; /* Vertically align icon and text */
+    font-size: 0.9em; /* Smaller text size */
+    color: #555; /* Muted color */
+    margin-left: auto; /* Pushes the container to the right within the flex container */
+}
+
+/* Add a small space between the clock icon and the time text */
+.reading-time-container i {
+    margin-right: 5px;
+}
+/* --- END NEW STYLES --- */
+</style>
+
+<script>
+// --- NEW JAVASCRIPT FOR READING TIME ---
+// Function to calculate reading time
+function calculateReadingTime() {
+    // Target the main content area where the text is
+    const contentElement = document.querySelector('.article-content');
+    if (!contentElement) return 0; // Return 0 if content element not found
+
+    // Get all text content from paragraphs, headings, etc. within the content area
+    const text = contentElement.innerText || contentElement.textContent || '';
+
+    // Average words per minute reading speed
+    const wordsPerMinute = 300;
+
+    // Count words
+    const wordCount = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+    // Calculate minutes
+    const minutes = Math.ceil(wordCount / wordsPerMinute);
+
+    return minutes;
+}
+
+// Function to display reading time when the page loads
+function displayReadingTime() {
+    const readTime = calculateReadingTime();
+    const readTimeElement = document.getElementById('read-time-value');
+
+    if (readTimeElement && readTime > 0) {
+        readTimeElement.textContent = `${readTime} min`;
+    } else if (readTimeElement) {
+        readTimeElement.textContent = '1 min'; // Fallback for very short content
+    }
+}
+
+// Function to insert the read time element into the DOM inside the author info
+function insertReadingTimeElement() {
+    const authorInfoElement = document.querySelector('.author-info');
+    if (authorInfoElement) {
+        // Create the container element for the clock and time
+        const readTimeContainer = document.createElement('div');
+        readTimeContainer.className = 'reading-time-container';
+
+        // Create the clock icon element
+        const clockIcon = document.createElement('i');
+        clockIcon.className = 'fa fa-clock-o';
+
+        // Create the time text element
+        const timeSpan = document.createElement('span');
+        timeSpan.id = 'read-time-value';
+        timeSpan.textContent = 'Calculating...'; // Initial placeholder
+
+        // Assemble the elements
+        readTimeContainer.appendChild(clockIcon);
+        readTimeContainer.appendChild(timeSpan);
+
+        // Append the container to the author info element (inside it)
+        authorInfoElement.appendChild(readTimeContainer);
+    }
+}
+
+// Run the insertion and display functions when the page has fully loaded
+window.addEventListener('load', function() {
+    insertReadingTimeElement(); // Insert the element first
+    displayReadingTime();       // Then calculate and update the time
+});
+// --- END NEW JAVASCRIPT ---
+</script>
+    <style>
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+    <script>
+        // Disable Right Click
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+
+        // Disable Copy, Cut, and Paste
+        document.addEventListener("copy", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("cut", function (e) {
+            e.preventDefault();
+        });
+        document.addEventListener("paste", function (e) {
+            e.preventDefault();
+        });
+
+        // Block Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U)
+        document.addEventListener("keydown", function (e) {
+            if (
+                e.key === "F12" ||
+                (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+                (e.ctrlKey && e.key === "U")
+            ) {
+                e.preventDefault();
+            }
+        });
+
+        // Detect DevTools Open (Debugger Trick)
+        (function () {
+            function detectDevTools() {
+                if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+                    console.clear();
+                    alert("Developer tools detected! Please close them.");
+                    window.location.reload(); // Refresh page
+                }
+            }
+            setInterval(detectDevTools, 1000);
+        })();
+
+        // Pause Execution in Debugger (Harder to Bypass)
+        function blockDebugger() {
+            setInterval(function () {
+                debugger;
+            }, 50);
+        }
+        blockDebugger();
+    </script>
+
+    <title>Problem of Evil - Zimaam Zayn</title>
+    <style>
+        body {  
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5f0;
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        .contact {
+            padding: 20px;
+            background: #d7f3e4;
+            text-align: center;
+            border-top: 2px solid #a7d7c5;
+        }
+
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .contact p {
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+
+        .article-page {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .article-header h1 {
+            margin: 0;
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 2rem;
+        }
+
+        .article-header .author-info {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .article-content {
+            margin-top: 20px;
+        }
+
+        .article-content h2 {
+            color: #064e3b;
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+            text-align: justify; font-size:14px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #064e3b;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        table{
+        border : 2px solid green;
+        }
+        th{
+        border : 1px solid green;
+        }
+        td{
+        border : 1px solid green;
+        }
+        @media (max-width: 600px) {
+  .article-page {
+      max-width: calc(100% - 40px); /* leave 20px margin on each side */
+      margin: 15px auto; 
+      padding: 15px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="article-page">
+        <div class="article-header">
+            <img src="https://i.postimg.cc/3rPtRXvL/454693654-509214824983675-4035996547337472232-n.jpg" alt="Author Photo">     
+<h3>The Apostasy Jurisprudence in Early Islam</h3>       <p class="author-info">By Zimaam Zayn</p>
+        </div>
+
+        <div class="article-content">
+<p>We often look back at history and pretend theology was just a quiet debate about the divine, happening in the empty, silent rooms of scholars. But as I was reading about the early centuries of Islam, I started to think and thought over, how politics and personal beliefs affected scholars and their works.</p>
+
+<p>In those days, what you believed about God, free will, or the Quran wasn't just philosophy. It determined your political allegiance, your physical safety, and whether you would live to see tomorrow. To understand how politics forced and shaped these beliefs for everyday people, we can look at a man trying to make sense of it all: Muslim b. al-Ḥajjāj, the famous compiler of the <em>Ṣaḥīḥ Muslim</em>. His scholarly life played out in Naysābūr, a restless hub drowning in political turmoil, sectarian violence, and state-sponsored inquisitions.</p>
+
+<h3>Naysābūr and the Dread of the Inquisition (The Miḥna)</h3>
+
+<p>We are so afraid of what silence might reveal, and the Abbasid Caliph al-Maʾmūn was no different. In 833 CE, he couldn't stand the lack of control, so he instituted the Miḥna (The Inquisition) to force religious scholars (the <em>ʿulamāʾ</em>) to adopt a rationalist belief: that the Quran was a created thing, rather than eternal. He wasn't just seeking truth; he was trying to assert absolute authority over the scholars' minds. This Inquisition dragged on heavily until it was finally ended between 847 and 852 under al-Mutawakkil [6].</p>
+
+<p>Scholars who refused were broken and tried. But Naysābūr remained mostly a pocket of quiet. Its local rulers, the Ṭāhirids, quietly sympathized with traditionalists like Isḥāq b. Rāhwayh and simply ignored the Caliph's aggressive noise. Because of this sanctuary, a powerful traditionalist party formed, led by Muḥammad b. Yaḥyā al-Dhuhlī—who made Aḥmad b. Ḥanbal his definitive guide [14]—and later his son, Ḥaykān, who commanded a volunteer militia until his violent death in 881.</p>
+
+<p>When the Ṭāhirid rule eventually fell, the traditionalists desperately threw their weight behind the new Ṣaffārid rulers. They did this just to block a rival, al-Khujistānī, who was trying to fill Naysābūr with rationalist, Iraqi scholars. They were building walls, trying to keep the opposing noise out.</p>
+
+<h3>The Beatific Vision: Erasing the Broken</h3>
+
+<p>We build tiny routines of distraction, but Muslim sought the profound. He deliberately included <em>ḥadīth al-ruʾya</em> (the traditions about the beatific vision of God) in his <em>Ṣaḥīḥ</em> [113]. As scholar Livnat Holtzman noted, this was a major, calculated rebellion against the rationalists, who rejected the beatific vision as sheer inanity [114].</p>
+
+<p>Yet, Muslim was so rigid in his boundaries that he never once cited the famous ḥadīth critic ʿAlī b. al-Madīnī [115]. Why? Because Ibn al-Madīnī had cowardly capitulated to the Inquisition's executors [116]. In Muslim's eyes, if you break under the pressure and compromise your truth, you are erased.</p>
+
+<h3>The Heavy Guilt of the Civil War</h3>
+
+<p>Perhaps the most intense political debates stemmed from the heavy trauma of the first Muslim civil wars (656–661 CE). The Prophet's own companions had fought and killed one another at the Battles of the Camel and Ṣiffīn. For two centuries, Muslims lay awake agonizing over a dreadful question: who was responsible for this bloodshed? If killing a fellow Muslim is a grave sin, were the fighters still believers, or had they become infidels (<em>kuffar</em>)?</p>
+
+<p>They were trying to escape the guilt of their own history. Different groups weaponized theology just to find an easy answer:</p>
+
+<p><strong>The Kharijis:</strong> Strong in the rural areas of Sīstān, Bādghīs, and Kūhistān, they took the most detached, extreme stance. They declared that anyone who committed a grave sin was an absolute infidel and would burn in Hell forever. It was convenient—giving them justification to simply put their political opponents to the sword. They completely rejected the profound idea of divine intercession [47].</p>
+
+<p><strong>The Muʿtazilis (Rationalists):</strong> Their theology was championed by Zaydi Shiʿism [26], which spread in Rūyān and Kalār by followers of al-Qāsim b. Ibrāhīm al-Rassī. They craved strict, cold logic, believing in God's irrevocable promise and threat (<em>al-waʿd wa-l-waʿīd</em>). If a sinner did not repent, God had to keep them in Hell [46]. Like the Kharijis, they couldn't stomach the gray area of intercession [48].</p>
+
+<p><strong>The Murjiʾis:</strong> They wanted to flee from the question entirely. Influencing early scholars like Abū Ḥanīfa, they argued it was impossible to know who was right, so judgment should just be postponed to Judgment Day. They argued that faith was purely inward and actions were completely irrelevant to one's baseline faith.</p>
+
+<p><strong>The Jahmis:</strong> Led by Jahm b. Ṣafwān (d. 128/746), they optimized this escape even further. They said faith didn't even require an outward verbal declaration (<em>shahāda</em>) [43]. This easy out became incredibly popular among non-Arab Muslims in Eastern Iran and Transoxiana who couldn't easily pronounce the Arabic words.</p>
+
+<p>Muslim b. al-Ḥajjāj couldn't accept these extremes. He opposed the terrifying violence of the Kharijis and the cold, merciless logic of the Muʿtazilis, forcefully advocating that God could show mercy for believing sinners.</p>
+
+<p>Yet, he also debated ascetic thinkers who tried to detach from reality entirely. Thinkers like Shaqīq al-Balkhī (d. 194/809–810) and Muḥammad b. Karrām repudiated the pursuit of worldly gain (<em>kasb</em>) in favor of an extreme, passive reliance on God (<em>tawakkul</em>). Muslim argued against this hollow detachment in his <em>Kitāb al-Īmān</em> and <em>Kitāb al-Qadar</em>. We cannot simply optimize our escape and float away from our responsibilities.</p>
+
+<h3>The Politics of Destiny: Why We Fear Free Will</h3>
+
+<p>Then there was the fierce debate over <em>qadar</em> (predestination) versus human free will (<em>qudra</em>). Why do we fear free will so much? Because it means we are actually responsible for the pain we cause.</p>
+
+<p>The early Umayyad caliphs strongly promoted divine predestination to perpetuate their rule as ratified by God's unchangeable decree [58]. It was the ultimate escape from accountability. In response, the Qadaris emerged (widespread in Syria during the late Umayyad period [59]), arguing for human free will. By claiming humans actually chose their actions, they could argue that wicked rulers were making evil choices, not just acting out "God's will." As scholar Ḍirār b. ʿAmr noted, the Qadaris were seen by their enemies as those who "perpetrate sins and pretend to be innocent by stating that they come from God" [55, 56].</p>
+
+<p>Muslim b. al-Ḥajjāj, following the lead of early scholars like Sufyān al-Thawrī [66] and Aḥmad b. Ḥanbal, firmly supported predestination. He considered it so vital that he devoted an entire book in his <em>Ṣaḥīḥ</em> to defending it.</p>
+
+<h3>Muslim's Quiet Rebellion</h3>
+
+<p>As a compiler, Muslim lived like a detached observer, navigating a political minefield. The Abbasid government actively pushed loud propaganda against the old Umayyads, and in 211/826–827, Caliph al-Maʾmūn elevated ʿAlī above all other Companions [124].</p>
+
+<p>The traditionalists countered this noise by heavily promoting the "four-caliph teaching." This doctrine was initiated by early scholars like Nūḥ b. Abī Maryam, ʿAbdallāh b. al-Mubārak, Yaḥyā b. Saʿīd al-Qaṭṭān, ʿAbd al-Raḥmān b. Mahdī, and Hushaym b. Bashīr. It had Basran origins [Su, "Early Shiʿi perspective" 33–34] and was popularized in Baghdad by Aḥmad b. Ḥanbal [Zaman, Religion and politics 51]. They established that Abū Bakr, ʿUmar, ʿUthmān, and ʿAlī were all legitimate. They accepted ʿAlī but stopped short of elevating him above the first three [125], charting a careful middle course [Melchert, "Rightly guided caliphs" 69]. Muslim even cited reports that ʿAlī's overzealous partisans distorted his legacy after his death [129]. In one famous hadith, Muslim deliberately omitted the name of Abū Ṭālib (ʿAlī's father) who died a non-believer, avoiding the profound discomfort of his peers while keeping the core message [Ḥusayn, "Rehabilitation" 575–577; ʿAbd al-Bāqī, no. 366].</p>
+
+<p>But Muslim made no secret of his quiet disgust for the Umayyads. Scholars have noted his works "may be searched in vain for any generous recognition of the merits of the Umayyads" [Guillaume, Traditions of Islam 24].</p>
+
+<p>He included hadiths calling the hatred of the people of Medina (the Anṣār) a mark of hypocrisy—a direct, bitter jab at the Umayyads, who had slaughtered Medina's people at the Battle of the Ḥarra, and whose rulers, like Sulaymān b. ʿAbd al-Malik, had burned historical records sympathetic to the Anṣār [142].</p>
+
+<p>In <em>Kitāb al-Qadar</em>, he included a tradition where Umm Ḥabība prayed to enjoy a long life with her husband (the Prophet), her father Abū Sufyān, and brother Muʿāwiya. The Prophet rebuked her, telling her to worry about the torments of the Hereafter instead of foreordained fate [143]. Muslim linked this immediately to a warning about God transforming ancient transgressors into monkeys and swine [144]. To readers, this mirrored the grim stories of the wicked Umayyad Caliph Yazīd b. Muʿāwiya, who was said to have a pet monkey named Abū Qays that ultimately caused his own death [Al-Balādhurī, Ansāb v, 30; Cook, "Monkeys" 73].</p>
+
+<p>In <em>Kitāb Faḍāʾil al-ṣaḥāba</em>, Muslim only records the Prophet granting favors to Abū Sufyān out of mere politeness because he never said "no" [ʿAbd al-Bāqī, no. 2501; Taʾṣīl, no. 2582], and specifically includes a section censoring the notorious Umayyad governor al-Ḥajjāj b. Yūsuf [151].</p>
+
+<h3>The Lafẓ Controversy: The Dread of Isolation</h3>
+
+<p>Even when the major wars end, we find new ways to divide ourselves. After the Miḥna failed in 852, the traditionalists agreed the Quran was uncreated. But a new, exhausting question arose: what about the physical human voice (<em>lafẓ</em>) reading it out loud?</p>
+
+<p>Early proponents in Baghdad, like Ibrāhīm b. Khālid Abū Thawr, al-Ḥārith al-Muḥāsibī, and al-Ḥusayn b. ʿAlī al-Karābīsī [6], alongside scholars like Nuʿaym b. Ḥammād [Abū Bakr al-Khallāl, Sunna vii, 78, no. 2120], argued that while the message is divine, the physical human articulation is created. Rigid traditionalists, like Maslama b. al-Qāsim al-Qurṭubī, found this terrifying, claiming it meant there were "two Qurans"—one in the heavenly tablet and one created during recitation [Ibn Ḥajar, Tahdhīb x, 462–463].</p>
+
+<p>Muslim b. al-Ḥajjāj and al-Bukhārī adopted the nuanced view. Al-Bukhārī defended it [Al-Bukhārī, Khalq al-afʿāl ii, 192–193, no. 380]. Much like the thinker Ibn Kullāb, Bukhārī argued the object of recitation (<em>maqrūʾ</em>) is uncreated [al-Khaṭīb, Tārīkh ii, 353], but he introduced the concept of <em>muḥdath</em> (originated in time) to bridge the heavy gap between divine speech and human action [Ibn Ḥajar, Fatḥ al-bārī xiii, 414–417].</p>
+
+<p>Hardline traditionalists in Naysābūr, led by Muslim's former ally al-Dhuhlī, saw this as a massive betrayal. Muslim famously took al-Bukhārī's side and broke ranks with al-Dhuhlī [Al-Khaṭīb, Tārīkh xv, 125], having "manifested the lafẓ teaching" even before Bukhārī arrived [al-Dhahabī, Tārīkh al-islām xx, 178–179]. Only after al-Dhuhlī died did thinkers like Muḥammad b. Naṣr al-Marwazī—who openly argued that human actions like recitation were created—gain prominence in the city.</p>
+
+<p>(Some modern scholars suggest the rift was actually unrelated to <em>lafẓ</em>, noting that Ibn Abī Ḥātim al-Rāzī didn't associate Muslim with the doctrine, and Muḥammad b. Aḥmad b. Hārūn al-Qurashī preferred Muslim's <em>Ṣaḥīḥ</em> specifically because he felt it wasn't tainted by the scandal [Brown, Canonization 85–86]).</p>
+
+<p>But in the end, Muslim's own "acrid temper" led him to turn away from al-Bukhārī as well, to the point of completely erasing his traditions from the <em>Ṣaḥīḥ</em> [Al-Dhahabī, Siyar xii, 459].</p>
+
+<p><bold>So while I took a long break from writing anything I was very much into reading political impact on Early Islam and this article is end result of my recent studies, I hope you enjoyed reading it!</p>
+
+<p><strong> Allah Hafiz</strong></p>
+<div class="navigation">
+            <a href="apostasy.html">Previous Article</a>
+            <a href="https://zimaamzayn.github.io">Home</a>
+            <a href="next-article.html">Next Article</a>
+        </div>
+    </div>
+    </div>
+<div class="contact">
+        <p>Contact Me: <a href="https://t.me/zimaamzayn"><i style="font-size:24px" class="fa"></i> Telegram</a></p>
+    </div>
+</body>
+  </html>
